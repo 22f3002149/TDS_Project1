@@ -1,0 +1,812 @@
+{
+    "post_stream": {
+        "posts": [
+			{
+                "id": 584275,
+                "name": "Harsh Shah",
+                "username": "23f2003845",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/6f9a4e/{size}.png",
+                "created_at": "2025-01-24T03:24:50.039Z",
+                "cooked": "\u003cp\u003e\u003ca class=\"mention\" href=\"/u/carlton\"\u003e@carlton\u003c/a\u003e I was trying to view a session, but since youtube is very distracting I tried to embed it on a site, but it throws this error\u003c/p\u003e\n\u003cp\u003e\u003cdiv class=\"lightbox-wrapper\"\u003e\u003ca class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/4/1481f151f4dec3e7c8436f69bfcdbefd04698747.png\" data-download-href=\"/uploads/short-url/2VpWUPhJbsQZOip72voLFn4sXxt.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"\u003e\u003cimg src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/4/1481f151f4dec3e7c8436f69bfcdbefd04698747_2_690x378.png\" alt=\"image\" data-base62-sha1=\"2VpWUPhJbsQZOip72voLFn4sXxt\" width=\"690\" height=\"378\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/4/1481f151f4dec3e7c8436f69bfcdbefd04698747_2_690x378.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/4/1481f151f4dec3e7c8436f69bfcdbefd04698747_2_1035x567.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/4/1481f151f4dec3e7c8436f69bfcdbefd04698747_2_1380x756.png 2x\" data-dominant-color=\"3E3E3E\"\u003e\u003cdiv class=\"meta\"\u003e\u003csvg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"\u003e\u003cuse href=\"#far-image\"\u003e\u003c/use\u003e\u003c/svg\u003e\u003cspan class=\"filename\"\u003eimage\u003c/span\u003e\u003cspan class=\"informations\"\u003e2852×1564 131 KB\u003c/span\u003e\u003csvg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"\u003e\u003cuse href=\"#discourse-expand\"\u003e\u003c/use\u003e\u003c/svg\u003e\u003c/div\u003e\u003c/a\u003e\u003c/div\u003e\u003cbr\u003e\n\u003ca href=\"https://harsh-0986.github.io/yt-embedder/\" rel=\"noopener nofollow ugc\"\u003eWebsite Where I am embedding\u003c/a\u003e\u003cbr\u003e\n\u003ca href=\"https://www.youtube.com/watch?v=1H5Aq7HjqwQ\" rel=\"noopener nofollow ugc\"\u003eVideo I am trying to watch\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eIf possible, please fix this since the youtube as a platform is distracting and has many ads, even though the channel is not monitized.\u003c/p\u003e",
+                "post_number": 40,
+                "post_type": 1,
+                "posts_count": 42,
+                "updated_at": "2025-01-24T03:24:50.039Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 1,
+                "reads": 99,
+                "readers_count": 98,
+                "score": 28.4,
+                "yours": false,
+                "topic_id": 23335,
+                "topic_slug": "about-the-tools-in-data-science-category",
+                "display_username": "Harsh Shah",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "link_counts": [
+                    {
+                        "url": "https://harsh-0986.github.io/yt-embedder/",
+                        "internal": false,
+                        "reflection": false,
+                        "title": "YTEmbedder",
+                        "clicks": 2
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=1H5Aq7HjqwQ",
+                        "internal": false,
+                        "reflection": false,
+                        "clicks": 1
+                    }
+                ],
+                "read": true,
+                "user_title": "",
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 22479,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/about-the-tools-in-data-science-category/23335/40",
+                "user_cakedate": "2023-09-22",
+                "user_birthdate": "1904-02-21",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 586527,
+                "name": "Carlton D'Silva",
+                "username": "carlton",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                "created_at": "2025-01-27T03:19:18.422Z",
+                "cooked": "\u003cp\u003e\u003ca class=\"mention\" href=\"/u/23f2003845\"\u003e@23f2003845\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eI will have to get authorisation from the operations to allow embedding you tube videos. This was a deliberate choice as the content is strictly speaking owned by IITM. Embeddings may allow others to monetise content without the appropriate permissions.\u003c/p\u003e\n\u003cp\u003eI will enquire on your behalf. I accept that not every channel follows the directives properly, so you might find it possible to embed other channel videos from IITM, but I can only go by the agreed upon protocols.\u003c/p\u003e\n\u003cp\u003eI know that’s not much comfort, but if its possible, I will amend the permissions.\u003c/p\u003e\n\u003cp\u003eKind regards\u003c/p\u003e",
+                "post_number": 41,
+                "post_type": 1,
+                "posts_count": 42,
+                "updated_at": "2025-01-27T03:19:18.422Z",
+                "reply_count": 1,
+                "reply_to_post_number": 40,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 109,
+                "readers_count": 108,
+                "score": 39.6,
+                "yours": false,
+                "topic_id": 23335,
+                "topic_slug": "about-the-tools-in-data-science-category",
+                "display_username": "Carlton D'Silva",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "Regular",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 22479,
+                    "username": "23f2003845",
+                    "name": "Harsh Shah",
+                    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/6f9a4e/{size}.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "count": 1,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 16094,
+                "hidden": false,
+                "trust_level": 3,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/about-the-tools-in-data-science-category/23335/41",
+                "user_cakedate": "2023-01-25",
+                "reactions": [
+                    {
+                        "id": "heart",
+                        "type": "emoji",
+                        "count": 1
+                    }
+                ],
+                "current_user_reaction": null,
+                "reaction_users_count": 1,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 586531,
+                "name": "Harsh Shah",
+                "username": "23f2003845",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/6f9a4e/{size}.png",
+                "created_at": "2025-01-27T03:26:06.151Z",
+                "cooked": "\u003cp\u003eI purely understand that the content solely belongs to IITM and I truly adhere to it.\u003c/p\u003e\n\u003caside class=\"quote group-ds-students\" data-username=\"carlton\" data-post=\"41\" data-topic=\"23335\"\u003e\n\u003cdiv class=\"title\"\u003e\n\u003cdiv class=\"quote-controls\"\u003e\u003c/div\u003e\n\u003cimg alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/48/56317_2.png\" class=\"avatar\"\u003e carlton:\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003eEmbeddings may allow others to monetise content without the appropriate permissions.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/aside\u003e\n\u003cp\u003eI can’t personally think of any way one can do this, but it’s completely upto to the operations team.\u003c/p\u003e\n\u003cp\u003eI ask for this permission as youtube can be quite distracting and getting rid of advertisements either require an adblocker that cause some trouble once in 2 weeks, even though they don’t turn of recommendations and hence the procrastination. Embedding is another way which can stop the recommendations and the advertisements.\u003c/p\u003e\n\u003cp\u003eHope to hear soon,\u003cbr\u003e\nRegards\u003c/p\u003e",
+                "post_number": 42,
+                "post_type": 1,
+                "posts_count": 42,
+                "updated_at": "2025-01-27T07:19:22.530Z",
+                "reply_count": 0,
+                "reply_to_post_number": 41,
+                "quote_count": 1,
+                "incoming_link_count": 3,
+                "reads": 107,
+                "readers_count": 106,
+                "score": 34.2,
+                "yours": false,
+                "topic_id": 23335,
+                "topic_slug": "about-the-tools-in-data-science-category",
+                "display_username": "Harsh Shah",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 2,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "",
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 22479,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/about-the-tools-in-data-science-category/23335/42",
+                "user_cakedate": "2023-09-22",
+                "user_birthdate": "1904-02-21",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            }
+        ]
+    },
+    "id": 23335,
+    "related_topics": [
+        {
+            "id": 13868,
+            "title": "About the Mathematics for Data Science II category",
+            "fancy_title": "About the Mathematics for Data Science II category",
+            "slug": "about-the-mathematics-for-data-science-ii-category",
+            "posts_count": 4,
+            "reply_count": 0,
+            "highest_post_number": 5,
+            "image_url": null,
+            "created_at": "2021-09-02T15:14:53.605Z",
+            "last_posted_at": "2022-06-29T10:51:26.365Z",
+            "bumped": true,
+            "bumped_at": "2022-06-25T15:03:44.103Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 5,
+            "unread": 0,
+            "new_posts": 0,
+            "unread_posts": 0,
+            "pinned": false,
+            "unpinned": true,
+            "visible": true,
+            "closed": true,
+            "archived": false,
+            "notification_level": 1,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [],
+            "tags_descriptions": {},
+            "like_count": 49,
+            "views": 2766,
+            "category_id": 23,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 1,
+                        "username": "jkmadathil",
+                        "name": "Jayakrishnan",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/jkmadathil/{size}/100121_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "course_support",
+                        "flair_url": "scale-balanced",
+                        "flair_bg_color": "0040ff",
+                        "flair_color": "1affc6",
+                        "flair_group_id": 41,
+                        "admin": true,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 7584,
+                        "username": "lalitmach22",
+                        "name": "Lalit ",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/lalitmach22/{size}/3272_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 7196,
+                        "username": "21f2000507",
+                        "name": "Bhav_s",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000507/{size}/13603_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 10,
+                        "username": "subhasis",
+                        "name": "Subhasis   ",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/subhasis/{size}/309_2.png",
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13869,
+            "title": "About the Statistics for Data Science II category",
+            "fancy_title": "About the Statistics for Data Science II category",
+            "slug": "about-the-statistics-for-data-science-ii-category",
+            "posts_count": 27,
+            "reply_count": 14,
+            "highest_post_number": 29,
+            "image_url": null,
+            "created_at": "2021-09-02T15:18:12.581Z",
+            "last_posted_at": "2025-01-25T15:13:42.240Z",
+            "bumped": true,
+            "bumped_at": "2025-01-25T15:13:42.240Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 20,
+            "unread": 0,
+            "new_posts": 0,
+            "unread_posts": 0,
+            "pinned": false,
+            "unpinned": true,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 1,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "guidelines"
+            ],
+            "tags_descriptions": {},
+            "like_count": 110,
+            "views": 4047,
+            "category_id": 24,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 1,
+                        "username": "jkmadathil",
+                        "name": "Jayakrishnan",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/jkmadathil/{size}/100121_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "course_support",
+                        "flair_url": "scale-balanced",
+                        "flair_bg_color": "0040ff",
+                        "flair_color": "1affc6",
+                        "flair_group_id": 41,
+                        "admin": true,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 1519,
+                        "username": "GANESH_PUPPALA",
+                        "name": "GANESH PUPPALA",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/ganesh_puppala/{size}/286_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 36984,
+                        "username": "Mareers",
+                        "name": "Sreeram Pichaimani",
+                        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/m/ad7895/{size}.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 0
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 31233,
+                        "username": "23f2003155",
+                        "name": "ASHUTOSH kumar",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003155/{size}/66820_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 16603,
+                        "username": "23ds1000045",
+                        "name": "SUKANYA S",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23ds1000045/{size}/59444_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 23336,
+            "title": "About the Business Analytics category",
+            "fancy_title": "About the Business Analytics category",
+            "slug": "about-the-business-analytics-category",
+            "posts_count": 5,
+            "reply_count": 1,
+            "highest_post_number": 6,
+            "image_url": null,
+            "created_at": "2021-12-22T16:06:40.471Z",
+            "last_posted_at": "2024-08-29T02:21:35.725Z",
+            "bumped": true,
+            "bumped_at": "2024-08-29T02:21:35.725Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 4,
+            "unread": 0,
+            "new_posts": 0,
+            "unread_posts": 0,
+            "pinned": false,
+            "unpinned": true,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 1,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [],
+            "tags_descriptions": {},
+            "like_count": 23,
+            "views": 1714,
+            "category_id": 35,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 1,
+                        "username": "jkmadathil",
+                        "name": "Jayakrishnan",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/jkmadathil/{size}/100121_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "course_support",
+                        "flair_url": "scale-balanced",
+                        "flair_bg_color": "0040ff",
+                        "flair_color": "1affc6",
+                        "flair_group_id": 41,
+                        "admin": true,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 47,
+                        "username": "PUNEET",
+                        "name": "PUNEET BHAGAT",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/puneet/{size}/5137_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 8147,
+                        "username": "22ds1000035",
+                        "name": "A.Srinivasa Reddy",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22ds1000035/{size}/12886_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 20372,
+                        "username": "yashb",
+                        "name": "Yash Bangare",
+                        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/y/3da27b/{size}.png",
+                        "primary_group_name": "smail_students",
+                        "flair_name": "smail_students",
+                        "flair_url": "bezier-curve",
+                        "flair_group_id": 445,
+                        "trust_level": 0
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 25640,
+                        "username": "22f20000611",
+                        "name": "Sudhakar Verma ",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f20000611/{size}/92017_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13875,
+            "title": "About the Business Data Management category",
+            "fancy_title": "About the Business Data Management category",
+            "slug": "about-the-business-data-management-category",
+            "posts_count": 10,
+            "reply_count": 4,
+            "highest_post_number": 12,
+            "image_url": null,
+            "created_at": "2021-09-02T17:06:47.857Z",
+            "last_posted_at": "2022-11-09T18:56:48.828Z",
+            "bumped": true,
+            "bumped_at": "2022-11-09T18:56:48.828Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 12,
+            "unread": 0,
+            "new_posts": 0,
+            "unread_posts": 0,
+            "pinned": false,
+            "unpinned": true,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 1,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [],
+            "tags_descriptions": {},
+            "like_count": 38,
+            "views": 2573,
+            "category_id": 30,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 1,
+                        "username": "jkmadathil",
+                        "name": "Jayakrishnan",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/jkmadathil/{size}/100121_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "course_support",
+                        "flair_url": "scale-balanced",
+                        "flair_bg_color": "0040ff",
+                        "flair_color": "1affc6",
+                        "flair_group_id": 41,
+                        "admin": true,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 11630,
+                        "username": "21f1003339",
+                        "name": "yash khurana",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f1003339/{size}/23046_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 3320,
+                        "username": "lakshaymalhotra",
+                        "name": "lakshay",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/lakshaymalhotra/{size}/2939_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 2948,
+                        "username": "Rajput7",
+                        "name": "Raghu Raj",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rajput7/{size}/17029_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 2834,
+                        "username": "Tesla101",
+                        "name": "Pushpendra Singh",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/tesla101/{size}/525_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13872,
+            "title": "About the Database Management Systems category",
+            "fancy_title": "About the Database Management Systems category",
+            "slug": "about-the-database-management-systems-category",
+            "posts_count": 2,
+            "reply_count": 0,
+            "highest_post_number": 2,
+            "image_url": null,
+            "created_at": "2021-09-02T16:58:21.871Z",
+            "last_posted_at": "2022-11-03T10:24:13.031Z",
+            "bumped": true,
+            "bumped_at": "2022-11-03T10:24:13.031Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 2,
+            "unread": 0,
+            "new_posts": 0,
+            "unread_posts": 0,
+            "pinned": false,
+            "unpinned": true,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 1,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "guidelines"
+            ],
+            "tags_descriptions": {},
+            "like_count": 23,
+            "views": 2037,
+            "category_id": 27,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 1,
+                        "username": "jkmadathil",
+                        "name": "Jayakrishnan",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/jkmadathil/{size}/100121_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "course_support",
+                        "flair_url": "scale-balanced",
+                        "flair_bg_color": "0040ff",
+                        "flair_color": "1affc6",
+                        "flair_group_id": 41,
+                        "admin": true,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 15395,
+                        "username": "22dp3000016",
+                        "name": "Harikrishnan potti",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22dp3000016/{size}/16681_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

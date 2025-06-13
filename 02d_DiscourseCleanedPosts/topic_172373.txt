@@ -1,0 +1,4 @@
+<img alt="image" data-base62-sha1="2sSksYtujWWAwKNlXlW2eJXwnDR" data-dominant-color="EDEDEC" height="410" src="ext2/topic_172373/1147fa7bca00db3d2085d116f674364128961293_2_690x410.jpeg" srcset="ext2/topic_172373/1147fa7bca00db3d2085d116f674364128961293_2_690x410.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/1/1147fa7bca00db3d2085d116f674364128961293_2_1035x615.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/1/1147fa7bca00db3d2085d116f674364128961293.jpeg 2x" width="690"/>image1141×678 102 KB
+@carlton sir plz review it
+i think the correct answer should be A
+yes saturday is 5 when using weekday ()

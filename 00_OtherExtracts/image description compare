@@ -1,0 +1,88 @@
+
+
+
+
+
+model='llama3.2-vision' created_at='2025-06-12T12:08:27.994422675Z' done=True done_reason='stop' total_duration=6586690642 load_duration=2985772020 prompt_eval_count=16 prompt_eval_duration=1860692027 eval_count=112 eval_duration=1739214548 message=Message(role='assistant', 
+
+content='The image shows a command prompt with a line of code. The code is written in a monospaced font and is colored white on a dark gray background.\n\n* 
+The code is written in a monospaced font.\n* 
+The code is colored white on a dark gray background.\n* 
+The code is written in a command prompt.\n\n
+The image shows a command prompt with a line of code that is written in a monospaced font and is colored white on a dark gray background. 
+The code is likely a command or script for a specific task or operation.', thinking=None, images=None, tool_calls=None)
+
+
+
+
+
+model='gemma3:27b' created_at='2025-06-12T12:16:55.581127754Z' done=True done_reason='stop' total_duration=64807751874 load_duration=5315171909 prompt_eval_count=275 prompt_eval_duration=20827451615 eval_count=312 eval_duration=38664148219 message=Message(role='assistant', 
+
+content="The image shows a line of text indicating a command to run a container image (likely using Podman) and sets up an API endpoint. Here's a breakdown:\n\n*   **`
+podman run $IMAGE_NAME`**: 
+This is a command to run a container using Podman. `$IMAGE_NAME` is likely a variable holding the name of the Docker or Podman image to be run.\n*   **`-e AI_PROXY_TOKEN=$AI_PROXY_TOKEN`**: This sets an environment variable named `AI_PROXY_TOKEN` inside the container to the value of the variable `$AI_PROXY_TOKEN` on the host system.\n*   **`-p 8000:8000`**: This maps port 8000 on the host machine to port 8000 inside the container. This makes the service running inside the container accessible via port 8000 on the host.\n*   **`automatically serves the API at http://localhost:8000/run?task=...`**: This indicates that after running the container, an API endpoint will be available at `http://localhost:8000/run?task=...`. The `task` parameter likely accepts some input to perform a specific task within the containerized application.\n\nIn essence, this is a command to run a container and expose an API endpoint via port 8000. It also sets up an API token as an environment variable.", thinking=None, images=None, tool_calls=None)
+
+
+
+
+
+
+model='gemma3:27b' created_at='2025-06-12T12:40:07.055212829Z' done=True done_reason='stop' total_duration=65080389603 load_duration=5057083013 prompt_eval_count=275 prompt_eval_duration=22340993743 eval_count=355 eval_duration=37681485953 message=Message(role='assistant', content="Here's a breakdown of what's in the image:\n\n
+
+Text Content:
+The image shows a line of text that appears to be a command-line instruction for running a container (likely using Podman). 
+Here’s a breakdown of the command:
+	'podman run $IMAGE_NAME`: 
+		This is the core command to run a container image. 
+	`$IMAGE_NAME` 
+		is a variable presumably holding the name of the container image.
+	`-e AI_PROXY_TOKEN=$AI_PROXY_TOKEN`: 
+		This sets an environment variable named `AI_PROXY_TOKEN` inside the container. 
+		The value of this variable is taken from another environment variable named `$AI_PROXY_TOKEN`. 
+		This is likely used for authentication or authorization.
+	`-p 8000:8000`:  
+		This publishes or maps port 8000 on the host machine to port 8000 inside the container. 
+		This allows external access to services running on port 8000 within the container.
+		`automatically serves the API at http://localhost:8000/run?task=... , 
+	and`: 
+		This is a description of what's expected to happen once the container is running. The container will provide an API accessible at `http://localhost:8000/run?task=...`, with the `task` parameter likely specifying the action to perform.
+	Overall Meaning:
+		The instruction tells the user to run a container image, set an environment variable for authentication, and expose an API endpoint on the host machine. It’s likely part of a setup to run a machine learning or AI application that uses the API to process tasks."
+
+
+
+
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                
+"text": 
+	"Here's what's in the image:
+		The image contains text that provides instructions related to running an image and accessing an API. 
+		The text includes the following:
+			A bullet point stating \"Ensure that running your image via...\"\n*   
+			A command-line instruction: `podman run $IMAGE_NAME -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000` followed by the word \"automatically.\"\n*   
+			The phrase \"serves the API at `http://localhost:8000/run?task=...` and\""
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.2974769712433102
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 2844,
+        "candidates_token_count": 127,
+        "total_token_count": 2971
+      },
+      "model_version": "gemini-2.0-flash"
+    }),
+)

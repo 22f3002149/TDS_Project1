@@ -1,0 +1,571 @@
+Please post any questions related to Graded Assignment 1 - Development Tools.
+
+Important Instruction
+Please use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. Visit this link for more details: Extended Syntax | Markdown Guide.
+A friendly suggestion: kindly go through Discourse Docs! <img alt=":slight_smile:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/slight_smile.png" title=":slight_smile:" width="20"/>
+
+Deadline: 26 Jan 2025, midnight IST
+@carlton @Jivraj Please keep an eye on this thread for support.
+<img alt="image" data-base62-sha1="ztYoarmvww2WIkqZVCfsxgyDyhj" data-dominant-color="292D32" height="84" src="ext2/topic_161083/f8af7c6e2fe001c8bf000605b52c903e1b0e6fe1.png" width="690"/>image1296×158 7.29 KB
+For question 16 of GA1, It says "Rename all files replacing each digit with the next "
+Accepted answer is working only if file names are renamed as
+2h3q9x.txt → 3h4q0x.txt
+eb209nmlca.txt → eb310nmlca.txt
+That means if digit is 9 then next digit should be 0. @carlton @Jivraj let me know if this is what is expected. since 9-&gt;10 or 209 → 210 is not working
+Hi anant,
+Question mentions every digit should be replaced by next one.
+In that case 209 would get replaced by 310
+Hello Sir, When I am following that logic to rename files, assessment check is giving error “Incorrect. Try again.”
+@21f2000370 Since you have managed to get all the answers correct, I presume there are no further issues w/ Q16.
+Hi, I am unable to access Graded Assignment 1. Every time I click on the given link, all I can see is this page. Please advise.
+<img alt="tdsga1" data-base62-sha1="hG3fup4YovKB5FseOCXLQGyXPXn" data-dominant-color="FDFDFD" height="333" src="ext2/topic_161083/7be5e1eb5ea66bf30d3a3ebb32850f99e077bcb5_2_690x333.png" srcset="ext2/topic_161083/7be5e1eb5ea66bf30d3a3ebb32850f99e077bcb5_2_690x333.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/7/b/7be5e1eb5ea66bf30d3a3ebb32850f99e077bcb5_2_1035x499.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/7/b/7be5e1eb5ea66bf30d3a3ebb32850f99e077bcb5_2_1380x666.png 2x" width="690"/>tdsga11902×919 31.1 KB
+Possible reasons for this issue.
+
+Disable/remove Ad blocker
+Disable/remove Tracking blocker (Allow third party cookies)
+Use Chrome browser
+Disable Browser extensions
+
+As I highlighted earlier, Its not accepting the answer  if I follow correct logic for renaming for example 209-&gt;210, but it is accepting if rename as 209-&gt;310
+Hi Anant,
+
+
+
+<img alt="" class="avatar" height="24" loading="lazy" src="ext2/topic_161083/87_2.png" width="24"/> 21f2000370:
+
+<img alt="image" data-base62-sha1="ztYoarmvww2WIkqZVCfsxgyDyhj" data-dominant-color="292D32" height="84" src="ext2/topic_161083/f8af7c6e2fe001c8bf000605b52c903e1b0e6fe1.png" width="690"/>image1296×158 7.29 KB
+
+
+Here in question, it’s mentioned to replace every digit with next digit, that’s why 209 would be 310.
+In attempting the third question, I’m unable to download the npm package as it requires docker. When trying to install docker from the installer, it freezes in the verifying package stage. Can somebody please help solve my problem?
+@carlton @Jivraj
+<img alt="image" data-base62-sha1="z6uKGppMQchPtBhDRCifJ6SVwoJ" data-dominant-color="272A2E" height="85" src="ext2/topic_161083/f608128ef0d30f88223b247f1c02394c91943015_2_690x85.png" srcset="ext2/topic_161083/f608128ef0d30f88223b247f1c02394c91943015_2_690x85.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/6/f608128ef0d30f88223b247f1c02394c91943015_2_1035x127.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/6/f608128ef0d30f88223b247f1c02394c91943015_2_1380x170.png 2x" width="690"/>image1627×202 12.6 KB
+Which HTML content we want to take?
+Hi Suhani,
+npm does not require docker.
+Kind regards
+Hi Hisham,
+Its described in the question. There is a hidden element hiding somewhere after that question. You would have to inspect the DOM to find it.
+<img alt="Screenshot 2025-01-11 at 10.29.41 PM" data-base62-sha1="h28FbFlKOWkho6ZRmWFLdEAwO3I" data-dominant-color="1F2122" height="431" src="ext2/topic_161083/7762e0cad9334545b58855946414228e23ffccae_2_690x431.png" srcset="ext2/topic_161083/7762e0cad9334545b58855946414228e23ffccae_2_690x431.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/7/7/7762e0cad9334545b58855946414228e23ffccae_2_1035x646.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/7/7/7762e0cad9334545b58855946414228e23ffccae_2_1380x862.png 2x" width="690"/>Screenshot 2025-01-11 at 10.29.41 PM1440×900 160 KB
+@s.anand  please guide me through this question, my answer is showing incorrect
+Hello Sir. I am unable to install uv in my windows system. Whenever I run the code provided at the reference link in Powershell, my anti-virus system sends a message that it was blocked. Even after blocking Real-time security, uv does not display. What am I doing wrong?
+Hi, I’m unable to view assignments. below is the screenshot for your reference.
+<img alt="Screenshot 2025-01-12 150511" data-base62-sha1="li1v8WQxsiNk76zS6L6njtLfsu0" data-dominant-color="232428" height="452" src="ext2/topic_161083/95373e67b4815fb1ee37cdb8b9157ed558cffccc.png" width="690"/>Screenshot 2025-01-12 150511963×632 14.5 KB
+Please suggest me a way to view it. I have allowed third-party cookies as well.
+Thanks
+Hi manmeet,
+I don’t know about solution to this.
+Some network setting might be causing problem.
+Alternatively you can make use of GitHub codespaces which provides 120 hours of free run time in a month. With GitHub codespaces you can use Ubuntu os, and visually it gives you feel of vs code. You can also active your GitHub student developer pack and get 180 hours of GitHub codespaces and some more benefits such as cloud resources and domains.
+I have done all questions of week1 and week2 on codespaces only, codespaces works very well if you have good internet connection.
+Hi samra,
+Try installing some other browser see if that works.
+Hi mishkat,
+Without sharing code, can you pls share your approach how you are trying to solve this question.
+Ok, thanks. I turned off many security features including anti-virus system’s security and windows security options etc. Then it allowed me to download uv on the system. Now it is running, and I got output as json for Q2.
+2 days ago I  attempted TDS 2025 Jan GA1 - Development Tools and scored 8.5. I didn’t submit as I wanted to attempt incorrect answer questions.
+When I logged in today it says score is 0.
+Shall I submit or not? Do I have to attempt all questions again?
+Why the assignment and submissions are two separate pages/links?
+If [seek] (Nptel Seekh) can access [TDS exam] (Technical Assessment) then why we need to submit from seek?
+The seek portal question is to confirm that the student has seen the GA. It does not actually give you a score. Otherwise students sometimes claim that they looked and did not find any GAs (this has happened in the past). Hence the two stage verification. You still need to <img alt="Screenshot 2025-01-13 at 12.50.02" data-base62-sha1="uBdHw4oedgj12GPapQyjBdVAGGl" height="35" src="ext2/topic_161083/d67654c30e9fe72ff5970775fa393eaec8204779.png" width="53"/> the submissions to get a score for the GA.
+The actual GA questions are on https://exam.sanand.workers.dev/ via the seek portal or
+on the Tools in Data Science introduction page.
+Its just a more robust way of ensuring that students have indeed viewed the GAs.
+As far your submission goes, we have your last submission and the score. <img alt=":white_check_mark:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/white_check_mark.png" title=":white_check_mark:" width="20"/>
+We will check on our end why your submission has not reloaded into your browser.
+Normally these are stored in session storage. So if your browser has deleted them, it might have not loaded from our back end server. @s.anand will be able to confirm the reason for this problem.
+For the time being if you are making a fresh submission, just fill in all the answers in again, so that your latest submission will be marked correctly.
+Kind regards
+Thanks @carlton.
+I answered questions on https://exam.sanand.workers.dev/ but didn’t click on the button “Submit Answers” on seek as my answers for 2 questions were incorrect.
+My question is whether I need to submit on seek to save answers on Exam? (I checked my score and saved it on the exam site.)
+Hi @Nelson
+Your answers on the exam site that have been submitted will be saved and used as the basis for your score. Saying yes/no on seek does not materially impact scoring. Its just an awareness question. Even if you answered yes on the seek portal, you can still revise your answers on the exam site. The final submission is always whats locked in for the score (until the deadline passes).
+Kind regards
+It might be because you are not adding up the correct tags with attribute data-value. There may be other tags within the same DOM and having the attribute data-value.
+Kind regards
+I am stuck with the last question. SQLite question.
+It gives the error:
+Error: Got [[121510.39]]...
+
+
+Is it possible to have a more descriptive error? It’s a simple SQL query. I tried various options in my query. I didn’t succeed. <img alt=":thinking:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/thinking.png" title=":thinking:" width="20"/>
+Hi Nelson,
+I checked your set of questions, you are using wrong query to get answer.
+kind regards
+@carlton @Jivraj
+In this picture for the given question i have tried in python and chatgpt both are giving same answer still showing wrong. GA1 question
+<img alt="Neutral Minimal Photo Collage Mood Board Instagram Story" data-base62-sha1="eNg7aGKIBWMaSsv7Irl2vZeWo5c" data-dominant-color="4D4E4E" height="500" src="ext2/topic_161083/67afef07640f20d467149fad6e77a9edf0bcc0d2_2_281x500.jpeg" srcset="ext2/topic_161083/67afef07640f20d467149fad6e77a9edf0bcc0d2_2_281x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/7/67afef07640f20d467149fad6e77a9edf0bcc0d2_2_421x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/7/67afef07640f20d467149fad6e77a9edf0bcc0d2_2_562x1000.jpeg 2x" width="281"/>Neutral Minimal Photo Collage Mood Board Instagram Story1080×1920 119 KB
+@Jivraj @carlton
+The same issue is happening in the question 12 of GA1. I have given the answer by using collab and gemini , its giving the proper result but showing wrong.
+<img alt="Minimal Square Photo Collage Photography Instagram Post" data-base62-sha1="tDP9Wu8L7VQ6XIlXwhfURiPdD7Y" data-dominant-color="515252" height="500" src="ext2/topic_161083/cfbf846fed1d092f2fe49741a8bc37821a01c952_2_500x500.jpeg" srcset="ext2/topic_161083/cfbf846fed1d092f2fe49741a8bc37821a01c952_2_500x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/c/f/cfbf846fed1d092f2fe49741a8bc37821a01c952_2_750x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/c/f/cfbf846fed1d092f2fe49741a8bc37821a01c952_2_1000x1000.jpeg 2x" width="500"/>Minimal Square Photo Collage Photography Instagram Post1080×1080 126 KB
+Hi Shouvik,
+Your code seems correct to me. I think there is an extra space before your answer in input box.
+Btw instead of using a while loop, there is a much more optimal, which uses difference of dates and doesn’t require a loop at all. Try to figure it out.
+kind regards
+yeah thank you sir. now please say for the 2nd problem
+Try copy pasting exact symbols — OR † OR € Can you share code in code block, it’s difficult to read symbols that are present.
+Also have a look at what all_content variable contains, see if there are some problem with content.
+!pip install chardet==5.1.0  # Install the chardet library
+
+import chardet
+def read_files():
+  """Gets two CSV files and one TXT file from the user and reads them.
+
+  Returns:
+    A tuple containing the contents of the three files.
+  """
+    # Get the file paths from the user.
+  csv_file_1_path = input("Enter the path to the first CSV file: ")
+  csv_file_2_path = input("Enter the path to the second CSV file: ")
+  txt_file_path = input("Enter the path to the TXT file: ")
+
+  # ... (Get file paths from user - same as before)
+
+  # Read the CSV files.
+  try:
+    with open(csv_file_1_path, 'rb') as f:  # Open in binary mode
+      rawdata = f.read()
+      encoding = chardet.detect(rawdata)['encoding']  # Detect encoding
+    with open(csv_file_1_path, 'r', encoding=encoding) as csv_file_1:  # Use detected encoding
+      csv_data_1 = csv_file_1.read()
+
+    # Repeat for csv_file_2_path using the same pattern
+    with open(csv_file_2_path, 'rb') as f:
+        rawdata = f.read()
+        encoding = chardet.detect(rawdata)['encoding']
+    with open(csv_file_2_path, 'r', encoding=encoding) as csv_file_2:
+        csv_data_2 = csv_file_2.read()
+
+  except FileNotFoundError:
+    print("Error: One or both of the CSV files could not be found.")
+    return None
+  except UnicodeDecodeError:
+    print("Error: Could not decode one or both of the CSV files.")
+    return None
+
+  # Read the TXT file.
+  try:
+    with open(txt_file_path, 'rb') as f:  # Open in binary mode to detect encoding
+        rawdata = f.read()
+        encoding = chardet.detect(rawdata)['encoding']  # Detect encoding
+    with open(txt_file_path, 'r', encoding=encoding) as txt_file:  # Open in text mode with detected encoding
+        txt_data = txt_file.read() # Read the content of the file
+  except FileNotFoundError:
+    print("Error: The TXT file could not be found.")
+    return None
+  except UnicodeDecodeError:
+    print("Error: Could not decode the TXT file.")
+    return None
+
+  # Return the contents of the files.
+  return csv_data_1, csv_data_2, txt_data
+
+# Call the function to read the files.
+file_contents = read_files()
+if file_contents:
+  csv_data_1, csv_data_2, txt_data = file_contents
+  #print("Content of the first CSV file:\n", csv_data_1)
+  #print("\nContent of the second CSV file:\n", csv_data_2)
+  #print("\nContent of the TXT file:\n", txt_data)
+
+  # Combine the content of all files into a single string
+  all_content = csv_data_1 + csv_data_2 + txt_data
+
+  # Split the content into lines
+  lines = all_content.split('\n')
+
+  # Initialize the total sum
+  total_sum = 0
+
+  # Iterate through each line
+  for line in lines:
+    # Split the line into symbol and value, handling potential extra spaces
+    try:
+      parts = line.strip().split(',')
+      symbol = parts[0].strip()  # Remove leading/trailing spaces from symbol
+      value = parts[1].strip()   # Remove leading/trailing spaces from value
+
+      # Check if the symbol matches the criteria (using a more robust check)
+      if symbol in ['€', 'ˆ', '’'  # Euro symbol variations
+                     # Add any other known variations of the target symbols
+                   ]:
+        # Convert the value to a number and add it to the total sum
+        total_sum += float(value)
+
+    except (IndexError, ValueError):
+      # Ignore lines with incorrect formatting or non-numeric values
+      pass
+
+  # Print the total sum
+  print("The sum of all values associated with the specified symbols is:", total_sum)
+
+i have given all the symbols correctly sir
+Hi Jivraj,
+I have tried with a different browser, but still not working. Below is the screenshot for your reference.
+<img alt="Screenshot 2025-01-13 224057" data-base62-sha1="1V5vNQAsiPaGTsOslafJcKEUNBZ" data-dominant-color="313132" height="490" src="ext2/topic_161083/0d763aca30ffeed7a3f4758aa70e06baff508f77_2_690x490.png" srcset="ext2/topic_161083/0d763aca30ffeed7a3f4758aa70e06baff508f77_2_690x490.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/d/0d763aca30ffeed7a3f4758aa70e06baff508f77.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/d/0d763aca30ffeed7a3f4758aa70e06baff508f77.png 2x" width="690"/>Screenshot 2025-01-13 2240571005×714 27.3 KB
+Thanks
+One unicode character is in both UPPERCASE and lowercase. Do a case sensitive search.
+@Samra this is almost certainly due to a (typically corporate) firewall or antivirus. Please try with a personal laptop from a public / home network.
+(I face this problem at office often. Once, our company’s firewall blocked our own company website <img alt=":confused:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/confused.png" title=":confused:" width="20"/>)
+Hi Nelson,
+I checked with your dataset for this particular question. Using correct query I am able to get correct answer. Pls check sql query that you are using.
+Kind regards
+What is the windows equivalent of sha256sum?
+npx -y prettier@3.4.2 README.md | sha256sum.
+sha256sum. : The term 'sha256sum.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:35
++ npx -y prettier@3.4.2 README.md | sha256sum.
++                                   ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sha256sum.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+@s.anand Actually, I’m using a personal laptop. Is this country dependent or restricted?
+Check this link from akamai
+Did you try the following:
+
+ping exam.sanand.workers.dev
+tracert exam.sanand.workers.dev
+
+This is what I got while doing this:
+ping exam.sanand.workers.dev
+
+Pinging exam.sanand.workers.dev [104.21.31.149] with 32 bytes of data:
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+
+Ping statistics for 104.21.31.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 9ms, Average = 8ms
+
+tracert exam.sanand.workers.dev
+
+Tracing route to exam.sanand.workers.dev [104.21.31.149]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     2 ms  192.168.18.1
+  2     5 ms     6 ms     4 ms  10.122.0.1
+  3     *        *        6 ms  172.17.0.2
+  4     5 ms     5 ms     4 ms  172.17.0.109
+  5    16 ms     8 ms     8 ms  10.8.1.2
+  6    21 ms     8 ms     8 ms  103.70.37.171
+  7    10 ms     8 ms     8 ms  104.21.31.149
+
+Trace complete.
+
+You could also try switching Google Public DNS and see if the site is getting picked up in your next query.
+Helpful Resources
+
+Ping+Tracert for troubleshooting network connections
+Product pages for err_network_changed error
+Network Troubleshooting skills and commands
+
+Thank you JK. I have another question. I should have asked that before this
+npx -y prettier@3.4.2 README.md 
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/README.md - Not found
+npm ERR! 404 
+npm ERR! 404  'README.md@latest' is not in the npm registry.
+npm ERR! 404 Your package name is not valid, because 
+npm ERR! 404  1. name can no longer contain capital letters
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\sivab\AppData\Roaming\npm-cache\_logs\2025-01-14T17_22_04_622Z-debug.log
+Install for [ 'README.md@latest' ] failed with code 1
+
+This is throwing an error. Please help
+This is regarding Question 11.
+I have extracted all the elements and added them manually. Tried all the options. Not even one appears to be correct . I evne tried ChatGPT which gave the answer as 411. Which of the following should be chosen?
+&lt;div class="d-none" title="This is the hidden element with the data-value attributes"&gt;
+        &lt;div class="bar baz" data-value="17"&gt;
+          &lt;div class="baz foo" data-value="29"&gt;&lt;/div&gt;
+          &lt;div class="foo" data-value="20"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="bar foo baz" data-value="71"&gt;
+          &lt;div class="foo" data-value="48"&gt;&lt;/div&gt;
+          &lt;span class="foo" data-value="30"&gt;&lt;/span&gt;
+          &lt;div class="foo bar" data-value="90"&gt;
+            &lt;div class="bar" data-value="8"&gt;&lt;/div&gt;
+            &lt;div class="" data-value="48"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="baz foo" data-value="58"&gt;
+          &lt;div class="baz foo" data-value="19"&gt;&lt;/div&gt;
+          &lt;div class="foo bar" data-value="76"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="bar baz" data-value="89"&gt;
+          &lt;div class="foo bar" data-value="38"&gt;&lt;/div&gt;
+          &lt;div class="foo bar" data-value="9"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+
+<img alt="" class="avatar" height="24" loading="lazy" src="ext2/topic_161083/12463_2.png" width="24"/> siva.bhaskaran:
+
+npx -y prettier@3.4.2 README.md
+
+
+Shouldn’t it be npx -y prettier@3.4.2 --write README.md or npx prettier README.md (Depending on whether to write or read)?
+Apologies, I may not know full context of the question, as I haven’t attempted GA1 fully yet
+I had this same doubt, I tried by adding the “span” tag’s value too it showed correct for me. I’d suggest you to try that.
+Oh, good catch, @23f2000237 and @siva.bhaskaran - I made a mistake in the evaluation script. It included the span.
+I fixed it. Note: None of the earlier answers are affected, i.e. if you got it right earlier, it’ll stay right.
+
+It’s hackable. It’s possible to get the answer to some questions by hacking the code for this quiz. That’s allowed.
+
+What does exactly mean, if someone could elaborate without giving it away, please?
+@carlton
+I have tried but still am unable to do only that question if someone can help me with the code because everytime im getting a different answer its my last question
+@21f2000370 i hope you wouldve completed it
+Use Git bash the problem will be resolved
+Hi Daksh,
+Did you solve it or still facing some issues with it ?
+Kind regards
+im still facing issue in that questioneven after watching the youtube video given and taking help of chatgpt im unable to solve that question only
+Hello Gentlemen Instructors,
+In all the video lectures, I am first required to download the tools, install them on my computer ? Is it not going to overload my computer’s RAM etc.,
+In one of the classes, you said that there is something  - colab like cloud wherein we can go and practice without overloading our own computers. Will you please let me know how to go about it ??
+Thanks and regards,
+ULAGAOOZHIAN,
+France
+24ds1000121
+<img alt="Screenshot 2025-01-18 154321" data-base62-sha1="aDG4vwY7tnu3GTLlAUt58Nl445u" data-dominant-color="071C2D" height="330" src="ext2/topic_161083/4a91f864fac32edea97935f0456d5b93a5ebc4f4.png" width="690"/>Screenshot 2025-01-18 1543211317×630 30.9 KB
+In question 3 of GA-1 while checking the answer  it’s showing incorrect answer.
+216375D6F5A1DAF9EB6350251E9F0A7395A0B2988D58ED6E57D9568E8B1AD175
+This was the output which I got after the execution of the given code in the question.Kindly guide If I did some error or error in entering the value.
+how to calculate How many Wednesdays are there in the date range 1981-08-30 to 2017-07-17?
+The dates are in the year-month-day format. Include both the start and end date in your count. You can do this using any tool (e.g. Excel, Python, JavaScript, manually).
+=SUM(TAKE(SORTBY({3,7,13,8,7,7,11,11,13,14,0,13,9,14,10,7}, {10,9,13,2,11,8,16,14,7,15,5,4,6,1,3,12}), 1, 16))
+I do not have the required excel version can someone please tell how can I find the solution to this one?
+@carlton @Jivraj
+Sir i have saved the answers 2 days ago and scored around 7.5 . now when i open the portal today it is showing as 0 and all the answers has been cleared. how can i restore it.
+yes same issue with me as well.2 3 days back i have answered and saved all the questions and today it is showing me 0 and all the answers are gone
+@23f2005067 @23f2003751 I added a “Recent saves” feature.
+This will show the time and score for the last 3 times you saved. You can load from any of these.
+<img alt="image" data-base62-sha1="tsDs6TuN8b4S4JxFXIYSl9kGajR" height="152" src="ext2/topic_161083/ce7bbb617fc5997babd5910bd19e8ac3f9c3fe07.png" width="368"/>image368×152 5.35 KB
+Do remember to click the “Check” button to calculate your score. That is not automatic.
+Please check this out and let me know if there are any bugs. Thanks.
+<img alt="Screenshot_2025-01-19-19-15-29-055_com.android.chrome" data-base62-sha1="liLRwbkBq2TkIhmoji6y3X7Khan" data-dominant-color="233636" height="500" src="ext2/topic_161083/954ce1ef1cc6d0d6de0f540ac0215c8b45099527_2_225x500.jpeg" srcset="ext2/topic_161083/954ce1ef1cc6d0d6de0f540ac0215c8b45099527_2_225x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/5/954ce1ef1cc6d0d6de0f540ac0215c8b45099527_2_337x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/5/954ce1ef1cc6d0d6de0f540ac0215c8b45099527_2_450x1000.jpeg 2x" width="225"/>Screenshot_2025-01-19-19-15-29-055_com.android.chrome1080×2400 172 KB
+Sir i might already clicked 3 save todays. So the previous clicks dates are of today. And the same 0 score is showing this.
+Sha256sum is not recognized as an internal or external command how to solve this plzz answer
+@carlton
+If you are on windows, you might not be able to use sha256sum.
+Here are two disussions that might help you out.
+
+Discussion 1
+Discussion 2
+
+@Rohitkumar7463 @23f2003845
+If you are on Windows Powershell
+Then instead of sha256sum you can simply use Get-FileHash
+Send the output of the npx -y prettier@3.4.2 README.md to a text file eg. output.txt and then use Get-FileHash on powershell with the output.txt and it will use sha256 by default and give you the exact same output.
+You might be able to pipe the data directly to Get-FileHash but I have not tried direct piping. The above method works guaranteed.
+Kind regards
+@s.anand Sir
+as you said in the previous post, the evaluation script is also updated based on errors other students point out.
+I am submitting my answers as soon as the GA is released and stopping once I get 10/10.
+Will you reevaluate the answers once the deadline is over? Or the marks I see right now will be set in stone?
+If you will, then it will be based on the updated evaluation script which can reduce my marks.
+<img alt="image" data-base62-sha1="pizCDys2CgUXvRmo7nwYnI7aoc4" data-dominant-color="A0BEAD" height="312" src="ext2/topic_161083/b14fdd8db7fa7f4f811065f54b5b478db50f61ac.png" width="690"/>image742×336 21.3 KB
+@iamsarthak – as long as you don’t save again, your score will stay 10, even if I modify the evaluation script  <img alt=":slight_smile:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/slight_smile.png" title=":slight_smile:" width="20"/>
+We don’t re-evaluate previous results in the graded assignments.
+@s.anand sir,
+Question 15 is under the section for linux
+I got the file which needs to be processed to answer the question
+<img alt="image" data-base62-sha1="32sQPBhIPMXzBzQQlmWM8pyzu6w" height="167" src="ext2/topic_161083/154ddd789fc2694e567f62d6d84d71a87a863af4.png" width="583"/>image583×167 4.09 KB
+I can solve this now using pandas.
+From learning perspective, is this question aimed at making students to use something like awk or is it fine if i can carry on with pandas?
+@23f2000573 You can solve it with any tool you’re comfortable with, including pandas.
+But since you already know how to do it with pandas, I suggest you explore how to do it with something like awk (or any other tool) to get a broader exposure into different approaches.
+<img alt="20250120_203950" data-base62-sha1="5mQgsqh1d6b7VflEnHYJMAHzCRm" data-dominant-color="316CA1" height="500" src="ext2/topic_161083/259fe82da0a001abf9302adbc16f3ceb4e1a1d1c_2_666x500.jpeg" srcset="ext2/topic_161083/259fe82da0a001abf9302adbc16f3ceb4e1a1d1c_2_666x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/259fe82da0a001abf9302adbc16f3ceb4e1a1d1c_2_999x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/259fe82da0a001abf9302adbc16f3ceb4e1a1d1c_2_1332x1000.jpeg 2x" width="666"/>20250120_2039501920×1440 168 KB
+Sir is it right of sha sum question
+to pass the graded 1 how much points are required for 10 ?
+use chatgpt for the solution(sum(take(sortby))), it will give you the wrong answer but explain the concepts, use that go to colab and code one solution(will take abt 2 mins)
+I used
+https://www.microsoft365.com/launch/excel?auth=1
+@Rohitkumar7463 The hash code is exactly what you see under the column Hash,
+7E…E5
+Thats the Hash code for the file output.txt
+A Hash is a nearly unique representation of some data within some range dependent on the type of hashing algorithm and the amount of unique pieces of data that need to be encoded. (just my colloquial definition of it, i am sure you are able to ask GPT to give you a much better explanation)
+Kind regards
+Time Zone Issues with the “List Files and Attributes” Question
+quick heads‐up about Question 15 (the one asking for files at least 8143 bytes, modified on or after Sun, 19 Nov 2006, 7:38 am GMT‑5). I’m physically in a different time zone, but I eventually discovered the question seems to expect you to be located in India and to interpret that files date/time accordingly.
+I got the correct answer once i localized the files timestamp to IST.
+thanks
+GA1 Q18. What is the total sales of all the items in the “Gold” ticket type? Write SQL to calculate it.
+I always get the answer in a nested array. Error: Got [[51006.69]]…
+I could not use cursor in that shell, to extract the value also.
+@carlton @Jivraj Please help me with this.
+<img alt="image" data-base62-sha1="cmcJi8wAqmm6mxnwttQlIUI1ZTM" data-dominant-color="1B1B1B" height="241" src="ext2/topic_161083/569cac03bc51f8ce553a5e554619379466e0aeae.png" width="690"/>image1327×464 18.1 KB
+I am getting error in the uv question.
+I have got the output json but I cant understand what part do I need to submit in the answer section.
+<img alt="image" data-base62-sha1="f4JgMATlggCuYlrNd9XZ9fsXJI" data-dominant-color="282C30" height="149" src="ext2/topic_161083/01b4483a493dface204efbc60ad43d487c00ccae_2_690x149.png" srcset="ext2/topic_161083/01b4483a493dface204efbc60ad43d487c00ccae_2_690x149.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/1/01b4483a493dface204efbc60ad43d487c00ccae_2_1035x223.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/1/01b4483a493dface204efbc60ad43d487c00ccae_2_1380x298.png 2x" width="690"/>image1641×356 26.7 KB
+Sir I’m facing issue in this question even though i have done every thing as it mentioned. Can I get hint of the mistake for my code snippet.
+My code: -
+mkdir all_files
+find parent/ -type f -exec mv {} all_files/ \;
+for file in all_files/*; do
+    new_name=$(echo "$file" | sed 's/[0-9]/\n&amp;\n/g' | awk '
+    { 
+        if ($0 ~ /^[0-9]$/) print ($0 == "9") ? 0 : $0+1; 
+        else print $0 
+    }' | tr -d "\n")
+    mv "$file" "$new_name"
+done
+
+Good Evening, I have a doubt regarding the SQL Question I have attached my query. Please clarify me where I got wrong. I tried changing the gold string to lower and checking it. Even,  that didn’t work.
+<img alt="Screenshot 2025-01-22 231718" data-base62-sha1="rfem0RTtcWqawL5SFIDKVkX7QUU" data-dominant-color="25292D" height="156" src="ext2/topic_161083/bef378c05a79402b232e3f9a7741394ea99462d0_2_690x156.png" srcset="ext2/topic_161083/bef378c05a79402b232e3f9a7741394ea99462d0_2_690x156.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/e/bef378c05a79402b232e3f9a7741394ea99462d0_2_1035x234.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/e/bef378c05a79402b232e3f9a7741394ea99462d0_2_1380x312.png 2x" width="690"/>Screenshot 2025-01-22 2317181599×362 19.1 KB
+Thank You.
+I have another doubt regarding the CSS Selector question. I know how to select elements using CSS Selector but i don’t know how to get the sum using CSS Selectors as it cannot perform arithmetic operations. And also, I didn’t understand the question completely about the ‘hidden element’. Please clarify it. Thank you so much.
+<img alt="Screenshot 2025-01-22 232338" data-base62-sha1="7uK1vbODONOtBNfto4EPJMQA0ty" data-dominant-color="28292D" height="108" src="ext2/topic_161083/3488d91f7599c325bc0dfe148df9e5dd37df0908_2_690x108.png" srcset="ext2/topic_161083/3488d91f7599c325bc0dfe148df9e5dd37df0908_2_690x108.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/4/3488d91f7599c325bc0dfe148df9e5dd37df0908_2_1035x162.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/4/3488d91f7599c325bc0dfe148df9e5dd37df0908_2_1380x216.png 2x" width="690"/>Screenshot 2025-01-22 2323381621×255 13.9 KB
+It can be GOLD,gold, or even GoLD.
+"  Get all rows where the Type is “Gold”. Ignore spaces and treat mis-spellings like GOLD, gold, etc. as “Gold”. Calculate the sales as Units * Price, and sum them up.  "
+Try to go through the given video of css selector and go through all foo classes carefully(using inspect) and sum them up!
+Try to remove the White spaces in your code!
+@carlton @Jivraj
+sir i have gone through the process of solving the ques but still ans is showing wrong even i have used chatgpt and used cmd also. the cmd is is showing the result still ans is wrong
+<img alt="Untitled design" data-base62-sha1="bGs1tmdd72KIQwfbrZwLuHW1dlf" data-dominant-color="9F9E9E" height="500" src="ext2/topic_161083/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_353x500.png" srcset="ext2/topic_161083/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_353x500.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/1/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_529x750.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/1/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_706x1000.png 2x" width="353"/>Untitled design1414×2000 349 KB
+In GA1, Question no: 9.
+when i sort the json it says incorrect. but i validated that json using validator and also manually
+admin : could you pls validate my answer pls
+You need to submit whole json becausae In this image headers is part of response, not request headers.
+Hi Arnav,
+I tried your script on your dataset.
+Problem might be you are not executing grep . * | LC_ALL=C sort | sha256sum in correct directory, you would need to execute it from all_files directory also there should not be any extra file other than that gets generated.
+
+
+
+<img alt="" class="avatar" height="24" src="ext2/topic_161083/114560_2.png" width="24"/> 22f2001175:
+
+<img alt="Untitled design" data-base62-sha1="bGs1tmdd72KIQwfbrZwLuHW1dlf" data-dominant-color="9F9E9E" height="500" src="ext2/topic_161083/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_353x500.png" srcset="ext2/topic_161083/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_353x500.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/1/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_529x750.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/1/51e466de36ab81daac1abc2ff6f89471b3c5bf91_2_706x1000.png 2x" width="353"/>Untitled design1414×2000 349 KB
+Untitled design1414×2000 349 KB
+
+
+Time of modification of each of these files is 14 Jan 2025 which might be the day you unzipped them. Depending upon what software you use it might change modification date while unzipping. use unzip command line tool or winrar extractor, these are 2 tools we have tested.
+kind regards
+Hi Saravanan,
+I noticed an issue with your submission. In the question, there is a name Bob, but it doesn’t appear in your answer after applying the required sorting. Since the data for each student is dynamically generated and unique, the answer you submitted seems inconsistent with your dataset.
+We encourage collaboration among students, but copying answers is not acceptable. Instead, I suggest reaching out to your friend to understand the script they used, run it on your dataset, and ensure you fully grasp the solution.
+kind regards
+Thanks lot jivraj. i updated my script and answers too
+Thanks
+<img alt="Screenshot 2025-01-24 184222" data-base62-sha1="7SvvXscGFxnWNcklT1oqIeK4d6x" data-dominant-color="ECDEDF" height="274" src="ext2/topic_161083/3738985d0d94f735a4c51462d37072bed8a7a1c9_2_690x274.png" srcset="ext2/topic_161083/3738985d0d94f735a4c51462d37072bed8a7a1c9_2_690x274.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/7/3738985d0d94f735a4c51462d37072bed8a7a1c9_2_1035x411.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/7/3738985d0d94f735a4c51462d37072bed8a7a1c9_2_1380x548.png 2x" width="690"/>Screenshot 2025-01-24 1842222677×1066 294 KB
+In the question 10 what should be the correct format for jason data as I edited the data according to given conditions but in Hash I am facing problem again and again
+Also, in Q11 What is meaning of element below given in the question " Let’s make sure you know how to select elements using CSS selectors. Find all &lt;div&gt; s having a foo class in the hidden element below. What’s the sum of their data-value attributes?"
+<img alt="image" data-base62-sha1="Ah6PqA81T0O019i0A3eDmOqCegu" data-dominant-color="272A2F" height="202" src="ext2/topic_161083/fe3d66c57d75b16c2ea6f06dd66adbdfe8eb9466_2_690x202.png" srcset="ext2/topic_161083/fe3d66c57d75b16c2ea6f06dd66adbdfe8eb9466_2_690x202.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/e/fe3d66c57d75b16c2ea6f06dd66adbdfe8eb9466_2_1035x303.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/e/fe3d66c57d75b16c2ea6f06dd66adbdfe8eb9466_2_1380x404.png 2x" width="690"/>image1590×466 29.3 KB
+what sort of response am i supposed to put ?? the response i am getting ,it says incorrect, basically  after doing code -s ,i get like info about the version of vs code and info about cpu gpu etc…
+<img alt="Screenshot 2025-01-25 171014" data-base62-sha1="3bYjIYyKwczQax9b66ESQ28uTEp" data-dominant-color="272B31" height="130" src="ext2/topic_161083/1660ff1343e3f3b9fb21bb962f6be949238c62f5_2_690x130.png" srcset="ext2/topic_161083/1660ff1343e3f3b9fb21bb962f6be949238c62f5_2_690x130.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/6/1660ff1343e3f3b9fb21bb962f6be949238c62f5_2_1035x195.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/6/1660ff1343e3f3b9fb21bb962f6be949238c62f5_2_1380x260.png 2x" width="690"/>Screenshot 2025-01-25 1710141631×309 22.2 KB
+The answer is wrong but I have done every step correctly. Help
+<img alt="image" data-base62-sha1="uzAr1xmYnhakdqPofGx8RBQ7KaA" data-dominant-color="D3CBD1" height="300" src="ext2/topic_161083/d64710c6f1d82d385c603313620a99ddcc9dfef0_2_690x300.jpeg" srcset="ext2/topic_161083/d64710c6f1d82d385c603313620a99ddcc9dfef0_2_690x300.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d64710c6f1d82d385c603313620a99ddcc9dfef0_2_1035x450.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d64710c6f1d82d385c603313620a99ddcc9dfef0_2_1380x600.jpeg 2x" width="690"/>image1613×702 193 KB
+Not sure how to resolve this error… any sugessions ?
+first convert in into jason using bash or other terminal then paste the converted json content to this page and generate the json hash
+I am getting errors for the host part please guide me
+But I have converted the file as it says in the question still i am getting error that I am unable to understand. Can you just tell me please what formatted answer should be that is just the type of answer it’s asking?
+I tried this. For me still the answer is incorrect.
+<img alt="image" data-base62-sha1="67clKoHAFVp2KRE9xkcn5lzTKhj" data-dominant-color="1E1E1E" height="147" src="ext2/topic_161083/2add60640ef2f000fddb670ed7f9dd132e195b81.png" width="690"/>image1677×358 22.2 KB
+Finally. Got the correct one in bit dash.
+<img alt="image" data-base62-sha1="1MZxB5Lh4rmhGVJ1UKWvK7VpkO4" data-dominant-color="10100F" height="77" src="ext2/topic_161083/0c8befb5185c68f63c51334b862b93b39fb13b58.png" width="690"/>
+I ran this directly in the console and got the correct answer.
+// Select all  and  elements with the ‘foo’ class
+const fooElements = document.querySelectorAll(“div.foo, span.foo”);
+// Initialize a variable to store the sum
+let sum = 0;
+// Iterate through the selected elements
+fooElements.forEach(element =&gt; {
+// Get the ‘data-value’ attribute and convert it to a number
+const value = parseFloat(element.getAttribute(“data-value”));
+// Add the value to the sum
+if (!isNaN(value)) {
+sum += value;
+}
+});
+console.log(“Sum of data-value attributes:”, sum);
+@Jivraj Sir I have tried pasting the entire json but I am still getting incoorect answer
+6630ecbfc252fa2bd39d26737fc1d4e1d22574c8792112b28cdf4ff128d4c605
+<img alt="image" data-base62-sha1="qI1CDV7rmTrTyrWSxJ7Htillycb" data-dominant-color="2B2F33" height="283" src="ext2/topic_161083/bb3290cba8963cf5a776b6e8a2e1cd1e13d6f1a3.png" width="690"/>image846×347 28.4 KB
+help me with this
+Q18 GA1
+I don’t get what’s wrong with this:
+<img alt="image" data-base62-sha1="e3EmF8yyEw2PO92Z0u3HmvrrcHs" data-dominant-color="0E1010" height="305" src="ext2/topic_161083/62881746149d177049834111811ad5e0e0c1ffae_2_690x305.png" srcset="ext2/topic_161083/62881746149d177049834111811ad5e0e0c1ffae_2_690x305.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/2/62881746149d177049834111811ad5e0e0c1ffae_2_1035x457.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/2/62881746149d177049834111811ad5e0e0c1ffae.png 2x" width="690"/>image1269×561 42 KB
+Can anyone help me understand? Thanks
+<img alt="image" data-base62-sha1="oYvBwXVvE1UU3W7roht6YqNDiFe" data-dominant-color="FAF8F9" height="135" src="ext2/topic_161083/af0b396ddcc078c59f6929d66745080d531c0adc.png" width="690"/>image1199×236 8.5 KB
+i dont know what is the error is plss guide me
+I have attempted the quiz, but missed marking this question - I have seen the Graded Assignment 1 available at this link and have attempted it. Hope the scores saved would be considered
+<img alt="image" data-base62-sha1="wOVqqMx7HHItdOrqggliCuYjECW" data-dominant-color="F7F6F8" height="133" src="ext2/topic_161083/e60748f8290e5bf6a7fedca9e4555355e48947f6_2_690x133.png" srcset="ext2/topic_161083/e60748f8290e5bf6a7fedca9e4555355e48947f6_2_690x133.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/6/e60748f8290e5bf6a7fedca9e4555355e48947f6_2_1035x199.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/6/e60748f8290e5bf6a7fedca9e4555355e48947f6_2_1380x266.png 2x" width="690"/>image1635×317 28 KB
+i am not getting why my answer is showing incorrect.
+can you help me in this ? @Saransh_Saini @Jivraj
+Check the structure of your json object. It should be {key1: value1, key2: value2}. Also make sure you enclose the keys and values in double-quotes, and after every key-value pair put a comma.
+i am doing so only … i can send u the example -
+{   “0”: “wEfsmtde”,
+“83”: “NghqzO3DL”,
+“NqN7EcM”: “I”,
+“vFD2C”: “KAB”}
+i am not able to find what’s the mistake
+Your format seems to be correct, but cause you are still facing that problem then these are the few reasons I can think of
+
+Check the entire JSON object and make sure that each and every element follows this format.
+Use Chrome for getting that hash code, it could be the case that some other browser may not be pasting the object as intended.
+
+Okay, i will go through my json object once.
+And for hash code i am using chrome only
+It worked.
+Thank you
+After passing the deadline , my scores aren’t there …Is it same for all?
+<img alt="image" data-base62-sha1="nnLAsQYnaQ9qwHBpzoXnbuQYaTN" data-dominant-color="393439" height="445" src="ext2/topic_161083/a3e1cb26a8cb2f09ad3defcbce281bdf06a6438b_2_690x445.png" srcset="ext2/topic_161083/a3e1cb26a8cb2f09ad3defcbce281bdf06a6438b_2_690x445.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/3/a3e1cb26a8cb2f09ad3defcbce281bdf06a6438b_2_1035x667.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/3/a3e1cb26a8cb2f09ad3defcbce281bdf06a6438b.png 2x" width="690"/>image1359×878 78.5 KB
+wow, thats so true… <img alt=":rofl:" class="emoji" height="20" loading="lazy" src="ext2/topic_161083/rofl.png" title=":rofl:" width="20"/>
+3 posts were merged into an existing topic: Graded assignment 1 - Submission not shown
+<img alt="image" data-base62-sha1="39MIm8nwIvyvnIeapXdMakX5r1b" height="414" src="ext2/topic_161083/1621b44baa27eac7754e1d0f48bf5f8de30f133d.png" width="552"/>image552×414 18 KB
+Hi Sir,
+I completed the GA 1 before the time and saved it as mentioned above, but forgot to give “submit”  button on iit bs week 1 graded assignment portal.
+Will it might be a problem ?
+I
+I have seen the Graded Assignment 1 available at this link and have attempted it.
+Yes
+No
+i have forgot the submit  here on the portal but i have got 9 marks on the test will it be a problem  in my marks?
+Hi @Jivraj  sir,
+For me, in dashboard , it is showing the assignment was not submitted.
+<img alt="image" data-base62-sha1="9vrwwXtSJeDoZlLpDGty2bWqhvD" data-dominant-color="F4F8F7" height="477" src="ext2/topic_161083/42a17ff0b02a49ce4061f3976c99e7f19336bedd_2_690x477.png" srcset="ext2/topic_161083/42a17ff0b02a49ce4061f3976c99e7f19336bedd_2_690x477.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/2/42a17ff0b02a49ce4061f3976c99e7f19336bedd.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/2/42a17ff0b02a49ce4061f3976c99e7f19336bedd.png 2x" width="690"/>image809×560 51.9 KB
+But I have completed it and got saved before the deadline
+I havent answered the (yes / No ) in seek portal. If that might be a reason ?
+Can you please help me resolve this issue
+Dear Sai,
+This is NOT the picture of your dashboard.
+
+
+
+<img alt="" class="avatar" height="24" src="ext2/topic_161083/83411_2.png" width="24"/> 22f3001740:
+
+<img alt="image" data-base62-sha1="9vrwwXtSJeDoZlLpDGty2bWqhvD" data-dominant-color="F4F8F7" height="477" src="ext2/topic_161083/42a17ff0b02a49ce4061f3976c99e7f19336bedd_2_690x477.png" srcset="ext2/topic_161083/42a17ff0b02a49ce4061f3976c99e7f19336bedd_2_690x477.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/2/42a17ff0b02a49ce4061f3976c99e7f19336bedd.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/2/42a17ff0b02a49ce4061f3976c99e7f19336bedd.png 2x" width="690"/>image809×560 51.9 KB
+
+
+This picture is the score in your seek portal.
+The dashboard has the final correct score. Please check your dashboard.
+The dashboard has all your courses on it, when you log in.
+Kind regards
+Got it , Thank you sir
+Hello Sir,
+I am writing to bring to your attention a discrepancy I’ve noticed regarding my Week 1 graded assignment for the Tools in Data Science course.
+I successfully completed the assignment and received a score of 80 out of 100. However, when I checked the course portal, it is showing my status as “absent” for this particular assignment.
+I wanted to ensure that this information is corrected in the system to accurately reflect my participation and performance. Could you please look into this matter and update my grade accordingly?
+<img alt="Screenshot 2025-02-18 191335" data-base62-sha1="42AKSOU7hNL1JRpdzzh3hOCqejn" data-dominant-color="2B2C2D" height="499" src="ext2/topic_161083/1c53ba70eb3926a812741579345ed5e333a899f9_2_527x499.png" srcset="ext2/topic_161083/1c53ba70eb3926a812741579345ed5e333a899f9_2_527x499.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/c/1c53ba70eb3926a812741579345ed5e333a899f9_2_790x748.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/c/1c53ba70eb3926a812741579345ed5e333a899f9.png 2x" width="527"/>Screenshot 2025-02-18 191335881×835 44.5 KB
+<img alt="Screenshot 2025-02-19 145423" data-base62-sha1="ykrKQPkoncEb03A4tVcZWjCk5Gn" data-dominant-color="5C3333" height="441" src="ext2/topic_161083/f099a2b729be7a10b157f84651045fb6becaaab7_2_690x441.jpeg" srcset="ext2/topic_161083/f099a2b729be7a10b157f84651045fb6becaaab7_2_690x441.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/0/f099a2b729be7a10b157f84651045fb6becaaab7.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/0/f099a2b729be7a10b157f84651045fb6becaaab7.jpeg 2x" width="690"/>Screenshot 2025-02-19 145423961×615 73.7 KB
+@s.anand Linking this tutorial for markdown. Maybe you can consider including it in the next iteration of the course?
+I’ve created a PR for the same on GitHub! Please have a look and let me know what you think Prof!
+I also came here for the same issue…
+Sir i have scored 9.25 in the week 1 assingment but now it is showing absent…
+@23f3001601 Dont worry, it is 8 on our backend server. The dashboard will have the result soon.
+Kind regards.
+@232001286
+Yes our backend server shows that it is 9.25 dont worry. It will be fixed in the dashboard soon.
+Kind regards

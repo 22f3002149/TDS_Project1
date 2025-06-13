@@ -1,0 +1,5 @@
+## Visualizing Animated Data with PowerPoint
+
+[Visualizing animated data with PowerPoint: Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a horizontal bar graph displaying data for the year 2020. It compares values for the USA, China, Japan, Germany, and the UK.\n\n**Key Elements:**\n* **Title:** "2020" appears in the top left corner, indicating the year the data represents.\n* **Bars:** Horizontal bars represent values for each country, with the length of each bar proportional to its value.\n* **Countries:** Five countries are represented:\n * USA: 20.9\n * China: 14.8\n * Japan: 5.1\n * Germany: 3.8\n * UK: 2.7\n* **Scale:** The numerical values next to each bar indicate the respective value for each country.\n* **Color Scheme:** The bars are a uniform shade of blue against a light gray background.\n\n**Data Insight:** The USA has the highest value (20.9), followed by China (14.8). Japan, Germany, and the UK have considerably lower values.](https://youtu.be_umHlPDFVWr0)
+
+- [How to make a bar chart race in PowerPoint](https://blog.gramener.com/bar-chart-race-in-powerpoint/)

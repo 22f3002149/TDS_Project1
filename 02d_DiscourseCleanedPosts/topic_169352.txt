@@ -1,0 +1,4 @@
+<img alt="image" data-base62-sha1="qmgfdh7hXbUGZZ08QPae6VCAmC0" data-dominant-color="2A2B2F" height="431" src="ext2/topic_169352/b8bcbf8009364152380ffbd0508ead5cc0700c2c_2_690x431.png" srcset="ext2/topic_169352/b8bcbf8009364152380ffbd0508ead5cc0700c2c_2_690x431.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/8/b8bcbf8009364152380ffbd0508ead5cc0700c2c_2_1035x646.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/8/b8bcbf8009364152380ffbd0508ead5cc0700c2c_2_1380x862.png 2x" width="690"/>image2559×1599 385 KB
+can any one tell me why still it shows me that i miss exam although i pass it with 8.
+Did you submit before 1:47? If yes, then your highest score will be taken.
+If not then, you will be marked absent.

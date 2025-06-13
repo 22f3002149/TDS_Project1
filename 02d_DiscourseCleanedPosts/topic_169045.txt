@@ -1,0 +1,74 @@
+Project 2 - TDS Solver - Discussion Thread
+Creating this Thread to share answers and questions from your respective assignments
+Why? <img alt=":interrobang:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/interrobang.png" title=":interrobang:" width="20"/><img alt=":thinking:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/thinking.png" title=":thinking:" width="20"/>
+If we can Train the LLM with these Questions already, we can easily do well?
+Too many Questions for LLM <img alt=":nerd_face:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/nerd_face.png" title=":nerd_face:" width="20"/><img alt=":nerd_face:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/nerd_face.png" title=":nerd_face:" width="20"/><img alt=":nerd_face:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/nerd_face.png" title=":nerd_face:" width="20"/>
+True we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer
+What We need from YOU 🫵🏽
+Get to scraping your respective Graded Assignments and post the it?
+How?
+
+If answers are saved, Just Print (Ctrl+P) and save pdf, not really if this would work
+If you had saved code for each question, send the saved code and with a docstring as the question , This would be useful <img alt=":+1:t3:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/3.png" title=":+1:t3:" width="20"/><img alt=":+1:t3:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/3.png" title=":+1:t3:" width="20"/>
+
+Where?<img alt=":thinking:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/thinking.png" title=":thinking:" width="20"/><img alt=":man_shrugging:t3:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/3.png" title=":man_shrugging:t3:" width="20"/><img alt=":man_shrugging:t3:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/3.png" title=":man_shrugging:t3:" width="20"/>
+
+
+github.com/ANdIeCOOl/TDS-Project2-QuestionBank
+
+
+README.md
+
+main
+
+# TDS-Project2-QuestionBank
+Question Bank for all TDS assignments
+
+# Requested format
+## Student Assignments Directory Structure
+
+Each student has a folder named with their roll number. Inside each student's folder, there are multiple assignment folders (`Assignment_X`). Each assignment contains:
+- A `.txt` file with the question statement.
+- A corresponding `.py`, `.sh`, or `.js` file for the solution.
+
+### Example Directory Structure
+RollNo_12345/
+├── Assignment_1/
+│   ├── Q1.txt    # Question for Q1
+│   ├── Q1.py     # Solution in Python
+│   ├── Q2.txt    # Question for Q2
+│   ├── Q2.sh     # Solution in Bash
+│   ├── Q3.txt    # Question for Q3
+│   ├── Q3.js     # Solution in JavaScript
+├── Assignment_2/
+
+
+
+
+  This file has been truncated. show original
+
+
+
+
+
+Please note, Please send the code it would make the LLM more idk “better”
+Cheers,
+Andrew out. <img alt=":facepunch:t4:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/4.png" title=":facepunch:t4:" width="20"/>
+@all
+This time I’ll create a functioning script way before deadline for everyone to use .
+<img alt="OnePieceStrawhatsGIF" class="animated" data-base62-sha1="ne6PD7vhrLy6v5S21qlbK2Rdi0w" height="278" src="ext2/topic_169045/a2ca53960e1ef9d9566dd1648096df09332e6310.gif" width="498"/>
+Hi @23f1002382
+Great initiative, will be happy to see lot of PR’s on your repo.
+
+
+
+<img alt="" class="avatar" height="24" src="https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/48.png" width="24"/> Jivraj:
+
+e, will be happy to see lot of PR’s on your re
+
+
+Will <img alt=":x:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/x.png" title=":x:" width="20"/>
+Hopefully <img alt=":white_check_mark:" class="emoji" height="20" loading="lazy" src="ext2/topic_169045/white_check_mark.png" title=":white_check_mark:" width="20"/>
+…
+Already did a PR although it was a minor formatting one xDD
+yeah thanks that helped a lot actually
