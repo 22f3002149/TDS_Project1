@@ -29,37 +29,30 @@ def embed_chunks(chunks):
     embeddings = []
     for chunk in tqdm(chunks, desc="Embedding chunks"):
         response = client.embeddings.create(input=chunk,
-        model="text-embedding-ada-002")
+        model="text-embedding-3-small")
         embedding = response.data[0].embedding
         embeddings.append(embedding)
     return np.array(embeddings)
 def save_embeddings(chunks, embeddings, filename='embeddings.npz'):
     np.savez_compressed(filename, chunks=chunks, embeddings=embeddings)
     print(f"Embeddings saved to {filename}")
-
 def main():
     directory = 'test'
     if not os.path.exists(directory):
         print(f"Directory {directory} does not exist.")
         return
-
     content = extract_content_from_files(directory)
     if not content:
         print("No content found in the specified directory.")
         return
-
     chunks = split_content_into_chunks(content)
     if not chunks:
         print("No chunks created from the content.")
         return
-
     embeddings = embed_chunks(chunks)
-
     save_embeddings(chunks, embeddings)
-
 main()
 # Note: Ensure you have set your OpenAI API key in the environment variable OPENAI_API_KEY
 # or configure it in your OpenAI client before running this script.
 # Make sure to install the required packages before running the script:
 # pip install openai numpy tqdm
-
