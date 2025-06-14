@@ -1,0 +1,83 @@
+My project 1 marks are not showing in the dashboard. please check on that. i submitted my project on 16.02,2025
+23f3000975@ds.study.iitm.ac.in  - my id
+Project results have not been released yet. They have posponed everything.
+Please look into this post.
+
+
+
+
+Revised dates [TDS Jan 2025] Tools in Data Science
+
+
+    A few updates on dates. Hope this eases pressure a little. 
+
+Graded Assignment 6 moved from 14 Feb to 28 Feb 2025. Submission date moved from 9 Mar to 16 Mar 2025.
+Project 2 moved from 21 Feb to 3 Mar 2025. Submission date moved from 17 Mar to 31 Mar 2025.
+Graded Assignment 7 moved from 28 Feb to 7 Mar 2025. Submission date moved from 16 Mar to 26 Mar 2025.
+Project 1 results will be released by 16 Mar 2025.
+
+The TDS course page now reflects these dates.
+  
+
+Hi @carlton,
+My Project 1 scores are not visible on the part, I have definitely submitted before the deadline and on the grades section - its coming as not submitted. I have mailed support team as well. Will it be possible to check the same in any manner.
+Regards,
+Ajit
+No one has received their Project 1 scores yet. We are hoping to very soon announce preliminary results. (maybe in 24 hours or so). Depends how many bugs we get bitten by.
+Kind regards
+@carlton any updates on the Project 1 results?
+We are releasing them today. You will get an email with lots of goodies in it 
+Kind regards
+
+
+
+ carlton:
+
+lots of goodies in it 
+
+
+It is more frightening now…
+If we failed in project1 then we will be awarded free marks in Project2 Please conform that @carlton at least give us some awards for our hard work (Summer special offer), what do you say?
+I think something heavy is coming… But it’s 9:30, and nothing’s here yet. Taking their time, I see!
+We have marks but we are sending you a package of items as well, for your benefit.
+We have been waiting for you for a month… and our patience is wearing thin
+1306411745_marco_telugu-jpg-11280×720 133 KB
+you are dealing with the wrong wrong person
+sir its not showing anything for me, ive got no mail, what should i do?
+Here\'s a detailed description of the image:\n\n* **Type:** The image displays a table with data related to URL checks or validation.\n* **Columns:** The table has five columns labeled:\n * **email:** Appears to be an email address associated with the URL being checked (e.g., 22f3000118@ds.study.iitm.ac.in).\n * **url:** A URL string that is being evaluated (e.g., dog/diya, https://github.com/22f3000118/Project-1).\n * **result:** Indicates the success or failure of the check ("OK" or "FAIL").\n * **type:** Specifies the type of check being performed (e.g., "Docker", "Repo", "License", "Dockerfile", "Clone").\n * **message:** Provides a descriptive message regarding the result of the check (e.g., "No public DockerHub image exists", "LICENSE").\n* **Data:** The image captures a portion of the table showing several rows of data.\n* **Highlight:** The rows alternate in shading to improve readability.\n* **Content Summary:** The table appears to be logging the results of automated checks against URLs, potentially as part of a software build or deployment pipeline. It checks for things like Docker image availability, repository existence, licenses, and whether a Dockerfile is present.Screenshot 2025-03-29 at 11.24.19 pm811×206 29.2 KB
+You failed pre requisites check. Hence there is no evaluation email.
+i.e. the score is 0 which will be pushed to dashboard on after 1/4/25
+Only those that passed the pre requisite check got emails with scores.
+Sir can you check and say if I passed or not. The link that I submitted for project 1 in the gform contains two links. I wrote ‘and’ between two website link.
+My mail id: 23f3000975@ds.study.iitm.ac.in
+Sir, I hope you’re doing well. I haven’t received any email regarding Project 1 results. Could you please confirm if there’s an issue?
+my mail id: 23f2000798@ds.study.iitm.ac.in
+No issue with your submission, you will get a good score.
+Kind regards
+Hi you were supposed to provide just one github link in the format specified. You failed to do that and therefore your submission was not evaluated.
+Kind regards
+
+
+
+ 23f2004912:
+
+1306411745_marco_telugu-jpg-11280×720 133 KB
+
+
+tools in datascience1024×939 134 KB
+
+
+
+ carlton:
+
+1024×939 134 KB
+
+
+“Harder the shell, softer the soul” 
+Context - form acceptance
+And that’s precisely why I refer to him as Lord Carlton — calm on the outside, kind at the core. 
+Sir , I also didn’t received any mail regards proj 1 score ?
+Is my pre req passed or failed ??
+my mail id 23f1000598@ds.study.iitm.ac.in
+@carlton
+Sir, @carlton I also didn’t received any mail regarding Project 1 Score please check and clarify it

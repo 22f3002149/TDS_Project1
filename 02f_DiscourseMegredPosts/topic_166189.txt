@@ -1,0 +1,76 @@
+@carlton @s.anand
+dear sir
+i have taken tds in this term. after the first assignment there was no checkbox provided to any graded assignment .for this reason i just saved the assignment at the portal link .and now after the deadline its showing my assignment had not been submitted. pls do something please do it fast.
+
+
+
+
+GA2 - Deployment Tools - Discussion Thread [TDS Jan 2025] Tools in Data Science
+
+
+    We have removed that button, cause it was causing confusion among the students. 
+If you have saved your answers on the TDS portal then you need not worry, you will be marked. The button was just there to ensure you saw the assignment on the TDS portal. 
+Regards, 
+TDS TA
+  
+
+Read this
+I saved that too but right now scores of GA2 isn’t visible for me. And in score section it’s showing assignment not submitted. @Saransh_Saini
+Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal. Therefore seek does not know if you have submitted or not and by default says that it has not been submitted because it cannot see your external evaluation. There will not be a fix for this for some time.
+Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal.
+The scores will only be visible in the dashboard. Just ignore anything inside seek portal. The dashboard is where all your subject score cards exists.
+As stated in multiple places on discourse as well as in live sessions, The final score is always your last submission. If your dashboard score does not match your final submission score on the assignment page, only then contact us regarding your marks.
+Kind regards
+@Jivraj @iamprasna  i have taken tds in this term. after the first assignment there was no checkbox provided to any graded assignment .for this reason i just saved the assignment at the portal link .and now after the deadline its showing my assignment  had not been submitted. pls do something please do it fast.
+@23f3002530
+Topic moved to the appropriate category in order to get faster responses.
+Please make it easier for others to help you, by ensuring that topics are created in the correct categories.
+@23f3002530
+Please refer to this post.
+
+
+
+
+Tds: assignment is not submitting Tools in Data Science
+
+
+    Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal. Therefore seek does not know if you have submitted or not and by default says that it has not been submitted because it cannot see your external evaluation. There will not be a fix for this for some time. 
+Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. 
+The scores will only be visible in the dashboard. Just ignore anything inside se…
+  
+
+Kind regards
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a webpage, specifically an online quiz or assignment interface. It appears to be a graded assignment related to a course, likely in a technical or computer science field (given the mention of "hacking").\n\n**Key Elements:**\n\n1. **Header:** The top of the screen displays a browser interface with multiple tabs and a title including "TDS 2025 Jan GA1 - Large lan."\n2. **Quiz Status:** A yellow bar indicates the quiz ended on February 5, 2025, at 11:59 PM IST. It provides options to "Check All" and "Save".\n3. **Instructions/Notes:** The webpage includes text outlining guidelines for the assignment:\n * Addressing potential browser issues.\n * Allowing use of any resources (Internet, ChatGPT, libraries, frameworks).\n * Acknowledging that the quiz is "hackable" (meaning solutions could be found through coding/reverse engineering).\n * A note about running multiple servers simultaneously during checking/saving.\n4. **Support/Discussion Link:** A section inviting users to "Join the discussion on Discourse" if they have questions.\n5. **Login Information:** The page displays the user is logged in as "231004066@ds.study.iitm.ac.in" with a "Logout" button.\n6. **Recent Saves:** A list of saved submissions is shown, with timestamps (February 1, 2025) and scores (8). Each entry has a "Reload" button.\n7. **Footer:** A dark blue footer bar with a search bar.\n8. **System Information:** Displayed in the bottom right corner is the time and date (07:02:2025).\n\n**Overall, the screenshot depicts an online assignment interface that encourages resourceful problem-solving and even explicitly acknowledges the possibility of reverse-engineering the quiz.**Screenshot (313)1920×1080 243 KB
+Dear Bhavanagv,
+The scores have not been pushed to the dashboard yet. Ignore seek portal. Seek portal will not have your submission or your scores because it is evaluated externally from the seek portal.
+Kind regards
+I had submitted the assignment still it’s shwoing that my score is 0 and that i have not submitted the assignment.
+Can you please look into it as i had saved my answers as well timely.
+Here\'s a detailed description of the image:\n\n* **Overall Impression:** The image displays a list of "Recent saves" within a user interface, likely from a game or application. \n* **Heading:** A green heading reads "Recent saves."\n* **Save Entries:** Three save entries are listed, each with the following information:\n * **Button:** A green button labeled "Reload" on the left side of each entry. \n * **Timestamp:** The date and time of the save, all dated "2/2/2025" with times 9:04:58 PM, 9:04:53 PM and 9:04:51 PM. \n * **Score:** A "Score" value of "4" is displayed next to the timestamp for each entry.\n* **Background:** The background is dark, possibly black, which highlights the green elements.\n* **Visual Style:** The interface utilizes a simple, minimalist style with clear text and distinct button designs.image547×258 12.3 KB
+same thing with my assignment even though i submitted it
+Scores will soon be pushed to seek portal, till then it will show 0.
+Same for me…deadline is over and assignment not submitted…
+same issue here as well
+Yes, same observation for my assignment as well.
+Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal.
+The scores will only be visible in the dashboard. Just ignore anything inside the seek portal.
+As stated in multiple places in discourse as well as in live sessions, The final score is always your last submission.
+Kind regards
+There are some errors in grading for GA2 and  GA3 for TDS, even after submitting the assignments score 0 was given and the seek portal displayed assignment was not submitted given that the login was from my own account and was submitted before the time and still got a score of 0.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a screenshot of an online quiz or exam interface. It focuses on instructions, user information, and a log of saved progress.\n\n**Key Elements & Details:**\n\n1. **Instructions:** A numbered list provides guidelines for taking the quiz:\n * Reading material is provided.\n * Answers can be checked regularly using a "Check" button.\n * Saving progress is encouraged using a "Save" button.\n * Answers are saved in the browser (not the server).\n * The quiz is hackable, and using external tools like ChatGPT is allowed.\n * Note: Multiple servers must be running simultaneously while checking or saving answers.\n\n2. **Top Bar:** At the top, there\'s a bar displaying the current time (Wed, Feb 5, 2025, 11:59 PM IST) and buttons for "Check all" and "Save." A score of "0" is also displayed.\n\n3. **Discussion Link:** A blue banner encourages users to join a discussion on "Discourse" if they have questions.\n\n4. **User Information:** The image shows the user is logged in as "23f2000232@ds.study.iitm.ac.in", with a "Logout" button.\n\n5. **Recent Saves:** A section titled "Recent saves" displays a history of saved progress, including dates, times, and scores:\n * 2/5/2025, 11:29:19 PM, Score 6\n * 2/5/2025, 11:29:07 PM, Score 6\n * 2/5/2025, 11:00:34 PM, Score 4.5\n\n**Color Scheme:** The interface primarily uses a light background with blue and red highlights.\n\n**Overall, the image presents the interface of an online educational assessment platform that is unusually transparent about the possibility of external tool usage and server manipulation.**Screenshot 2025-02-07 2013161859×960 88.4 KB
+and the same happened for the 3rd assignment
+Please refer to this post.
+
+
+
+
+Tds: assignment is not submitting Tools in Data Science
+
+
+    Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. 
+The scores will only be visible in the dashboard. Just ignore anything inside the seek portal. 
+As stated in multiple places in discourse as well as in live sessions, The final score is always your last submission. 
+Kind regards
+  
+
+Only 1st Graded assignment scores are visible on dashboard.  I have submitted 2nd and 3rd GA before the deadline but still it showing “not submitted” on the seek portal…

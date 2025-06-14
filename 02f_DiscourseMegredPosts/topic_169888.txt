@@ -1,0 +1,88 @@
+Dear Learner,
+This is the discussion thread for Graded Assignment 7. Please post any queries related to it here.
+Deadline: 2025-03-26T18:29:00Z
+Is it compulsory to use microsoft powerpoint? Can we use google slides?
+We will be using scripts to check the submissions. You will have to use PowerPoint.
+Kind regards
+Hi @carlton,
+I was working on GA7 as part of Task 4 in 7.1. In task 4.Sheet1, the columns include Series ID, Item, Year, Month, and Value. While I could extract Series ID and Item, I couldn’t locate Year, Month, or Value in the dataset. Could someone please assist me with this?
+Here\'s a point-by-point description of the image:\n\n* **Type:** The image is a screenshot of a spreadsheet, likely from a program like Microsoft Excel or Google Sheets.\n* **Content:** The spreadsheet displays data related to "PPI Industry data for Pharmaceutical preparation manufacturing."\n* **Data Structure:** The data is organized in columns with headers:\n * Series Title\n * Series ID\n * Seasonality\n * Survey Name\n * Measure Data\n * Industry\n * Item\n* **Specific Data:** Two sets of data are shown.\n * The first set is for "Anticoagulants, hemostatics, and digitalis preparations" with Series ID "PCU3254123254127111."\n * The second set is for “Calcium channel blockers” with Series ID "PCU3254123254127114".\n* **Seasonality:** Both sets of data are identified as “Not Seasonally Adjusted”.\n* **Survey Name:** Both sets of data identify the "PPI Industry Data".\n\nIn summary, the image shows tabular data related to pharmaceutical manufacturing, specifically for anticoagulant/digitalis preparations and calcium channel blockers, with details like series ID and seasonality.image1393×657 67.8 KB
+There is another dataset provided for the other records.
+Here\'s a detailed description of the image:\n\n**Overall:** The image is a screenshot of a text-based instruction set, likely from an online assignment or data analysis task. \n\n**Content Breakdown:**\n\n* **Heading:** The top line reads "Question 7.1." indicating this is part of a larger assessment.\n* **Scenario:** It describes a scenario where "The Buddhi Daya Nyaay (BDN)" political party wants to analyze the impact of pharmaceutical exports to the US on India\'s economy. The export value for FY 2024 is specified as ₹2,42,888 Crores.\n* **Provided Files:** Two CSV file names are listed:\n * "Industry Product Segment Information"\n * "Monthly Price Indices for Segments (Two-year data)"\n* **Tasks:** A numbered list outlines the steps to be taken:\n 1. Create a new Google Sheet workbook with a specific naming convention (ga.7.1.rollno, replacing ‘rollno’ with the student’s IITM roll number, excluding the domain).\n 2. Share the workbook with a provided email address (se2002@study.iitm.ac.in), warning that submissions without this step won’t be considered.\n 3. Note that sheet names must be exactly as given below.\n 4. Specifies column names for Sheet1 (Series ID, Item, Year, Month, Value).\n 5. Instructions to create a pivot table in Sheet2, using Item as rows, Year and Month as columns, following a specific hierarchy for Value. \n\n**Overall Impression:** The image details a data analysis assignment requiring the use of Google Sheets, provided CSV files, and a specific workflow for data manipulation and visualization.image1227×791 78.2 KB
+Monthly Price Indices file have those columns.
+@Jivraj
+In the GA 7.1 part it is said that we need data of which columns are
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays a header row for a spreadsheet or data table, labeled "Sheet1".\n* **Column Headers:** The headers indicate that the data is organized into five columns:\n * "Series ID"\n * "Item"\n * "Year"\n * "Month"\n * "Value"\n* **Visual Style:** The text is in a basic sans-serif font, appearing as if part of a spreadsheet application or data analysis tool.\n* **Overall Impression:** The image suggests a data set intended for time-series analysis, where values are associated with specific items, years, and months.
+but the dataset provided has no column named “Item”
+Here\'s a detailed description of the image:\n\n* **Type:** The image is a screenshot of a data table.\n* **Structure:** The table has five columns labeled "Series ID," "Year," "Period," "Label," and "Value."\n* **Data:** The first row displays the data "PCU3254-3254," "2023," "M01," "2023 Jan," and "582.445."\n* **Visual Features:** The table is simple, with a black header row and white data cells. It appears to be a spreadsheet or database output.
+Thanks a lot for pointing out and sorry it’s my bad missed it.
+Item is there in other sheet we might have to join them to get items.
+We have to extract all id’s and their respective item from other sheet and add in first sheet with respect to id’s .
+@carlton Sir I don’t have Microsoft PowerPoint. What should I do ?
+Use the free version on Microsoft 365
+Below items don’t have prices.
+
+
+
+
+PCU3254123254127111
+Anticoagulants, hemostatics, and digitalis preparations
+
+
+
+
+PCU3254123254127114
+Calcium channel blockers
+
+
+PCU325412325412MM
+Miscellaneous receipts
+
+
+PCU325412325412D112OC
+Other digestive or genito-urinary preparations, over-the-counter
+
+
+PCU325412325412D113
+Antacids
+
+
+PCU325412325412SS
+Secondary products
+
+
+PCU3254123254127112
+ACE inhibitors
+
+
+
+Some items don’t have prices for all 24 months.
+Although the assignment says 24 months (I assumed 2023 January to 2024 December) data, many items have prices for 2025 Jan as well.
+
+Monthly Price Indices for Segments (Two-year data)
+
+Shall I delete the records for which price is not available?
+Here\'s a detailed description of the image:\n\n**Overall:**\n\nThe image displays a screenshot of a spreadsheet, likely from a program like Microsoft Excel. The spreadsheet contains data related to the "Sum of Value" of various pharmaceutical/medical items across different months. \n\n**Specific Details:**\n\n* **Columns:** The spreadsheet is organized with columns for "Year," "Month," "Total," and then individual months (M01, M02, M03, M04, M05) of the year 2023.\n* **Rows:** Each row represents a specific "Item" category, including:\n * ACE inhibitors\n * Analgesics\n * Antacids\n * Anticoagulants, hemostatics, and digitalis preparations\n * Anticonvulsants\n * Antidepressants\n * Antihistamines and bronchodilators, including antiasthenics\n * Broad and medium spectrum antibiotics\n * Calcium channel blockers\n * Cancer therapy products\n * Hormones and oral contraceptives\n * Insulin/antidiabetes products\n * Miscellaneous receipts\n * Multivitamins\n * Other cardiovascular preparations\n * Other central nervous system and sense organs\n * Other digestive or genito-urinary, over-the-counter\n * Other digestive or genito-urinary preparations\n * Other respiratory system preparations, prescription\n * Other vitamins and mineral preparations, dosage\n * Other wound healing preparations\n * Outer preparations for dermatoses\n* **Data:** Each cell at the intersection of a row (Item) and a column (Month/Total) contains a numerical value, likely representing the monetary sum of sales or value for that item in that month.\n* **Formatting:** The data is presented in a standard spreadsheet format, with gridlines separating the cells. A few rows have \'0\' values.\n* **Highlighting:** The cell A4 is highlighted and says "ACE inhibitors".\n\n**In essence, this spreadsheet tracks the financial value of various medical/pharmaceutical items sold or accounted for each month.**image1290×648 53.1 KB
+@carlton @Jivraj
+How to give the access to power point slides with the edit option ?
+@carlton   Can you please advise regarding the ga.7.2 as the The current top 5 countries by GDP in 2014 from the dataset are actually aggregated economic groups (not individual countries). can i proceed with that or I need to filter only the individual countries
+once i submitted the answers. but when i clicked on edit response and it deleted all the submitted answers. What to do in this case @carlton @Jivraj @Saransh_Saini
+Hi Tanya,
+Both you responses have been recorded. So it has not been deleted. Its just the way google forms works, it does not reload your previous responses.
+Kind regards
+The question asked for top 5 countries. So that would be the approach for this question, not aggregated economic groups.
+Hi @carlton sir,
+I have received the bonus marks email with 5 additional HTML files for peer review. However, I noticed that one of these files was also included in the initial peer grading email.
+Could you please clarify if I should fill out the peer review form for this particular file again, or should I skip it since it has already been graded?
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a Gmail inbox. It shows a list of email conversations, focusing on emails related to peer review submissions.\n\n**Key Elements and Details:**\n\n1. **Gmail Interface:** The typical Gmail interface is visible, with sections for mail, conversations, and spaces. A search bar with the query "peer review" is at the top.\n2. **Email Conversations:** Two email conversations are prominently displayed. Both are from "22ti se2002".\n3. **Email Subject:** The subject lines indicate these emails are related to the "TDS Jan [25] BONUS 5 Marks to Score" and "Peer allocations". The email asks for three peer evaluations to receive a grade.\n4. **Attachments:** Each email has several HTML file attachments listed, indicated by filenames such as "23f3003944.html", "23f3001178.html", "23f20011738.html", "24f10022555.html", and "23f3003944.html" .\n5. **Timestamps:** The emails are dated April 1st and 5:26PM.\n6. **Highlighting:** A few of the HTML attachment filenames are highlighted with purple boxes.10000415651280×349 87.7 KB
+Hi Shambhavi, Thanks for the update. We will look into it.
+Thanks once again
+Sir,
+In case we are not provided access to view their respective sheets, we would have no option but to either leave the column blank or mark it as 0. However, if others have marked it differently based on their available information, there is a possibility that our responses may vary — potentially exceeding the permissible variance limit of ±33%.
+In such a scenario, would this mean we would not be eligible for the bonus?
+Additionally, it would be really helpful if a uniform approach or standard marking could be communicated for such cases where access is not granted. This would ensure consistency across all submissions and avoid discrepancies arising from random or subjective entries, which seems to be happening currently.
+If you are not provided access, contact the peer. Their email is there in the html file. It’s in the peers interest and yours. That’s an important aspect of GA7, it’s to get people to work together and collaborate.
+Peer reviews like the real world is going to be messy. The way to reduce the messiness is to communicate with one another.
+@carlton
+sir can you please clarify what do we have to write in google form if there is no submission?
+You have two options. Get in touch with the peer (you have their email address), this is the recommended approach. Or you could give them zero because you were not able to evaluate their submission.

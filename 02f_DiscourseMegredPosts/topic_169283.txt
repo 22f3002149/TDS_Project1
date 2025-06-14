@@ -1,0 +1,189 @@
+Please post any questions related to Graded Assignment 6 - Data Analysis
+Please use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.
+Deadline 2025-03-15T18:30:00Z
+The answer choices for questions 1 and 2 in graded assignment 6 are quite confusing. Both questions are single-select, yet three out of the four options are correct in each case. I’m unsure whether to choose one of the correct options or if the question is actually asking for the incorrect one. Could someone please clarify?
+@carlton
+@Jivraj @Saransh_Saini
+I have similar concern
+For Q1, I used the following code:
+print(f'Pearson correlation for Karnataka between price retention and column')
+kk = df[df['State'] == 'Karnataka']
+for col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:
+    pearson_corr = kk['price_retention'].corr(kk[col])
+    print(f'\t{col:25} : {pearson_corr:.2f}')
+
+And got the following output:
+Pearson correlation for Karnataka between price retention and column
+	Mileage (km/l)            : 0.03
+	Avg Daily Distance (km)   : -0.06
+	Engine Capacity (cc)      : -0.04
+
+Whereas options are below where none of them are correct.
+model='gemma3:27b' created_at='2025-06-13T11:59:58.033177353Z' done=True done_reason='stop' total_duration=34907738665 load_duration=17937532 prompt_eval_count=323 prompt_eval_duration=18230957063 eval_count=177 eval_duration=16658127432 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n* **Type:** The image displays a list of radio button options, likely from a user interface or data selection menu.\n* **Content:** Each line represents a feature or variable related to vehicle data, including:\n * 'Mileage: 0.95'\n * 'AvgDistance: -0.05' (currently selected, indicated by the filled blue circle)\n * 'Mileage: 0.21'\n * 'EngineCapacity: 0.17'\n* **Format:** Each item consists of a feature name (e.g., 'Mileage', 'AvgDistance') followed by a numeric value.\n* **Appearance:** The list is presented on a light-colored background with simple text and radio button indicators.", thinking=None, images=None, tool_calls=None)image281×219 9.1 KB
+Whereas for Q2 (Punjab and Yamaha) I used the following code:
+print(f'Pearson correlation for Punjab and Yamaha between price retention and column')
+pb = df[(df['State'] == 'Punjab') &amp; (df['Brand'] == 'Yamaha')]
+for col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:
+    pearson_corr = pb['price_retention'].corr(pb[col])
+    print(f'\t{col:25} : {pearson_corr:.2f}')
+
+and got the following answers:
+Pearson correlation for Punjab and Yamaha between price retention and column
+	Mileage (km/l)            : 0.24
+	Avg Daily Distance (km)   : -0.06
+	Engine Capacity (cc)      : -0.08
+
+The options for Q2 are given below and 2 of them are correct (AvgDistance and Mileage).
+model='gemma3:27b' created_at='2025-06-14T04:51:48.962002584Z' done=True done_reason='stop' total_duration=36916009701 load_duration=18619624 prompt_eval_count=323 prompt_eval_duration=18544845584 eval_count=190 eval_duration=18351894753 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n* **Type:** The image displays a list of selectable options, likely from a user interface.\n* **Content:** The list consists of four entries, each representing a vehicle characteristic:\n * Mileage: 0.95\n * AvgDistance: -0.06\n * Mileage: 0.24 (This option is currently selected, indicated by a blue filled circle.)\n * EngineCapacity: -0.08\n* **Format:** Each entry consists of a radio button (an open circle, filled when selected) followed by the characteristic name and its corresponding numerical value. \n* **Values:** The values are numerical, and some are negative, which could indicate errors or specific data representations.\n* **Context:** Based on the characteristic names, the image likely relates to vehicle data or parameters within a vehicle selection or filtering process.", thinking=None, images=None, tool_calls=None)image278×216 9.19 KB
+@24f2006061 We are looking into it. We will update based on our analysis. Thanks for letting us know.
+Kind regards
+I used a python script to get the solution to quesiton 1 of week 6 graded assignment. It matches three options. Is this a bug or like we then need to analyze using the pearson coefficient to determine which option is the correct one
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a data analysis context, likely from a software interface or documentation. It displays the results of a correlation analysis evaluating factors influencing motorcycle resale value.\n\n**Detailed Breakdown:**\n\n* **Text Header:** The top line of text states the context: "As a strategic consultant for a premium motorcycle dealership chain, your objective is to analyze the key factors influencing motorcycle resale value in Delhi. Specifically, you will evaluate the impact of mileage (km?), average daily distance traveled, and engine capacity on price retention (%) for Yamaha. Use Pearson Correlation Coefficient and price retention is (resale price / original price)."\n* **Data Points:** Four data points are listed with their corresponding correlation coefficients:\n * Mileage: 0.01\n * AvgDistance: 0.00\n * EngineCapacity: 0.13\n * FuelCapacity: 0.95\n* **Visual Indicators:** Each data point is preceded by a circular icon. An additional red warning icon is displayed next to “EngineCapacity: 0.13”. This suggests a potential issue or observation associated with that variable.\n\n**Key Takeaways:**\n\nThe image focuses on presenting the results of a correlation analysis, likely used to identify factors influencing motorcycle resale value. The correlation coefficients represent the strength and direction of the relationship between each factor (mileage, average distance, engine capacity, and fuel capacity) and the price retention. Fuel capacity shows a high positive correlation with price retention (0.95), while other factors have very low correlation.image1383×263 25 KB
+Dear Sirs, Can we have some response on these issues related particularly to the questions 1 and 2 of Graded Assignment 6. It looks like multiple options are correct in the given options. Any guidance or hint, on how to arrive at the right answer will be helpful. Thanks and regards. @carlton @Jivraj @Saransh_Saini
+Yeah…Even I am facing the same issue. Out of the 4 options provided, 3 options are correct in my case both for Q1 &amp; Q2, but both these questions are single-choice questions. Kindly look into it and help us out @carlton !
+I guess for both Q1 &amp; Q2, we need to find the option that is having stronger correlation (positive/negative). Please correct me if I am wrong.
+Any updates on these? I am too facing the same issue.
+@carlton @Jivraj @Saransh_Saini
+In GA6 for first 2 questions 3 out of 4 options are correct. Even the question is not clearly asking anything. Kindly suggest are we supposed to select the wrong one
+model='gemma3:27b' created_at='2025-06-13T16:12:23.540757317Z' done=True done_reason='stop' total_duration=41755677729 load_duration=18098667 prompt_eval_count=323 prompt_eval_duration=18159790945 eval_count=239 eval_duration=23576868266 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Content:**\n\n* The image displays a question from what appears to be a data analytics or business strategy assessment.\n* **Text:** The question asks the user to analyze key factors influencing motorcycle resale value in Maharashtra, specifically mileage (km/l), average daily distance traveled, and engine capacity. The question also specifies that the user should use Pearson Correlation Coefficient and price retention (resale price/original price) for Yamaha motorcycles.\n* **Multiple Choice Options:** There are four multiple-choice options presented, each representing a correlation coefficient value for different variables:\n * 'AvgDistance: 0.09'\n * 'Mileage: 0.95' (This option is highlighted/selected)\n * 'EngineCapacity: -0.02'\n * 'Mileage: 0.12'\n* **Point Value:** The question is worth 1 point.\n\n**Overall Impression:** The image is a screenshot of a multiple-choice question related to data analysis, correlation, and factors influencing resale value in the context of motorcycles.", thinking=None, images=None, tool_calls=None)image2083×575 47.6 KB
+Kindly update us regarding the status of Q1 &amp; Q2 @carlton @Jivraj
+@Jivraj @carlton @Saransh_Saini
+Dear TDS Team,
+There are multiple issues in Graded Assignment 6 that require urgent attention:
+
+Questions 1 and 2, along with their options, are ambiguous.
+In Questions 3 and 4, I am unable to obtain an exact answer that matches any of the given options, despite trying multiple approaches, including the Excel regression method and other models in a Google Colab file.
+The data for Question 10 is missing. I attempted to run the shapefile in QGIS, but it resulted in an error. Additionally, I searched for the shapefile of New York roads on official websites, but their servers are currently under maintenance.
+
+The assignment deadline is approaching, but these issues remain unresolved. Kindly look into this matter at the earliest and provide a resolution as soon as possible.
+Thank you for your support.
+Yes, there are no specifics in Q1 to Q4 and are quite ambiguous.
+For instance:
+
+forecast the 2027 resale value of the Hero - HF Deluxe in Gujarat, using historical data.
+
+but is this talking about the average resale value as no input features are specified?
+Let’s wait for their response.
+I submitted nearby option for Q3 and Q4
+@Jivraj @carlton @Saransh_Saini
+Can you please provide any update ASAP as the deadline for this GA coincides with Quiz 2. With many ambiguities unresolved it’s hard to solve this and study for Quiz 2 (and do offline college work even though that’s not your problem).
+Thanks
+Hi @all
+Question intends you to select most correlated one.
+Select option which is absolute highest.
+@Jivraj  - Can you please check answer choices for Q7 for GA6 where no choices are matching with the answer. The answer is coming to around 11.5 kms which is 11500 meters.
+Q.A wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Pine Pines Junction : (26.5596,-99.5336) ;Maple Fields Station : (26.4212,-99.4597);South Glen Crossing : (26.5962,-99.5243);Cedar Creek Retreat : (26.56,-99.4519) &amp; Central Command Post Location: (26.4644,-99.4771) Using the Haversine package, calculate the distance from the Central Command Post to Pine Pines Junction. Which of the following is the MOST ACCURATE distance
+model='gemma3:27b' created_at='2025-06-13T08:48:12.924763276Z' done=True done_reason='stop' total_duration=34741907934 load_duration=18222814 prompt_eval_count=323 prompt_eval_duration=18881867801 eval_count=166 eval_duration=15841021473 message=Message(role='assistant', content="Here's a breakdown of the image's content:\n\n* **Text-based question:** The image displays a question posed to a data analyst acting as a strategic consultant for a premium motorcycle dealership. \n* **Objective:** The objective is to analyze factors influencing motorcycle resale value in Maharashtra, specifically for Honda motorcycles.\n* **Factors to evaluate:** The question asks to evaluate the impact of mileage (km/l), average daily distance traveled, and engine capacity on price retention (resale price / original price).\n* **Method:** Use Pearson Correlation Coefficient to analyze the relationship between the factors and price retention.\n* **Multiple choice answers:** The image presents four multiple-choice answers relating to the correlation values of the three factors. Currently, 'Mileage: -0.04' is selected.\n\n\n\n", thinking=None, images=None, tool_calls=None)image1318×377 34.2 KB
+what to do if 3 options have same value -0.04 and all are correct?
+@carlton @Jivraj
+My question 7 for GA6 is :
+A wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Silver Springs Community : (42.1029,-85.665) ;Pleasant Harbor Community : (42.1238,-85.9043);Summit Shores Village : (42.0415,-85.8696);River Retreat Outpost : (42.0417,-85.6836) &amp; Central Command Post Location: (42.0587,-85.7226) Using the Haversine package, calculate the distance from the Central Command Post to Silver Springs Community. Which of the following is the MOST ACCURATE distance
+Whose options provided are :
+10418 meters
+12287 meters
+10965 meters
+11149 meters
+However, after trying all methods out there my distance comes out to be 6873 meters, I selected 10418 as the answer (closest approximation to 6873 meters)
+I assume that the question must have been central command post to summit shores village (whose answer turns out to be 12287 meters)
+Kindly look into the question, and let me know about the same (the destination from central command post)
+Have you succeeded in running the shape file for Q10? It seems to have some error.
+@lakshaygarg654
+No,
+I use google to get MTFCC code for given road segment and  after that mtfcc pdf to classify that road segment.
+I  downloaded the complete shape file zip from the census.gov site.
+Here is the link: https://www2.census.gov/geo/tiger/TIGER2024/PRISECROADS/tl_2024_36_prisecroads.zip
+It works fine in QGIS.
+@lakshaygarg654
+they have not provide all the files needed to read that shp file in the question .
+but your link includes them. thanks…
+I tried to access shapefile from official website 4-5 days ago, but server was under maintenance. I will check again Q10 after quiz 2.
+Thanks for sharing.
+My question 9 for GA6 is :
+@carlton @Jivraj @Saransh_Saini
+model='gemma3:27b' created_at='2025-06-13T08:55:15.116970292Z' done=True done_reason='stop' total_duration=70489119234 load_duration=18741244 prompt_eval_count=323 prompt_eval_duration=18464216495 eval_count=512 eval_duration=52005181680 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall:** The image displays a Python code snippet with accompanying output, likely from a Jupyter Notebook or similar interactive coding environment. The code calculates and sorts distances between various communities and a central command post using the Haversine formula.\n\n**Code Breakdown:**\n\n1. **Import Statement:** `from haversine import haversine` imports the 'haversine' function from the 'haversine' library, used to calculate the great-circle distance between two points on a sphere given their longitudes and latitudes.\n\n2. **Coordinate Definitions:**\n * Several variables are defined to hold the latitude and longitude coordinates of different locations: `OakParkTown`, `EastSpringsSettlement`, `EastFieldsJunction`, `RedPointTown`, and `CentralCommandPostLocation`. These are defined as tuples representing (latitude, longitude).\n\n3. **Distance Calculation:**\n * A dictionary named `distances` is created to store the calculated distances between each community and the central command post.\n * The `haversine` function is called for each community, passing the community's coordinates and the central command post's coordinates as arguments. The results are stored as values in the `distances` dictionary with the community names as keys.\n\n4. **Sorting:**\n * The `sorted()` function is used to sort the `distances` dictionary based on the distance values using `key=distances.get`. This creates a list of tuples sorted by distance. The result is assigned to the `optimal_sequence` variable.\n\n5. **Printing the Results:**\n * A `for` loop iterates through the `optimal_sequence` and prints each community along with its calculated distance from the central command post in a formatted string.\n\n**Output:**\n\nThe code's output lists the communities in order of their distance from the central command post:\n\n1. EastFieldsJunction - Distance: 7.84 km\n2. EastSpringsSettlement - Distance: 9.74 km\n3. RedPointTown - Distance: 9.81 km\n4. OakParkTown - Distance: 11.76 km\n\n**In summary:** The image demonstrates a Python program that calculates the distances between several locations using the Haversine formula and then sorts these locations by distance, providing an optimal evacuation sequence.", thinking=None, images=None, tool_calls=None)Screenshot 2025-03-15 205444878×668 38.1 KB
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a question related to an evacuation strategy based on proximity, likely from an online quiz or assignment.\n\n**Key Elements:**\n\n* **Text-Based Question:** The core of the image is a text question asking for the optimal sequence of evacuating four communities using a "nearest community first" strategy.\n* **Community Coordinates:** The names and coordinates (latitude and longitude) of four communities are provided:\n * Oak Park Town: (27.0096, 72.3822)\n * East Springs Settlement: (27.0769, 72.394)\n * East Fields Junction: (27.0961, 72.4248)\n * Red Point Town: (26.9874, 72.426)\n * Central Command Post Location: (27.0552, 72.4893)\n* **Multiple Choice Options:** Four multiple-choice options are presented, each representing a different order of evacuation. Each option starts and ends with “[Start/End]”.\n* **Background:** The background seems to be a code/text editor view, and a snippet of Python code is visible on the right-hand side. This suggests the problem might be part of a coding or data analysis exercise.\n\n**Overall, the image presents a logistical problem framed as an evacuation scenario requiring consideration of distances and an optimal sequence to ensure safety.**Screenshot 2025-03-15 2054561333×366 45.8 KB
+I solved it in colab but options are getting mismatched there…kindly clarify this issue..
+for the above question the options are None of these are matching and answer is around 11.5 kms
+3848 meters
+6265 meters
+4110 meters
+5106 meters
+For 7th Question in GA6 I got the answer 14265.93 Meters but the option I have in 7th are
+6069 meters
+7687 meters
+6106 meters
+7035 meters
+@carlton @Jivraj
+@carlton @Jivraj @Saransh_Saini
+for question 4, i have tried =forecast and also =forecast.ets, both of them are not working. There are two columns for years. One is year of manufacturing, another is year of registration. which one to take.
+for question 7, none of the options match. I am selecting the MOST ACCURATE among the given options. Hope, it is correct
+Can anyone help me out on how to approach and solve the 10th question please!?
+Check the distances of other locations from the central location. One student found Question 7 of the GA6 Option Set based on the distances of other points, which do not match the requirements of Question 7.
+i have the same issue
+yes i have the same issue
+and i got the same answer and am give the same options
+@carlton sir what to do?
+@Jivraj @Saransh_Saini
+For 7th Question in GA6 I got the answer 14265.9275 Meters but the option I have in 7th are
+6069 meters
+7687 meters
+6106 meters
+7035 meters
+Hello Sir,
+Can you please check if this is the right answer. As per email received from @carlton sir we should select the absolute maximum value.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a question presented within an online assessment or learning platform. The question relates to data analysis, specifically Pearson Correlation Coefficient values. \n\n**Key Elements:**\n\n* **Question Text:** At the top, there is a prompt that sets the context: "As a strategic consultant for a premium motorcycle dealership chain, your objective is to analyze the key factors influencing motorcycle resale value in Uttar Pradesh. Specifically, you will evaluate the impact of mileage (km/l), average daily distance traveled, and engine capacity on price retention (%) for Royal Enfield. Use Pearson Correlation Coefficient and price retention is (resale price / original price)."\n* **Multiple Choice Options:** Below the question text are four multiple-choice options, each representing a Pearson Correlation Coefficient value for a specific factor:\n * Mileage: 0.01\n * EngineCapacity: 0.95\n * AvgDistance: -0.13\n * EngineCapacity: 0.09\n* **Incorrect Answer Indication:** The option "AvgDistance: -0.13" is selected and marked as incorrect in red, along with a score of 0.\n* **Accepted Answer:** At the bottom, the correct answer, "EngineCapacity: 0.09", is displayed.\n\n**Overall, the image is a feedback screen from an assessment question testing the understanding of Pearson Correlation Coefficients in a real-world data analysis scenario.**image978×393 23.3 KB
+Example : If we get answers as -0.3 and 0.2 then -0.3 is the right answer as it’s absolut value is maximum.
+For the first question the correlation matrix is as follows,
+model='gemma3:27b' created_at='2025-06-13T07:55:35.655362462Z' done=True done_reason='stop' total_duration=54461263613 load_duration=17967741 prompt_eval_count=323 prompt_eval_duration=18149520186 eval_count=369 eval_duration=36292963298 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:**\n\nThe image displays a correlation matrix, visually representing the statistical relationships between four variables: Mileage (km/l), Average Daily Distance (km), Engine Capacity (cc), and Price Retention (%).\n\n**Key Details:**\n\n* **Matrix Format:** The data is arranged in a square grid where each cell represents the correlation coefficient between two variables.\n* **Variables:** The rows and columns of the matrix are labeled with the four variables mentioned above.\n* **Color Coding:** The correlation coefficients are color-coded:\n * **Red:** Indicates a positive correlation (as one variable increases, the other tends to increase).\n * **Blue:** Indicates a negative correlation (as one variable increases, the other tends to decrease).\n * **Intensity of Color:** The deeper the red or blue, the stronger the correlation. Lighter shades indicate weaker correlations.\n* **Diagonal:** The diagonal elements of the matrix are always 1.00, representing the correlation of a variable with itself.\n* **Specific Correlations (as visible in the image):**\n * Engine Capacity & Price Retention: Correlation of 0.09\n * Price Retention & Avg Daily Distance: Correlation of -0.13\n * Engine Capacity & Avg Daily Distance: Correlation of 0.04\n * Engine Capacity & Mileage: Correlation of 0.01\n * Price Retention & Mileage: Correlation of 0.01\n\n**Purpose:**\n\nThe correlation matrix is used to understand the strength and direction of linear relationships between different variables in a dataset. It's a valuable tool for feature selection, data exploration, and building statistical models.", thinking=None, images=None, tool_calls=None)image748×431 17.5 KB
+So shouldn’t it be -0.13?
+Thanks for the colour picture.
+If you read the aforementioned email…
+Here\'s a detailed description of the image:\n\n**Overall:**\n\nThe image displays a screenshot of an email titled "[TDS Jan 25] GA 6 Clarification." The email appears to be a communication regarding questions on a test or assignment. \n\n**Specific Elements:**\n\n* **Sender:** The sender\'s email address is "donot\\_reply@studym.ac.in" and it is addressed to "25tl\\_se2002-announce."\n* **Subject:** The subject line reads "[TDS Jan 25] GA 6 Clarification."\n* **Body of the Email:**\n * It begins with "Dear Learner."\n * The email clarifies that questions 1 and 2 in GA6 were not very clear.\n * The correct answer being sought is the "Absolute Maximum Correlation Coefficient."\n * An example is provided: If the matching options are -0.3 and 0.2, the correct answer is -0.3.\n * It assures the recipient not to worry if the portal marks are incorrect as the correct scores will be pushed to the dashboard if the correct option was chosen.\n * The email ends with "Kind regards."\n* **Visual Cues:** A small gray circular icon with the letter "d" is present next to the sender\'s email address. Yellow highlighting emphasizes specific parts of the message.\n\n**Overall Impression:** The email serves as a clarification and reassurance to students regarding a test/assignment, specifically addressing a potential discrepancy in scoring.Screenshot 2025-03-17 at 9.09.55 am1760×632 65.4 KB
+Kind regards (in colour )
+Thank you sir. i have got questions 1 and 2 both marked as 0.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a question from an assessment or online learning platform related to data analysis. \n\n**Content Breakdown:**\n\n* **Question Text:** A question asks a strategic consultant to analyze key factors influencing motorcycle resale value in Maharashtra, specifically relating mileage, average daily distance traveled, and engine capacity to price retention. It specifies the use of the Pearson Correlation Coefficient.\n* **Multiple Choice Options:** Four multiple-choice options are presented, each representing a correlation coefficient for different variables ("AvgDistance: 0.01", "Mileage: 0.03", "EngineCapacity: -0.06", and "Mileage: 0.95").\n* **Feedback:** The response indicates the selected answer is incorrect, and the score is 0.\n* **Accepted Answer:** The correct answer is "Mileage: 0.03".\n* **Formatting:** The question and options are structured as a quiz item, with radio buttons for selection. The text is in a clear, readable font.\n\n**Overall Context:** The image represents a data analysis task or test question focused on interpreting correlation coefficients in a practical business scenario.image962×459 29.1 KB
+In my case Please note the above two questions are asked to calculate pearson correlation coefficient for KTM brand and for maharashtra and Karnataka states.
+I have used excel to calculate the pearson correlation coefficient. Below the values I got for each question. Please verify.
+|pearson correlation coefficient between impact of Mileage and Price retention for kTM brand for Karnataka||
+-0.026685695
+|pearson correlation coefficient between average distance travelled and Price retention for kTM for karnataka||
+0.003953219
+|pearson correlation coefficient between average Engine capacity and Price retention for kTM for karnataka||
+-0.010839295
+|pearson correlation coefficient between impact of Mileage and Price retention for kTM brand for maharashta||
+0.029128825
+|pearson correlation coefficient between average distance travelled and Price retention for kTM for Maharashtra||
+0.013019585
+|pearson correlation coefficient between average Engine capacity and Price retention for kTM for Maharashtra||
+-0.056866212
+@Jivraj @carlton
+Dear sirs,
+I have question no 7 got marked as 0. Please check the question below and the haversine distance for the given post comes to around 11.5 kms which is not matccing with any of the options and I have selected the closest answer. please check and let me know.
+model='gemma3:27b' created_at='2025-06-13T09:32:45.607195608Z' done=True done_reason='stop' total_duration=48138252247 load_duration=19133844 prompt_eval_count=323 prompt_eval_duration=18644668926 eval_count=298 eval_duration=29473660557 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a multiple-choice question from what appears to be an online quiz or assessment.\n\n**Textual Content:**\n\n* **Question:** The question describes a wildfire situation requiring emergency evacuation coordination. It specifies four remote communities (Pine Pines Junction, Maple Fields Station, South Glen Crossing, and Cedar Creek Retreat) and provides their coordinates.\n* **Task:** The question asks the user to calculate the distance between the Central Command Post and Pine Pines Junction using the Haversine package.\n* **Answer Choices:** There are four multiple-choice answers given in meters: 3848, 6265, 4110, and 5106.\n* **Feedback:** The screenshot indicates the user answered incorrectly. The score is 0, and the correct answer is given as 5106 meters.\n\n**Visual Elements:**\n\n* The text is presented in a clear, digital format typical of an online quiz interface.\n* There are radio buttons to select the multiple-choice answer.\n* Feedback is provided in red text indicating that the user's answer was incorrect.\n* The correct answer is highlighted in green.\n\n**Overall, the image depicts a scenario-based question about calculating distances using coordinates, likely from a geography, data analysis, or emergency management course.**", thinking=None, images=None, tool_calls=None)image935×529 40.1 KB
+@carlton @Jivraj
+I did raise the question 2 days before the GA6 Deadline and doing so again after being marked as incorrect
+My question 7 was A wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Silver Springs Community : (42.1029,-85.665) ;Pleasant Harbor Community : (42.1238,-85.9043);Summit Shores Village : (42.0415,-85.8696);River Retreat Outpost : (42.0417,-85.6836) &amp; Central Command Post Location: (42.0587,-85.7226) Using the Haversine package, calculate the distance from the Central Command Post to Silver Springs Community. Which of the following is the MOST ACCURATE distance
+10418 meters
+12287 meters
+10965 meters
+11149 meters
+Whose right answer turned out 6873, however the answer pushed is 12287 meters, which is nowhere near the closest options (it would’ve been correct if the destination was summit shores village which isn’t the case with this question)
+Also, my question 4 was :
+As an investment analyst monitoring motorcycle resale values, develop a forecasting model to predict future resale prices by brand and segment, considering seasonality and long-term trends. Specifically, forecast the 2027 resale value of the Kawasaki - Ninja 300 in Tamil Nadu, using historical data.
+134483
+94774
+150666
+199711
+Whose correct option (through different methods and algorithms) was approximately closest to 94774 and again answer pushed is 150666 which again turns out to be incorrect
+So is the case with questions 1 and 2 (where answers aren’t pushed according to absolute values, but as conveyed earlier, I believe this shall be resolved)
+Kindly look into it
+Thanks and Regards
+@carlton @Jivraj @Saransh_Saini
+In Q4 , neither which regression model to use is given nor the what random state to use is given. I tried linear regression, random forest regression but it is giving   answer which vary each time I compute, also, the option values are quite close.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image shows a question from what appears to be an assessment or quiz, specifically relating to data analysis and forecasting. The question is about predicting resale values of motorcycles.\n\n**Key Elements:**\n\n* **Question Text:** The question poses a scenario: “As an investment analyst monitoring motorcycle resale values, develop a forecasting model to predict future resale prices by brand and segment, considering seasonality and long-term trends. Specifically, forecast the 2027 resale value of the Hero - HF Deluxe in Punjab, using historical data.”\n* **Multiple Choice Options:** Four multiple-choice options are provided as potential answers:\n * 194515\n * 185108\n * 142646\n * 152609\n* **Feedback:** Below the options, there\'s a message indicating: "No, the answer is incorrect."\n* **Score:** The score is displayed as "Score: 0" indicating the user answered incorrectly and received zero points.\n\n**Context:** The image suggests a data analytics or business intelligence exercise where the user is expected to use forecasting techniques to solve a practical problem.image1227×446 24 KB
+@all
+we are looking into problems with question 4, 6 and 10.
+Hi,
+Have the corrections been done on GA6 marks?
+Yes, corrections have been done in Ga6 marks.
+Just to confirm, were the answers shown on the portal correct because I’m getting the same score as shown in the portal.

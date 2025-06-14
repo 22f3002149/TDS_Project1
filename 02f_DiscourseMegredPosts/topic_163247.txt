@@ -1,0 +1,990 @@
+Please post any questions related to Graded Assignment 3 - Large Language Models.
+
+Important Instruction
+Please use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. See below code for example
+ping exam.sanand.workers.dev
+
+Pinging exam.sanand.workers.dev [104.21.31.149] with 32 bytes of data:
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+
+Ping statistics for 104.21.31.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 9ms, Average = 8ms
+
+Visit this link for more details: Extended Syntax | Markdown Guide.
+A friendly suggestion: kindly go through Discourse Docs! 
+
+Deadline: Sunday, February 2, 2025 6:29 PM
+@carlton @Jivraj @Saransh_Saini
+how to get the dummy API key?
+Hi Nilay,
+In order to make a api call to openai chat completions you are required to send authentication information(openai key) in headers. For first question of GA3 you don’t have to send actual(working) api key, any dummy api key would work(you can put your name, or tds anything works)
+kind regards
+which API should i use in 7th question
+need help in question 4th. how can i correct this json body? sir  @Jivraj
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract text from this image."
+    },
+    {
+      "role": "user",
+      "content": {
+        "image_url": "data:image/png;base64,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"
+      }
+    }
+  ]
+}
+
+
+error:The JSON body must have 1 message
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "text": "Extract text from this image.",
+        "image_url": "data:image/png;base64,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"
+      }
+    }
+  ]
+}
+
+
+Error: The message must have a 2 content parts
+@Jivraj @carlton  sir plz see it once.
+Hi @22f3001315 ,
+You are almost correct, there are very minor changes that needs to be made.
+Take help from Chat GPT or use this documentation which have correct json body Vision - OpenAI API.
+Kind regards
+Jivraj
+it worked thanks sir
+Are we supposed to buy open ai api key ?
+No, if you scroll down to the last question, we can get our Ai Proxy key
+@nilaychugh @22f3002034
+The API key is available at https://aiproxy.sanand.workers.dev/
+The instructions on how to use the token is given at GitHub - sanand0/aiproxy: Authorizing proxy for LLMs
+You cannot use this token directly with Open AI or any other gpt. These are only valid via the API exposed by the above instructions.
+You get a limit of $1. Use with care.
+Kind regards
+but the embedding model that is said to be used is text embedding 3 small, which is the model of OpenAI
+Hi Nilay,
+Yes you would need to use text-embedding-3-small model of openai for embedding questions.
+Kind regards
+Jivraj
+i have a doubt, while submitting the GA3, both 7th and 8th questions require the API url to be active and connected right, but its not possible as both the URLs use same port, so if we check my 7th question URL is running right now, it’ll show as correct, but then if i  run 8th question URL, the 7th question will automatically show the error, is there any solution to this problem?
+Q5.  How to handle the error ? sir @Jivraj
+Error: The first input does not match the first text exactly
+Q4. How to handle this error? @Jivraj
+{
+  "id": "chatcmpl-AshDCPwSiXNao1QXmCxCmi63GifFx",
+  "object": "chat.completion",
+  "created": 1737599182,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The image contains an email address and a number. The email address appears to be associated with an educational institution, and the number seems to be a numerical sequence.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 33,
+    "total_tokens": 625,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_bd83329f63",
+  "monthlyCost": 0.05490624000000001,
+  "cost": 0.001974,
+  "monthlyRequests": 14,
+  "costError": "crypto.createHash is not a function"
+}
+
+Error: Model must be gpt-4o-mini
+Hi Nilay,
+
+
+
+ nilaychugh:
+
+both the URLs use same port,
+
+
+You can run two servers on different port numbers.
+Hi Vikash,
+I looked at your answers in backend. In answer you submitted response from openai, but you need to submit json object which is required for sending a request to LLM.
+Kind regards
+You made same mistake here, instead of response use json body that’s required for sending request to LLM.
+Kind regards
+Q4. how to handle this error ? @Jivraj
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {"type": "text", "text": "Extract text from this image"},
+        {
+          "type": "image_url",
+          "image_url": { "url": "data:image/png;base64,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DOYQc83d7la67bar84q8XbP//qXbYYfS9YuJSdsaR+6nbLvsUsfWGWeU7n3vK93225du881L96Uvla4X6JP3+8X35P173KPeW77mwd12K92mm5bujW+sfVQ5+kX/ZNzvumvp+kXOanZa6KVeyqz8/cJ1UrfpuSOvvPLKK691+1rWM/UiPyLDokEPe1gp1752jYaJdvVOr/QOYhKV6x3UJDLXcGSlF9mld7aTiJBt38XSO9FJtEz02fa3yNdVrlLKXe5Sj9/YdhYNl6fImoi6yOed7lSjaragHaF46ENrNPl736vpeyFQeqc62SoXLRX9Ug/b7I78qIfomyi9yJ4ovnv2AmGSv8iX4yreEzkUlWcX+ftpK7t3ymdxm9vU4wei3yKM8h2D3dRZBE19+4VAudKV5j6cws6E6NxrXlMjbHe9a42GDukFwCTiLwpnO/+Rj6z2m4a9eqFUHve4GiV0nTqHsNIwLh05GY4P85D5qBfNk503O12i24udr0S8Rfnt8Pnc+DVOhuPctXZS+gXAJK37iNr3Yn0SDfe5a8whyvTyl9fovflDeey63fe+9ViOeUC+5gjjWEReOaVXN0d6+oXI5IiifO3APeQh9SiiHZ42j4q2mx/tNngtFrsadvfa/BlCCGHlsayintPYaqtSXvjCKlL9bbvYNjBnw7FxVqedVtOffnp1UEccUR3btttWB0hoNzgmDorod/SmHV0hwglbju/JTy7lEY+o29TuxcnJ2zEZIrhfzUxenKb3CFvHcjhc5eNELQo4T+WwnW3r3Ra1ow62vpVb3u5BuMuLo1W+612vlMMPr2W3pS5PL+J+ww3rVj+RrlzS7r9/KQ96UCkbbDBXyR5pLDIc/yEglHcM2/e22ZV1111XCYsx1IN9iZeddqr3bmdnm+0//ekqMHbeuQp/9T7wwCqGHvCAUp71rGpzP9lfWmW3SCF2iBcor8WLYwy77VbbcvvtSzn44LpAmsYC69BDa7r2evSj63GZ1j/mQ7scdVQVQO1aYu3446sAme4vjj886lHVbur8speVcthhdRFKgEE9LG4II/3KZyCKCCj97V73qvfae+9a91ZONhu7FmxicaiPKt+pp859MIdjF45GPP7xtW21i2MXjlYcdFA9EmI8WZgph7zYyZERotHRiPZyf+Vj95afoxePfeyq9w85ZLw9xrC4bNe213xt5OjW0562elrtq50XwnEx41+/MUbYUtt4ObalTs3uyqJMC6Fc2t9PR66MqXZsxRxk3PvM+DUeFztf6d/6iv7gPXm6vo1z48rv0krX5hpzh3HXjtm4Rpkc29IOhLr5x1jW3p6XaMd3zC3mr+E8Zn6wgND/CX5HieTrM31Hfvqca5uodz3RP9/ifxpjQV/Tl9ne8TJ1DiGEsLJYVlHPGTkHL8rF2XBk4OQ4GmfGOTUOszlEYtZDY/e7XxVpm2xSP2tIw4FyLAQzp8ZRtocTPUjGeXsgtjkeTkmEWlRLtN79lIFgUA738B7nDfcj1t2LYCS0CDNOUiRs+KCcazhlzlNaAlxd1Vndm0NuTpZzJ8DV02fSivIpd7MPiAH3JGzUq5Wt0fIjnkTRXG9xMXyAboh7ijI6+21hoXzKLV+24Ojf//5ab0JCPe2YEFgi8OrC5kTo0UdXgWyXQfmJCiLGYoEN5EdME5DOGhMgoqSi/4SldC3ap1z+lp/yeaDZboj2VC9nkO0EjEGkiDq6lqi2KHIO3Yvd7LQQulCf1l/U20JOXdXbGWiipQkl6BfKqvzq7zNt7D6veEUVioRRE2juxTauZ1PiyaLBQ976HdhFHsokgqt9p8WRPCwOTzqpplVH/Zewt6ukzbWfxZvyq7O+ThQaT6477rgqEKXRL/QlC9/nPa/2F3291Z8oVkcR6vlgC7s20unf2tJuludcjCsLGG3U+qR0Fk7spx21p3bVvtpKe2v3MfQftlFfadhd21joEJXq6+FsY14aD74ulB+bqz/srjVBD+1EgPtbG7nXYucr+fhpPtFmzrprp9af7Q5oO23FLvKWj/HJ7kPkpSzKYE7yN7sZh8rRxr4Ag0URG+h78jKHsK3FiPZWH5hntIm5ysJF/zAmTjml9me2tBCwYH/mM2sQwnhvtmqojznDolHed7zjqnkjhBDCymKdTM0cJOdiK5fT4SQ4Sy/C8eEPr9FfInAazoQwI/qJWMLiVreqkUjOvgluDpRgI3I8HHfyydVJE6AEtc8JL05rTDQ3iE+OlkPk/Dny4SKjwRnKT7ox3I8A5SA5eM5eecYEODheolkdphc2aPk5eqMOdijYcb4IGsFBkBIfRIv7twWH9iDqCFAC0fEiAobdiFW7E/vuW23M5u5JNBAn7klMEIneUyb5EZUiq8opIvz0p9fjVBZsRE6LUBOBbOKBXJHRJzyhlAMOqLsXorHaWtnHIJqUm7Bzn913r9d66T92Gghn7T3sL+qz5561rzUbLAZ9lhhiE2V74hNrOXfYod5fO/ipjxCH2o0gtUPiM3W1GCD2iVL3bzsli6H1P/cm4kSOLWDtOrA/MciuyunoyB57VJvbMXJvwlh97bh4qNcRE+lFx+0AjKE++v+xx1Zb+vYdbcnG8mjC3g6Pe0hL0HuPndlHWuVQVvezWGmLp8Xi3sruOJg87Y6oozFibE+L0YZxzS4gmqVr91Y3fdV7ym38jjE2X8lT/3ckRzvq7xZO+qIdGPkpH3Gu3QhiZbEoMqaHtLnDZ2yjrzT8bnGkzzW7EvsWa8MdzIZFkYWbxZoFsQWYhafoP9tbMEpjgaVvmhOIfw/1u0b+2rFh7Km3+ulzw0BFCCGElcVaF/WEGMFIBHAwhIlI01LDMYmwO3bhRbRwhCJfWFNRcW4gHjht4kM0jHi1ABmjRfUILY6XqCWyh1F8EALEofyIVs57IUT42oJi+isQLVx8RvQQLJy2Yyki7Y7d3PnOVSC3+xAJ/hb5JGwsJGzlq6O8vERbCQHnhS04iCAihLiWh7zANu5L8MhHvbyUzxEERzh8Ld8YbOWe8kATR953jWvloT7zLZ4Wizy1h+iw9iBu2YooJ9we/OAquN3HAsxn2li/s/Book0U14sQFG1datTVIsvCTfvoP+5jgczu2tI4kE4E1/izEG07J9MYRwS1xYh2VCdj2N/qs8EGta2IP3UUTbbDQux7ZqPZ3i6JRcZznzven88OZXe8RF3Y109214+ITm0/hn7HDq5x9MqiU9rWd5SXAB8K6SELzVf6q98tIPVfR9Ie85gaAbegsdNo8ewzgQP9g21E8dlVGdzXom++nRLjlaD3HWWOXLG5IIb6uH4aQt3xIceq1E2bidIbI+5p0WAOFDix42QR4nkYX5Np0WDMW5zDNeYX41h/dmRvbCERQghhZbDWRT0BZ3vemV/HTmzniv4sNZw5B+wr4Wwdc7icuLP2RNV8ImA5ECHjbJ/97BrpI6xEVsdQLpGzY46pDn/4UN0Qzl69iDbHTaRZCCJbxFFaAmkoqggF0TtlIvTYSUSf2CPiiIJp3M9r+igB5Ee8EK6OvVjEgLgjgomKJuqVw1EOP50bJ4rUfzHtwyai4QSHo0Oit6LR7r/UsDfxBxFndm+7Ik04EjwEHNiM7diQLYlg12sHNiAG2wJzKSGiCWj9TPnYSBt5z8vv031pIYbjyHl2ZRYBFqG26+LYRjsnTzRaaFoEELBstFSwp3Y+J7C1OYb4F03XN40tUWnC1oKEeB9jofmKQHbW3y4E0e6IksW45wHsEJpzPGuiT4iU2wUzzpTBYk8Z7MjZpfIaQ5+yE+TYkp20Bz6wPptA4Lt2Gg+wv/SldRFiceEolgdwLdIt9ux0WCRYYLV6aCtty04WLuxE0LOLCD48Y6MOrX+HEEJYeazVKZpD42Q4KOdsHefg6NZEZCwWApJQJEKImfZPgTh0zpHIWhtwjBy7h96IEg9YEgZjkUpiqIkBDpQjteUt7TDSTDwpv4WCuhG280XQOGf5ijBzyKLshN3QORPBdjUIemJQekcEiHKvsbzdd75jS/ITeWxt0NIMRX07JqXtRY7322/Vt4v43WJGpJMw0W/GkC8x7Rt47AAoN5FJBC32wczFQtRrS/doRykaTdQTsa1d1Y+tRUqJLyJOlJioJ5JFcImppYaNifmhzf3uvfb+sC+dHdJaYIniWnDpk2ysrs5jayNiESLH0upfRLgFxlLR6nBOIF7t3NhN8W01Htx2JMzC2ZEsR6G04TQLzVcWvo7+eEhY/7UjpV2NIefsjXELOs9P6DNwT/ayGCCu7YI5z07cE+NjsL9+YkeE6LYgN49ZQOjb08f92Ny4VGeLdFF9Y98xG4v6tsCzqG7zLtsak+YnacwFxrC6+9vc6dX6VAghhJXJWpmmRcEIGs6Rk+NAOFaCZymjeQvBmRFeytIidZwlx2a7uR3hmEb5CBRitG3Zu3YaokB+0jWIQFE+W9quEWXz9ZdExDTK4Ky6aDXnSeCK6HPA0xBORD2x2JzxfIKnRdw4amXk7KfTsondBAJBehFl5VH3FvGFzzh5RzUIB3bxXotGW4goj/Tt2MUQ9pPeoqRFRtVV2zgSpE846+65B+JJnkSYb3hh9+njBvInsIkotnW23GKAAFFn/5RMVFTfmy8Su1iUU19pQmiIcqmTNlY/tAUlsSfaS8yLDIuEEoj6wFheKw3trR30YTa1yHOsxvMLbN0WiUPYwqvZYl3TFlieJbD40yb6jF0rwlc76OttkbWY+UpbE+tebEJwtwUsexDexoDFHLuxhV2re96zHtch+u34KIcyGOcWz0OxPU0rp7QWHMbh2FwE5ZCfRYZFhD443+6XcdTGrHKaC4x/wQgLAs+RvOhFNdhgke04jv7MPhYX+kgIIYR1Tz/1Ly+cuzOpviGDyOJoOFZnkpcykgfOmBNqD3YN8Rnnwwly3u7doomEFtHYRIg0ItXEGgfq/LgjJJy2fDm9hmsIAM5YWk7Xe663I+DMqs/vf/8qgsYEPWFg296DagSUs6uEk2juGKLGnC4nLT9iej6URVrCW33HvsaOQ7cYIT7kqf5s5Rrt18S06J3yOQOsvsQLu4kYsqFzzhYN2lj01mcERRMT8pGnBcnQhnB/58A9kNsewvT1edIRF+rQ2mcaYodAI+pd274ilLAhyuwaLCTqfaaM7NpgA3+36ywe2JlAbAKp2UU672nz4X0soog2NvQNO55bYA+iXlvMAq3NiVNieJ996gPCO+5Yx446a1O0qLI205dcuxLQX0XVtelee9UHffURUfM2J7RxtCbzlfrqe8PdqIZ5QJ+Wd+tbdtbYxqJVP/WyODJWzAF+WkAYN47LeOCVfYf9Xn7sqj/qX2xv/DkSZVwpf0P/lJfxLb3fHY/ybI/+2vKVrs2P6miu857x7OV+Iv3Kb37Vh41Hxxg9QLzQ2AohhLD2WFZRzzFw7iLQHtzi6Iit+R58PDe4F8fpmyc8GGvr2N/e9xJ9Ft3iFAlP4kO0mTD1MBjhwnm1MhNhHLa0HD4RRrQT3y3S38S7+smrfTWm+3LKRx5Z0xIFHkxrkcCGe3HCHKZvF3FP2/IEk3vNh/w5VWXndN17PpSRAycALE7GRL1yyQfqpa5exJD7KKP3OfAPfKC+5xpCwTdziKT73TEEtvKZCGETU8SGuiqL37UDu8H7xIYyEgvSEEiEhUWQBw6JBmKoiZCGa9nCtS1qSWgRJo7f+K5x9Za/tGO4F9GlzYk593Kf1l+aeJcPweWnRaOFWvtM2TyUSGANBY7+I4qrLj4niByj0E/a8aOVDptqFwJV2VtUXj3tFBk7+ri/iUf9iMjVzmzU7M6m8tFWC7XHcuCrQJ1997CpMuvPyquMxp720U5E/WLnqybo2Uc/0V/UUb3kr64+t4tmLOkjL35xnZssUltflo4oZysLQDa2q+ZcvIWHOUE/g3u5jzFnASBfY9FulmeFHN2zOFAG+bOzxZgFuHyNR/+TwTMAnltpizG28Jn+r7wWyNrRcwR2aAQmvHwbljp4VsSOo/+1MDavhRBCWDcsq6gnkjkP34/tLKgzuf5L6nLAyRIezqYSdR48aw9cEn4ctW1kW92cFodNhHKknJ8HzzhLZRbN8nWMyupbPKS1de5IDFEv+kukcagcqXx9u4gtfveTj/PGxI0z9KL0Y3DSnC5Hy+l7eM15cNHBhVBGjn/6HPcY7iFSzSbE/3S0EcSB4wJEO4Hib8cJOHnHhwgO9RW59BAgsSIvAk2E0I6ECKg29pkytaMNbMP22qDZmX3VF+ri4VaixNGjJvbhOvclYLyIxiFsrY0JC31s+OAg4W33gKAhopVrDCKVKCGGlIsgUwb1JpaGaF/f3CLiTuAQs62/tDYcYsFAKDpK5DPlcT3hZHEwCyhnE6UivO0ZhWFb6jMEsr7WznyL4rIR4Uhksqn21c7L9TDzfLQHZQl4At8CUN/1MKnjWQSqcY7FzlcWZfq3z80B+os6Dsc0uzhmY5x66QdEufnD4oHw9rC7B1cJa4sHc5iz+YSzvNp/mfW5seBac5C5yJykXo6bWbBrD0e8XGduMi49QG5uMh7ZwX+dNc4tzi3I5Gt8+1YibcgO7h9CCGH2WK/rmft9EfTKeQ0QZXrDG2rUidDjLPwcQlQ5Z8rZTEcvOcfXva5Gi4hkW+BEWkMkiUPkiGxlE8McNjEoeuzcZzuaQvj63mgPq3HGxC2HRhwTnhyiaLN0nK3rfGe6a4g+olRa50g5YqJEWqLFeXDRdc6TM/VQoQdj5e8IzXTUXTmdp3WNHQULCE5+LK36Ki/hqkyELbu+5CVVOD3lKasi0mOwB5FCiLbzvNPCXt0cK3KswjeaOB5ABNv1IFZEMkXuCGvv+8YQEXnlZXvCxjeDKCshq0exi+167WcXRPmU3U92lNYRI8KJGNfGBBdx3epCzIjU2+kgSlzviJKytvPJ7K2tiR35tKiha9nNER7PJsiTGGJrP4k2AlP7+opBAt5xh7Z4sNNA4BNGIqZsou/qk+4ncqkd9QE2IcYsJP2XUw+TNpEI546NAYsrx4vsQLhWm/uaRcLL4s/iQx2UxcsCynvsQiCzo68rZHvv6TvKYrHhzDdR5l5EnXR2ZZTNrpGxAg97WlhIY1HiIWNplNlXRmob56c9YOklwmtx51tQ2vlp/dAi2thlK7sxFnmi4USm9pHWOJFeGrbUjyyijUF2VvbWli0art4Ep3uwu8WDcehevqFFP4N89S12sTg3P8h/DAsSbUzAa2NtpY+ab/R3/VAZlGVN5ivzhbpb7LKxvsuW7qeNzFe+KrKNafmbGyyEzQ36pHmEgCfS1U2ZlE1gwNgzBo1X+Rqn6ihw0fLV/7S7er3ylXWh6z35e1lUSMtGymtctP5rblAffYE9jTMP5hvr2mwabehBdu2hb3n+pbVHCCGEdc/6z+iZ+30R9J5zDeCEOCNb2y1SxBkMX8QTAeQnZzQNB+w6IpjAGDobwsJ1RI17EJTSi4o5KiE/ESwvQqaJT++7VnpOlMDg8OSvTMQgIShti5qrByEqL2mJGPcWfSNIiC9pOUjOVDpnpznT6Tq7H8HgGk6YEyUy50ur/mzkvsrN6fudIFUvkVR1mQ/p2cc95Dmd1t/qR0BZCBElykRsEBTqomzawAKC4PK58hNpIoUELQFMzItEawf3IrIJEW3CXkSUa7xEdC0MfO4lrfZodVdeUVR2bEK/CSeiSX6u0dZ+tnt6sZdrLQq0G7vJm4iRnl3dX1rl1fby8H4rp2vZTb2l0b6u97l+qAxso/8RWu5pgae9Wr8BMW4hpg677FLzcr2+wl7Ekn5EQOqbriWOjRll1j5NZLqXeiqrdmA35VGXVh79Vzptp96Qj/5i4el3+EwaaV2jTyuLhZI6EI3SKo/f3bONEfck+tlI2V3vxdbqp0+61qulN548N6HfqNOwLdm9oX3YktD2ub6u3Pog+zfkIW/9hG2kHYPd2YltXKMu+p1+RZy7lh3WdL5qc4Z2YBt1dQ/XmT/YZ1gvNvFSFnaSn3rpO+zo+jYvaW92kM41ymzMeVhXmZugl177yMtPZVEm5dMeFpDq4zN9zk+fqa+08tHX9Nv2z6XGBH1D2ZSTzZV92B4hhBDWLcsaqQ+zA4EpSuzbLU45pQovAp6wJ0LGFlzO4Ypc2zEQ+SMUnGUf23X5X8UCzy6Qc9QEn3+IRQgRRyGEEEIIS0VEfVgN0VPHPrxEAX0LjSiwiOE0jhE4AuIIgsikozSivqFGvD0E6Qy1o1L+dszDgieEEEIIYamJqA+r0b41gxh1BthZZed7HROaxvEIItU/9RGlF50fi+j/L+IM9xFH1HPRjo3sums9389OIYQQQghLTUR9GIW4d7beA4B+OkYyTTtfTtyH1fEQoqNJvlnEmWjnrJ0dDyGEEEJYDiLqQwghhBBCmHHyuF4IIYQQQggzTkR9CCGEEEIIM84aHr8JIYQQQgghrDQSqQ8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYaYp5f8A91ro9coVvFcAAAAASUVORK5CYII=" }
+        }
+      ]
+    }
+  ]
+}
+
+Error: The image_url.url must be the base64 data URL of the image
+Q8. how to handle the error ? @Jivraj
+http://127.0.0.1:8000/execute?q=Expense+balance+for+emp+52094
+{“name”: “expense_balance”, “arguments”: “{“employee_id”: 52094}”}
+TypeError: Failed to fetch
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image appears to be a screenshot of a user interface, likely from an educational platform or a task management system. It features a list of questions or tasks with associated scoring information, alongside recent saves.\n\n**Key Elements:**\n\n1. **Header:** A green bar at the top displays the due date ("Sun, 2 Feb, 11:59 pm IST") and a score ("2.75 / 8.5"). "Check" and "Save" buttons are also present.\n2. **Recent Saves:** Below the header, there\'s a section titled "Recent Saves" showing three entries. Each entry displays a "Reload" button, a timestamp ("from 24/1/2025, 12:25:51 pm"), and a score of "2.75".\n3. **Questions List:** The majority of the image displays a numbered list of questions or tasks. These are centered and are the main body of the interface. The questions concern topics related to "LLMs" (likely Large Language Models) and include topics like Sentiment Analysis, Token Cost, Vision, Embeddings, Vector Databases, and Function Calling. Each question is associated with a point value in parentheses.\n\n**Color Scheme:** The interface uses a dark background with green highlights, providing good contrast and readability.\n\n**Overall, the image depicts a learning or task-based interface focused on assessing understanding of LLM concepts.**image1366×622 27.1 KB
+Why is my score is out of 8.5? It should be 9.5 right?
+It was 9.5 before a reload.
+You should answer the third question every time the site reloads
+model='gemma3:27b' created_at='2025-06-13T07:13:25.87211606Z' done=True done_reason='stop' total_duration=48388113623 load_duration=18729711 prompt_eval_count=323 prompt_eval_duration=18552874324 eval_count=306 eval_duration=29815780894 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n1. **Content:** The image displays a coding environment, specifically a code cell or interactive Python interpreter (likely within a platform like Google Colab or a Jupyter Notebook).\n2. **Task Description:** There’s a textual prompt asking the user to write a Python function named `most_similar` that calculates the cosine similarity between pairs of embeddings (a list of numerical values) and returns the pair with the highest similarity. The embeddings are given as a variable.\n3. **Code Input Area:** There's a clear text input area, presumably for writing the Python code. It's currently empty.\n4. **Error Message:** A red traceback error message is displayed at the bottom. The core of the error is a `NameError`: `most_similar is not defined`. This means the code executed attempts to call the function `most_similar` before it has been defined.\n5. **File Paths:** The traceback also provides file paths related to the Python environment, indicating the execution context. Specifically, it shows file paths including `/lib/python3.12.zip/pyodide/base.py`.\n6. **Visual Elements:** A red indicator on the right edge suggesting an error is present. \n7. **Overall Impression:** The image illustrates a coding problem being attempted, and the user has encountered a `NameError` because they likely tried to run code before defining the required function.", thinking=None, images=None, tool_calls=None)image1122×471 13.9 KB
+For question no.6, there was some pre-written code there, right?
+I am not able to see it now.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a command-line interface (likely a terminal or console window). It appears to show an error message returned from a Python script executing a request to the OpenAI API.\n\n**Key Elements and Details:**\n\n* **Command Prompt:** The prompt begins with "PS C:\\Users\\Varad\\OneDrive\\Documents\\Desktop\\Temp\\TDS>". This indicates the current directory where the command was executed.\n* **Python Command:** The command executed was "python -u \'C:\\Users\\Varad\\OneDrive\\Documents\\Desktop\\Temp\\TDS\\request.py\'". This means a Python script named "request.py" was run. The "-u" flag likely forces unbuffered output.\n* **Error Message (JSON Format):** The primary content is a JSON-formatted error message, indicating a problem with the API request. \n * The `"error"` field states: "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors".\n * The `"type"` field is set to `"insufficient_quota"`.\n * The `"param"` field is set to `None`.\n * The `"code"` field is set to `"insufficient_quota"`.\n* **Second Prompt Line:** The line "PS C:\\Users\\Varad\\OneDrive\\Documents\\Desktop\\Temp\\TDS>" indicates that the command prompt is awaiting another command after processing the error message.\n\n**In summary:** The image displays a clear error message indicating that the OpenAI API key or account associated with the script has reached its usage limit (quota). The user needs to check their OpenAI account\'s billing and plan details to resolve the issue.image1017×146 6.62 KB
+I am getting insufficient_quota message for the 2nd question
+
+
+
+ 21f3002277:
+
+The image_url.url must be the base64 data URL of the image
+
+
+I tried downloading image for your dataset it is 2.36 KB in size.
+Using base64 encoded string from image_url.url in your code when decoded comes out to be 8.18 KB, when I encoded image from your dataset and decoded it was 2.36 KB.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a webpage displaying a Base64 encoded PNG image and tools to decode it. \n\n**Key Elements & Details:**\n\n* **Header:** The top of the screen reads "Base64" with links for "clear" and "download".\n* **Base64 Code:** A long string of characters, appearing as a data URL beginning with "data:image/png;base64,", is prominently displayed. This represents the Base64 encoded data of the PNG image.\n* **Decode Button:** A button labeled "Decode Base64 to Image" is present, indicating the ability to convert the encoded data back into a visual image.\n* **Preview Area:** A gray box labeled "Preview Image" is present. Within this box is a link to a website (21f3002277@ds.study.iitm.ac.in) and a number (92803354).\n* **File Info Section:** Located in the bottom left corner, this section provides file details:\n * **Resolution:** 757x66\n * **MIME type:** image/png\n * **Extension:** png\n * **Size:** 8.18 KB\n * **Download Link:** A link labeled "image.png" is present.\n* **Download Icon:** A downward-pointing arrow icon next to the "image.png" download link.\n\n**Visual Style:** The webpage has a simple, functional design with a white background and basic text elements. The overall aesthetic is typical of a developer tool or a utility page.\n\n\n\nimage1518×765 95.5 KB
+Hints : check if encoding is correct.
+Is it required to give SCT for the ROE of this course?
+Thank you.
+SCT is not required for ROE. ROE is not proctored.
+Kind regards
+This is regarding Question 2 I tried to find number of tokens for the message. Using chatgpt identified the followings are valid English words for the given text in the question D m Ay E r u y Vy V Ky P c. then, checked with https://platform.openai.com/tokenizer. whatever number given by it seems to wrong.
+@Jivraj could you inform me where I did mistake
+@23f2003853 You have to find the input tokens from the json response you receive from the proxy.
+Hi VIKASH,
+This problem must be because CORS not enabled or you are running your application inside wsl, if you using WSL then you would need to identify ipaddress of WSL and use it in place of 127.0.0.1
+kind regards
+Sir, from where can I  learn to locate the json response
+Hi @23f2003853 ,
+You can learn from Python’s Requests Library (Guide) – Real Python tutorial about how to use requests module and see responses.
+kind regards
+
+
+
+ 22f3000445:
+
+I am getting insufficient_quota message for the 2nd question
+
+
+Which url are you using to send request to openai.
+
+
+
+ 22f3000445:
+
+For question no.6, there was some pre-written code there, right?
+
+
+pre-written code is not required for question 6.
+In the 6th question ,as I open the graded assignment all the time the new question is generated (NUMERICAL DATA) and the previous answer shows as incorrect answer
+My doubt is that should I again and again answer the same quetion(6) all the time until the due passes?
+Is there any alternative ways to look after this problem?
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image captures a screenshot of a dark-themed code editor or terminal window displaying Python code and output. It appears to be related to an API request that has failed.\n\n**Key Elements:**\n\n1. **Code Snippet:**\n * A block of Python code is visible, likely part of a script to interact with an API.\n * It includes a check for a successful response from an API request ( `response.status_code == 200`).\n * If the status code is not 200, it prints an error message along with the response text for debugging.\n\n2. **API Response:**\n * The output section of the terminal displays an error message in JSON format.\n * The error message indicates that the user has exceeded their current quota, and they should check their plan and billing details.\n * The error includes `"code": "insufficient_quota"`, suggesting a rate limit or usage limit has been reached.\n\n3. **Text at the Top:**\n * At the very top of the image, there\'s a JSON string defining a "role" of "user" and a "content" field listing various strings. This appears to be an input or context for a language model or similar system.\n\n4. **Other details:**\n * The code is using the `requests` library to make an HTTP post request.\n * The error message is printed in red text, signaling an issue.\n\n**In summary:** The image showcases a failed API request due to an exceeded quota, along with the Python code used to handle the request and error. There is also a data entry for the input of an AI model.Screenshot 2025-01-29 0948321770×659 35.1 KB
+how to solve???
+getting quota full message for 7th question. How to get the answers then?
+Hi @Divya1 ,
+Question 6 requires to write a generic code for finding most similar pair. If your code is doing so, pls mention exact steps that you have used to arrive at answer.
+sanand0/aiproxy: Authorizing proxy for LLMs
+Are you using this document?
+each time when I run the following code it gives me different number. None of the answer is correct. can help to fix the issue
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image shows a code editor window, likely a Jupyter Notebook or similar environment, displaying Python code. The code appears to be related to interacting with the OpenAI API for chat completions (specifically the GPT-3 model). \n\n**Key Elements & Code Breakdown:**\n\n1. **API Endpoint & Headers:**\n * `url = "https://api.openai.com/v1/chat/completions"`: Defines the URL for the OpenAI chat completions endpoint.\n * `headers = {"Authorization": "Bearer KEY"}`: Sets the authorization header with a placeholder "KEY" indicating the use of an API key.\n * `"Content-Type": "application/json"`: Sets the content type for the request to JSON.\n\n2. **List of Input Strings:**\n * A list of various words like "orphanage", "excited", "cyclone", "how", "knee", "kaunitz", "jededa", "sohrab", etc. are defined. This suggests that these are used as sample inputs or validation strings.\n\n3. **Payload Preparation:**\n * `data = { ... }`: A dictionary defining the payload for the OpenAI API request.\n * `"model": "gpt-4-turbo"`: Specifies the GPT model to be used.\n * `"messages": [{"role": "user", "content": user_message}]`: Defines the messages sent to the model in a structured format. "role": "user" indicates that the content is from the user.\n\n4. **API Request:**\n * `response = requests.post(url, headers=headers, json=data)`: Sends a POST request to the OpenAI API with the defined URL, headers, and JSON payload using the "requests" library.\n\n5. **JSON Parsing:**\n * `response_json = response.json()`: Parses the JSON response from the API.\n\n6. **Request Success Check:**\n * `if response.status_code == 200:`: Checks if the API request was successful (status code 200 indicates success).\n * Code within the `if` block presumably processes the successful response, accessing the generated text, and number of tokens used.\n * `print("Request failed with status code {} {}".format(response.status_code, response.json()))`: Prints an error message if the request fails.\n\n7. **Token Usage:**\n * `print("Input tokens used: {} ".format(json_data[\'usage\'][\'prompt_tokens\']))` This is the last line of visible code, printing the number of input tokens used for the request.\n\n**Overall:** The code snippet is designed to interact with the OpenAI GPT API, send a user message, receive a response, and process the result. It appears to be a functional program, but some key parts may be omitted for brevity.image584×246 46 KB
+Hi @23f2003853 ,
+Please join tomorrow’s session, we can take it there, I am not sure why you facing this problem.
+Sure Sir. I am providing you the code below
+import json
+import os
+
+api_key = key
+
+# Set up the endpoint and headers
+url = "https://api.openai.com/v1/chat/completions"  # Use chat completions endpoint for GPT-4
+headers = {
+    "Authorization": f"Bearer {key}",
+    "Content-Type": "application/json"
+}
+
+# List of input strings
+user_message = """
+List only the valid English words from these: Q5YpaFZ0S, qZXgs13f, zyCiAjPh, JfcKU, G51N4, D, 9GbmmI27, jbdnhCd, 2dTr75, m, kS, lhO3Uc8e, SjpEmLl, u1cnuqk50, W54, 9, 7YWtUR, reoWxE2, Ay, ANRl2pFjL, E, 4hcE4cB, TZ2t, vck6a, Sb6vQ5K, CzQ, T5lYjxy1m, 2D, yG7PLW, mvgHmixMqn, YOPzsuhQ3, nSF7e6zFF, J60xA5WVp3, oz, vJM, vp2Zrsr, 59wiruyNzq, r, 8N, wv, z, MAKFrf5, 2L, 1IwLjzNpma, 5N20N7Zuq, 9dVp, tmUao0x, u, QRxy67, y, jrIvOZ, t3i, rptivNJF, Vy, 5WWaC1u, WC, xfoGYp, 350c94lf, Pc9oNu, 1bOnLseHUm, aguOp0jxE, Tbz, qX, 9amaVxKFh, bnBkkNN5jc, o7N4y6, V, Ky, ewWw0qcLnw, bbD7MBGM7x, c0l, P, TMFOMvW, c, THRovqGNKb, BV, XIZcX, J0rDx3c, DxEvjEh, j9, Db5Hij, vpSJyCeyh, Z, D, yWpxiOwRXx, 7NeZN1GVE, Y, Lq6Pk, BCJT
+"""
+
+# Prepare the payload for Chat API (gpt-4o-mini model)
+data = {
+    "model": "gpt-4o-mini",  
+    "messages": [{"role": "user", "content": user_message}],  
+
+}
+
+# Send the POST request to OpenAI API
+response = requests.post(url, headers=headers, json=data)
+
+# Parse the JSON response
+response_json = response.json()
+
+# Check if the request was successful
+if response.status_code == 200:
+    input_tokens = response_json.get("usage", {}).get("total_tokens", "N/A")
+    print(f"Input tokens used: {input_tokens}")
+else:
+    print(f"Request failed with status code {response.status_code}: {response_json}")```
+Hello Sir,
+I am unable to recieve a proper output for q1 of ga3.
+This is my test message. Its been given in two lines.
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays a series of alphanumeric strings in a monospaced font against a black background. These appear to be codes or identifiers.\n* **Text:** The text strings read as: "2 b7 rkS94mn4", "AM", "dN64j", "EVevK24Ev", "VEpI", and "G LeeHS".\n* **Color:** The text is predominantly in shades of teal and light green.\n* **Background:** The background is solid black, providing high contrast for the text.\n* **Overall Impression:** The image evokes a digital or terminal-like interface, suggesting the display of system logs, codes, or other technical data.
+The below is my code for the question.
+import httpx
+
+url = "https://api.openai.com/v1/chat/completions"
+
+headers = {
+    "Authorization": "Bearer api_key",
+    "Content-Type": "application/json"
+}
+
+system_message = "Analyze the input message if it's  GOOD , BAD or NEUTRAL."
+user_message = "2 b7 rkS94mn4  AM dNG4j EVevK24Ev VEpI G LeeHS"
+
+payload = {
+    "model": "gpt-4o-mini",
+    "messages": [
+        {"role": "system", "content": system_message},  # System message
+        {"role": "user", "content": user_message}       # One user message
+    ],
+    "temperature": 0.7
+}
+
+response = httpx.post(url, headers=headers, json=payload)
+
+response.raise_for_status()
+
+result = response.json()
+
+for choice in result["choices"]:
+    print("AI Response:", choice["message"]["content"])
+
+I tried to put the two test lines as two user messages but received an error stating that the json body must contain only 2 messages with one mandatorily being a system message. With that in mind, i also tried the alternative
+user_message = "2 b7 rkS94mn4 \n AM dNG4j EVevK24Ev VEpI G LeeHS"
+The error message i keep receiving is as below.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a dark-themed console or terminal window, likely displaying an error message related to data processing or a programming environment.\n\n**Key Elements:**\n\n1. **Text Display:** The majority of the image is filled with red text indicating an error.\n\n2. **Error Message:** The error message reads "The user message must be 2.37MbHmm AMD 6(4E(24E<VfIpVG LeelHS not 2.37MbHmm AMD 6(4E(24E<VfIpVG LeelHS" \n\n3. **Code Snippet:** At the top of the screen there is a snippet of code labeled "payload = {".\n\n4. **Color Scheme:** The background is black, and the text is red, which is common in console outputs to highlight errors or warnings.\n\n**Contextual Inference:**\n\nBased on the content, it appears that an attempt to send a “payload” or data package failed. The error message suggests there is an issue with the size of the data being sent, possibly exceeding a limit or not matching an expected value. \n\n\n\n
+Kindly advice on how to proceed.
+Thanks and Regards
+Shalini
+Hi Shalini,
+Your user_message is incorrect. I looked at your exact GA and it works if you make sure your user_message is precisely what is given to you.
+Hint: How do you store a multi-line variable in python?
+Kind regards
+Hello, could anyone please confirm that GA 3 is worth 9.5 points? Since our GAs are typically 10 marks apiece, I wanted to inquire about and obtain clarification on this.
+Thank you in advance.
+I was unable to make the answer box in Question 3 visible. I was only able to make white space appear there, but couldn’t make it so that answer can be input to the box.
+In addition to CSS classes there is also a tag attribute acting on it. Check carefully.
+Kind regards
+I am getting below error for Q6 if i am importing sklearn libarary
+Here\'s a detailed description of the image:\n\n**Overall:**\n\nThe image is a screenshot of an error message displayed in a red text format, likely from a Python environment (Pyodide).\n\n**Detailed Breakdown:**\n\n* **Error Type:** The message begins with "PythonError: Traceback (most recent call last):". This indicates a Python runtime error occurred.\n* **File Path:** The error trace includes file paths:\n * "/lib/python3.12.zip/pyodide/base.py", line 523\n * "/lib/python3.12.zip/pyodide/base.py", line 357\n* **Error Message:** The core error is "ModuleNotFoundError: No module named \'scipy\'". This means the Python code tried to import a module named "scipy" but it wasn\'t found in the current environment.\n* **Explanation:** The message explains that "scipy" is not included in the Pyodide distribution and needs to be installed.\n* **Installation Instructions:** It provides two methods for installation:\n * `await micropip.install("scipy")` in Python\n * `await pyodide.loadPackage("scipy")` in JavaScript\n* **Link:** A link to the Pyodide documentation for loading packages is provided: `https://pyodide.org/en/stable/usage/loading-packages.html`\n\n**In summary:** The image shows a common error in Python/Pyodide environments, indicating that the "scipy" library is missing and needs to be installed before the code can run.image1731×180 13.1 KB
+Hi team, I am using OpenAI API key for solving Q7 and getting the error like below
+{'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Is it necessary to pay for the OpenAI API key? Is there any other way?
+@21f2000588
+Sure does add up to 9.5 , unless you want another question 
+Kind regards
+Yeah, after all these years of learning and teaching computing, I realize I can’t even count to 10 correctly anymore.
+600×187 16.6 KB
+@Jivraj Please let me know if the code is needed for this. I can share the code generated by chatgpt
+@Jivraj , @carlton  Dear Sirs, I need help in solving this question. I have the same issue. I have tried tokenizer tool, tried writing request code but still couldn’t get the correct answer. I have tried numerous time and ended up consuming lot of tokens . What should be the optimal approach in this question?
+  "id": "chatcmpl-Aw7eXQ8hciiQ0ZedatQEifFGxnLhQ",
+  "object": "chat.completion",
+  "created": 1738415805,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The valid English words from the given list are:\n\n- a\n- I\n- o\n- t\n- U\n- w\n- y\n- z",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 532,
+    "completion_tokens": 34,
+    "total_tokens": 566,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_bd83329f63",
+  "monthlyCost": 0.01662212,
+  "cost": 0.001863,
+  "monthlyRequests": 41,
+  "costError": "crypto.createHash is not a function"
+}
+
+Tried hundreds of different prompts, different situations but in Q9 AI is not responding “Yes”. Is there anything i am missing?
+Dear Sir, I got the answer in json but none out put is correct. Please help me to correct the code
+curl https://api.openai.com/v1/chat/completions \                                             &gt;   -H “Content-Type: application/json” \                                                                               &gt;   -H “Authorization: Bearer $TOKEN” \                                                                                 '{                                                                                                                          &gt;   -d ‘{                                                                                                           &gt;     “model”: “gpt-4o-mini”,                                                                                            "messa&gt;     “messages”: [{                                                                                             &gt;       “role”: “user”,                                                                                                      "c&gt;       “content”: “List only the valid English words from these: zqndWw3FB, kM, K, njuHs9A, r, lkXJ1lG, Z, yLHDClp, G1Db, 7, m, MYieYF3B, pFTQ1JU8Fj, RL9n6kE, EVpChB, V6iCpP, 9YwiwAnBc5, R, UM, mrnyc, 4ej9x, 8X, CQA9, jHC, uL4G6, f, zzaozWC9, 0qsOenEndF, qaZ2WoX, nXGZ”                                                                                   &gt;     }]                                                                                                                &gt;   }’                                                                                                                  {                                                                                                                         “id”: “chatcmpl-AwTPGH241yjyg9EkO1t1tbeGU7KCu”,                                                                         “object”: “chat.completion”,                                                                                            “created”: 1738499426,                                                                                                  “model”: “gpt-4o-mini-2024-07-18”,                                                                                      “choices”: [                                                                                                              {                                                                                                                         “index”: 0,                                                                                                             “message”: {                                                                                                              “role”: “assistant”,                                                                                                    “content”: “The valid English words from your list are:\n\n- my\n- is\n- an\n- or\n- in\n\n(Note: This assumes a focus on short English words. Longer words or specific proper nouns may also exist but were not included in this selection.)”,                                                                                                                         “refusal”: null                                                                                                       },                                                                                                                      “logprobs”: null,                                                                                                       “finish_reason”: “stop”                                                                                               }                                                                                                                     ],                                                                                                                      “usage”: {                                                                                                                “prompt_tokens”: 160,                                                                                                   “completion_tokens”: 53,                                                                                                “total_tokens”: 213,                                                                                                    “prompt_tokens_details”: {                                                                                                “cached_tokens”: 0,                                                                                                     “audio_tokens”: 0                                                                                                     },                                                                                                                      “completion_tokens_details”: {                                                                                            “reasoning_tokens”: 0,                                                                                                  “audio_tokens”: 0,                                                                                                      “accepted_prediction_tokens”: 0,                                                                                        “rejected_prediction_tokens”: 0                                                                                       }                                                                                                                     },                                                                                                                      “service_tier”: “default”,                                                                                              “system_fingerprint”: “fp_72ed7ab54c”                                                                                 }
+Pls give some kind of clue. It seems like a waste of so much time!
+i agree, i have wasted around 300 requests (prompts) and got nothing.
+Sir I am stuck in Q4. how to handle the error please help me @Jivraj @carlton
+Error: The image_url.url must be the base64 data URL of the image
+Okay thank you sir, for the clarification.
+You have to download that image, and find the base_url of that image.
+from where to download
+The image is part of the question.
+For those who want to experiment with GPT-4o Mini (or other models), Github Models is free. You can explore and compare models, including GPT-4o Mini, DeepSeek R1, and others.
+It has rate limits, so you can’t use it in production, but is a good place to prototype applications and experiment with prompts.
+Please let me know if you face any problems accessing it.
+how to answer the question in first place ?
+Check if you are requesting through anand sir’s proxy AI Proxy.
+sklearn might be using scipy for some purpose, just install it, it should work.
+Btw what are you trying to do with Sklearn?
+thanks for the reply i was using cosine function but got another solution.
+Q2 LLM Token Cost ,
+We have https://platform.openai.com/tokenizer , which helps us count tokens in a string, shouldn’t this be a better way than calling the API? However the returned value does not show as correct answer!
+Hi guys, just wanted to share that I found it hysterical when I saw this question:
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a webpage, likely an online learning platform or a coding assignment interface. It presents a text-based instruction with a coding task.\n\n**Key Elements:**\n\n1. **Browser Tabs:** Multiple browser tabs are visible at the top, including those related to learning platforms ("My Dashboard", "IT Madras Dr.") and other applications.\n2. **Page Title/Due Date:** The page is titled "exam.sawarded.works" and indicates a due date of February 5, 2025, 11:59 PM IST. It is at step 1/5.\n3. **Instructional Text:** The main body of the image contains a detailed textual instruction describing a task for the user. The instruction describes a company named RapidRoute Solutions and a task related to designing a service that generates fake but plausible addresses using OpenAI\'s GPT-4o-Mini model.\n4. **JSON Structure:** A sample JSON structure is presented, which the user is expected to create as part of the task. It shows fields like "type", "steps", "final_answer", and "additional properties". There’s a warning that `OpenAI requires every object to have \'additionalproperties\': false`.\n5. **Bullet Points:** The instruction includes several bullet points outlining the requirements of the task, such as using the specified model, responding in JSON format, and generating a specific number of addresses.\n6. **Emphasis/Warnings:** Key points and warnings are highlighted with bold text and icons (e.g., a warning symbol next to the `additionalproperties` requirement).\n7. **"Check" Button:** A prominent "Check" button is located at the bottom-left, indicating a mechanism for submitting and evaluating the user\'s work.\n8. **Windows Activation Prompt**: In the bottom right corner of the screen, there is a Windows activation prompt.\n\n**Overall, the image depicts a learning or coding assignment task that involves understanding instructions, generating JSON data, and potentially interacting with an AI model.**image1920×1080 305 KB
+Like I literally showed this question to my mother and younger bro, stating the fact we ourselves had enable the answer box, they laughed there pants off…
+More courses could be like this.
+Q4
+s3 string was given by
+image_b64 = ""
+import base64
+with open('/content/TDS_wk3_q4.png', 'rb') as f:
+    binary_data = f.read()
+    image_b64 = base64.b64encode(binary_data).decode()
+data_uri = f"data:image/png;base64,{image_b64}"
+
+
+s4 string given by : 
+used this link   to generate image url
+ Then checked them both, they were the same
+for x,y in zip(s3,s4):
+  if (x != y):
+    print(x,y)
+
+i verified that both were equal but still one gave the wrong answer(python code), while the online converter gave the right one?
+I know i’m missing something, but why?
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image shows a coding environment, likely an online Python interpreter or IDE (like Google Colab or a similar platform). It contains a code snippet and an error message.\n\n**Detailed Breakdown:**\n\n1. **Text Prompt:** At the top, there\'s a text prompt requesting a Python function `most_similar(embeddings)` that calculates cosine similarity between pairs of embeddings and returns the most similar pair.\n2. **Code Snippet:** Below the prompt, there’s a Python code snippet that begins with `import numpy` and then defines a function `def most_similar(embeddings):`. Inside the function is a comment `# Your code here` and a return statement `return (phrase1, phrase2)`.\n3. **Error Message:** A significant portion of the image is occupied by a Python error message (a `NameError`). The error specifically states that the name \'phrase1\' is not defined. Additionally, there is a traceback indicating the error occurred during code execution within a file path: `/lib/python3.12.zip/pyodide/base.py`.\n4. **UI Elements:** There\'s a text box labeled "Write your Python code here:". Also, a red indicator with the text "incorrect answer" is visible, suggesting the submitted code produced an error or incorrect result.\n5. **Color Scheme:** The environment has a dark theme with green code and text, and red error messages.\n\nIn summary, the image depicts a user attempting to solve a coding problem and encountering a `NameError` because they are trying to return undefined variables `phrase1` and `phrase2`.Screenshot 2025-02-04 1933421670×487 54.1 KB
+Here\'s a point-by-point description of the image:\n\n**Overall:** The image is a screenshot of a web page, likely from a coding or API testing environment. It displays an error message related to invalid JSON syntax within a URL.\n\n**Key Elements:**\n\n* **Heading:** The top line asks "What is the API endpoint for your implementation? It might look like: http://127.0.0.1:8000/execute"\n* **URL Input Field:** There’s an input field displaying the URL “http://127.0.0.1:8000/execute”. It is highlighted in red.\n* **Error Message:** A red-boxed error message appears below the URL, stating: “SyntaxError: ‘undefined’ is not valid JSON”.\n* **Contextual Text:** A sentence beneath the error message explains the testing process: “We’ll check by sending a GET request to this URL with ?op… containing a task. We’ll verify that it matches the expected response. Arguments must be in the same order as the function definition.”\n* **Button:** There’s a blue button labeled “Check” at the bottom of the screenshot.\n\n**In essence:** The image shows a user attempting to provide an API endpoint URL, but the system is indicating an issue with JSON syntax within the provided URL. The application is preparing to send a GET request to test the endpoint.Screenshot 2025-02-04 at 19.32.212700×488 55.4 KB
+This is in context to Q8. This is a screenshot of the response I am getting when i run the same API on my FastAPI/docs response page, it gives the correct response. But when I check it on the assignment page i get the following error. If you would like to know the code, pls let me know. @carlton @Jivraj
+Good Evening, I have a doubt regarding 7th and 8th question. I am getting this error of expecting three matches while saving. But, Externally when I check this API, I tried considerable test cases, and I am getting the output correctly. Can you please check this and give a solution. Thank You
+Here\'s a description of the image:\n\n* **Text:** The image displays text that reads "{\'matches\': [\'banana\', \'watermelon\', \'jamaica\']}". \n* **Content:** This appears to be the output of an image recognition or object detection process, identifying "banana," "watermelon," and "jamaica" as detected objects or features within an image that is not visible in this current view.\n* **Format:** The output is in a JSON-like format, commonly used for data exchange.\n* **Background:** The background is black.
+Here\'s a detailed description of the image:\n\n* **Overall Impression:** The image is a screenshot of a dark-themed user interface, likely a web development or debugging environment. It displays error messages related to a request to an API endpoint.\n* **Text Content:**\n * "Make sure you enable CORS to allow OPTIONS and POST methods, perhaps allowing all origins and headers." - This is a troubleshooting message suggesting a Cross-Origin Resource Sharing (CORS) configuration issue.\n * "What is the API URL endpoint for your implementation? It might look like: http://127.0.0.1:8000/similarity" - This is a prompt asking for the API endpoint URL, providing an example.\n * "http://127.0.0.1:8000/similarity" - This is a URL entered as a response to the prompt.\n * "Error: Expected 3 matches" - This is an error message indicating that the system expected 3 matches but did not receive them.\n* **Visual Elements:** The text is presented in white against a black background, typical of many developer tools. The entered URL has a slightly different style, possibly a text input field. A small error indicator (a circle with an \'i\' inside) is visible next to the entered URL.\n\nIn summary, the image displays an error message related to a CORS configuration and an expected number of matches, suggesting a problem with an API request.Screenshot 2025-02-04 2143191694×202 16.4 KB
+This is regarding the 8th question. Same here, I am getting the answer for all the test cases, but then also, I am getting error in the portal while saving. Please help me out here. Thank You.
+Here\'s a detailed description of the image:\n\n* **Screenshot of a web browser.** The image appears to be a screenshot of a web browser window.\n* **URL in address bar:** The address bar displays "127.0.0.1:8001/execute/?q=\'Calculate%20performance%20bonus%20for%20employee%2010056%20in%20year%202025\'". This suggests a request being made to a local server.\n* **Text "Pretty-print"**: Directly under the address bar is the word "Pretty-print" indicating a formatted output.\n* **JSON Data Output:** The main body of the screen displays JSON (JavaScript Object Notation) data, specifically:\n * `{"name":"calculate_performance_bonus","arguments":{"employee_id":10056,"current_year":2025}}`\n* **Data Meaning:** The JSON structure indicates a request to calculate a performance bonus for an employee with ID 10056 in the year 2025.\n* **Color Scheme:** The background is dark, with text displayed in a light color (likely white or a light gray). This is a common aesthetic for developer tools or command-line interfaces.\n\n\n\nIn summary, the image shows a web request being made to calculate a performance bonus, and the JSON output contains the relevant arguments for the calculation.Screenshot 2025-02-04 2320481322×152 8.42 KB
+Here\'s a detailed description of the image:\n\n**Overall:** The image showcases a dark screen, likely a computer or device display, with a prominent red rectangular box. \n\n**Text Content:**\n* **Top Line:** "What is the URL entered by your impersonator? It might be fake."\n* **URL:** "http://22.0.130.100/tvremote" is displayed in the center of the screen. \n* **Bottom Line:** "Jpreference.fake.bid.tech."\n\n**Visual Elements:**\n* **Background:** Predominantly black, which emphasizes the red box and text.\n* **Red Rectangle:** A bright red rectangle encapsulates the URL and text, drawing the viewer\'s attention. \n* **Icon:** A small circular icon with a white background and red interior appears in the upper right corner of the red rectangle. \n\n**Interpretation:** The image appears to be a phishing attempt or warning related to a potentially malicious URL. The phrasing suggests someone is trying to impersonate another user, and the given URL might be associated with the attack.Screenshot 2025-02-04 2318471608×129 9.97 KB
+For question 1 getting the below response … not sure what it means
+ythonError: Traceback (most recent call last): File “/lib/python312.zip/_pyodide/_base.py”, line 523, in eval_code .run(globals, locals) ^^^^^^^^^^^^^^^^^^^^ File “/lib/python312.zip/_pyodide/_base.py”, line 357, in run coroutine = eval(self.code, globals, locals) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File “”, line 53, in  TypeError: unhashable type: ‘dict’
+@carlton
+for question 2 what does  the below instruction mean … also how to indicate this in a prompt ’ Remember: indicating that this is a user message takes up a few extra tokens. You actually need to make the request to get the answer."
+For token count query , trying to do something like below any issues with this
+import requests
+import json
+from google.colab import userdata
+def generate_readme_content(proxy_url,auth_token):
+    # Prepare the payload
+    prompt = f"""       
+    SNyFiNTb, BUkDfo0tR, x3x, 6NE8Rq833, Re7, Vth9bYJ0pK, pnI, JAXpFb, BRPE, o, 5xVQe, iY8yVT, 69w, LjLCzs, MJ1g, wBR, 0H, 6bK, AMw, Vrxiux, dqZysH, yD82hcr, FZrwV8Zjq, Xb2, quLpdQqxd1, lqSLbI, HerfhK2, rNPU, 9K1C, 0ywhX2s4O9, mjZ, sR9gCC, 2WVSfwWEae, c, DtWnfOncFj, qjK8P7xh, 0xraHn7RMa, OCmQIi3tbU, S2K, F, q5mO, yZt, X, zd, se0ss3k, uU, yCRCi, S3bMfb, qZ4dh, M7, uhxgDvG3, 696g, 9k, l5U, bH, LVXw1fdWFi, 0kU68gGP, WuyD, V, kVKQ1Y8, kLjMDoEmIN, EYHs7qsabQ, sWrC8vN7n, oAJZP, YLd, mi6Jmxgf, cb9UDdap, kzuot, R0eA2V, mr7SctL49, Td5, in, hxvi, MDg, AAK, uLBF889bO5, Z7z, AO0c, nbc, bE6Rsdw5b, 0, pBjOAuPN8A, 9C3, K, 8, yZyCBPz   
+    """
+    payload = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {"role": "system", "content": "You are a helpful assistant to count the number of english words in a message. Find the number of input tokens used for  a message lile below. Try excluding tokens used for understanding this prompt"},
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": 500,
+        "temperature": 0.7
+    }
+    
+        # Send a POST request to the proxy server
+    response = requests.post(
+            proxy_url,
+            headers={"Content-Type": "application/json",
+                     
+            "Authorization": f"Bearer {auth_token}"},
+            data=json.dumps(payload)
+        )
+    response_data = response.json()
+    return response_data
+proxy_url = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
+auth_token=userdata.get('aiproxy_secret_key')
+tokenjson=generate_readme_content(proxy_url,auth_token)
+print(tokenjson)
+
+I GOT THE CORRECT ANSWER F0R QUES 7 &amp; 8 STILL MY SCORE IS SHOWING 8 DOES ANYONE KNOW HOW TO DO THIS ?
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of an online quiz or exam interface, specifically about Large Language Models. It displays instructions for completing the quiz.\n\n**Key Elements & Details:**\n\n* **Title:** "TDS 2025 Jan GA3 - Large Language Models" is displayed prominently at the top, indicating the exam or quiz title.\n* **Instructions:** A numbered list of 7 instructions is provided:\n 1. Learn what you need (reading material provided).\n 2. Check answers regularly by pressing "Check."\n 3. Save regularly by pressing "Save."\n 4. Reloading is OK. Answers are saved locally.\n 5. Browser may struggle; suggests turning off security restrictions or trying a different browser.\n 6. Use any resources. Internet, ChatGPT, libraries, frameworks are allowed.\n 7. It\'s hackable; hacking the code is allowed.\n* **Note:** There\'s a note at the bottom stating that all servers will run simultaneously while checking or saving answers.\n* **Footer:** A message at the very bottom prompts users to join the discussion on Discourse if they have questions.\n* **Color Scheme:** The background is dark, with white text. There is a turquoise colored bar where the message about discourse is displayed.\n\n**Overall, the image showcases a modern, flexible, and somewhat unconventional approach to online assessment, explicitly allowing the use of external resources and even code manipulation.**image1903×819 96.2 KB
+Use addition : to add up your score for each question.
+eq:
+1+ 1 = 2
+Fractions are harder
+1.5 + 1 = 2.5
+Here\'s a detailed description of the image:\n\n* **Overall:** The image is a dark-background slide or document listing a series of questions.\n* **Title:** The prominent title at the top reads "Questions" in a large, white, stylized font.\n* **List of Questions:** Beneath the title is a numbered list of questions, each with a corresponding point value in parentheses. The questions relate to Large Language Models (LLMs) and related technologies. Specifically, the questions cover topics such as:\n 1. LLM Sentiment Analysis (1 mark)\n 2. LLM Token Cost (0.75 marks)\n 3. Generating addresses with LLMs (1 mark)\n 4. LLM Vision (1 mark)\n 5. LLM Embeddings (0.75 marks)\n 6. Embedding Similarity (1 mark)\n 7. Vector Databases (1.5 marks)\n 8. Function Calling (1.5 marks)\n 9. Getting an LLM to say Yes (1 mark)\n* **Font and Color:** The questions are written in a clear, sans-serif font. The text is white, providing good contrast against the dark background. \n* **Layout:** The list is vertically aligned and numbered sequentially.image657×512 35.6 KB
+To this question I have checked values ranging from 6 to 13 none of them are correct, using openAI Tokenizer online tool.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a webpage displaying a question related to language model tokenization, likely from an online assessment or coding challenge. \n\n**Key Elements:**\n\n1. **Webpage Layout:** The screenshot shows a webpage interface with a dark theme. A timer in the top left corner reads "08:04:14" suggesting an exam or timed assessment. A score indicator says "Score 0/95". There are also "Check all" and "Save" buttons.\n2. **Question Content:**\n * The question is about "LLM Token Cost". It describes LexSolve, a startup using OpenAI\'s language models.\n * It highlights the importance of accurate token accounting for cost and stability.\n * The core task asks the user to list only the valid English words from a given prompt and to determine the number of tokens used.\n3. **Input Field:** A text input field is visible at the bottom of the question, where the user is expected to input their answer. \n4. **Contextual Information:** The webpage also mentions that indicating something is a "user message" can add extra tokens to the cost. \n5. **Windows Taskbar:** The bottom of the image displays the Windows taskbar with various icons and the time (15:55) and date (05-02-2023).\n6. **Browser Tabs:** Multiple browser tabs are visible at the top, including "My Dashboa...", "Graded Ass...", "uvr - Large...", "TDS 2023..." and others, indicating the user was engaged in various tasks before or alongside this assessment.\n7. **Activate Windows:** There is a watermark saying "Activate Windows" in the lower right corner.\n\n**Overall, the image portrays a user engaged in a technical assessment focused on understanding the concept of tokenization in the context of large language models like OpenAI\'s GPT-4.**image1920×1080 248 KB
+Here is a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a web page, specifically a tokenizer tool from the platform "openai.com". It displays a text input field, token count, character count, and descriptive text about tokenization.\n\n**Key Elements & Details:**\n\n1. **Webpage Interface:** The majority of the screen is occupied by a web browser window.\n2. **Tokenizer Tool:** Within the browser, a tokenizer tool interface is visible, likely used for breaking down text into tokens.\n3. **Text Input Field:** A large text area displays the following text: "A helpful rule of thumb is that one token generally corresponds to ~4 characters of text for common English text. This translates to roughly ¾ of a word (so 100 tokens = 75 words). If you need a programmatic interface for tokenizing text, check out our tiktoken package for Python. For Javascript, the community-supported @dcdsb/tiktoken package works with most GPT models."\n4. **Token/Character Count:** Below the text input, numerical values display the token count as "10" and the character count as "47".\n5. **Buttons:** There are buttons labeled "Clear" and "Show example".\n6. **Tabs:** Tabs labeled "Text" and "Token IDs" appear under the text input, suggesting the ability to switch between the text and its tokenized representation.\n7. **Website Address:** The website address “platform.openai.com/tokenizer” is visible in the address bar.\n8. **Browser Tabs:** Numerous browser tabs are open, indicating a busy workflow. Tabs include “My Dashb…”, “Graded A…”, “GA3 - Lar…”, “TDS 2023…”, “Async Df…”, “UI Python…”, “Running…”, “127.0.0.1…”, “4.7.5 + 5…”, and the current "Tokenizer" tab.\n9. **Operating System:** A Windows operating system interface is visible, including the taskbar and start menu.\n10. **Windows Activation:** A notification in the bottom-right corner of the screen prompts the user to "Activate Windows".\n\n**In essence, the image demonstrates a user interacting with the OpenAI tokenizer tool, likely for analyzing text and understanding its tokenization process for use with GPT models.**image1920×1080 225 KB
+Please help me were I am going wrong.
+
+
+
+ 22f3002723:
+
+user message
+
+
+that means it should be a user message
+messages = [
+{
+"role":"user",
+"content":"message"
+}
+]
+
+Keep getting this error.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a web page, likely a coding or data science environment. It displays code snippets, text, and a web form with elements related to API endpoints and similarity matching.\n\n**Key Elements:**\n\n1. **Web Browser Interface:** The screenshot shows a web browser window with several tabs open (My Data, Graded, GA3-1, etc.).\n\n2. **Coding/Text Area:** A significant portion of the screen displays a light grey text area with code snippets and text. This section includes lines starting with "match:", followed by strings like "Contents of document 1", "Contents of document 2", etc.\n\n3. **API Endpoint Information:** There is text stating "What is the API URL endpoint for your implementation?" followed by a URL: "http://127.0.0.1:8000/similarity". The URL is followed by an error message: "Error: Got incorrect matches. Our customer feedback survey revealed that ease of use is a key area for improvement. The infrastructure upgrade includes improvements in data storage and retrieval. The technical documentation for the new product line is now available online."\n\n4. **Form Elements:** Below the error message and URL, there is a button labeled "Check".\n\n5. **Function Calling Section:** The bottom of the image includes a section titled "Function Calling (1.5 marks)" and a description of "Function Calling with OpenAI", explaining it allows Large Language Models to convert natural language into structured function calls.\n\n6. **Time and System Information**: In the bottom right corner, the time (16:21) and date (05-03-2023) are displayed along with an "ENG" indicator.\n\n\n\n**Overall, the image appears to be a screen capture from a software development or data science workflow, likely related to testing and debugging an API endpoint that performs similarity matching on documents.**image1920×1080 252 KB
+Try sending an api call to openai.
+Check with network tab, you would see the response of api call being made, Compare that with expected output.
+Regrading question 8, you would need to check if cors are enabled, check in browser console tab for more.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image captures a computer screen displaying a web browser with multiple tabs open and a developer tools panel visible. It seems to be focused on web development or data analysis. \n\n**Key Elements:**\n\n1. **Browser Window:** A web browser (likely Chrome or a Chromium-based browser) is the dominant feature. Multiple tabs are open, including Google Drive, Academia.edu, and possibly a data analysis platform or a project related to data science (indicated by "Titanic dataset").\n\n2. **Developer Tools:** A developer tools panel (likely Chrome DevTools) is open at the bottom and right side of the screen. This indicates the user is inspecting web elements, network requests, or debugging code. The panel is showing information related to "Network" requests, with details such as name, headers, payload, and response.\n\n3. **Background Image:** Behind the browser and developer tools, a scenic background image is visible. It appears to depict a mountain range with a blurred, slightly abstract style.\n\n4. **Tabs:** The open tabs suggest activities related to cloud storage (Google Drive), academic research (Academia.edu), data analysis (Titanic dataset) and potentially a project named "Project Euler". \n\n5. **Network Panel:** The network panel within the developer tools shows that 2 requests have been transferred, and there are 48 resources currently loaded. \n\n**In Summary:**\n\nThe image depicts a professional working on a web-based data analysis or development project, using tools like Google Drive and developer tools to inspect and debug web elements and network requests. The background image adds a personal touch.image1909×939 126 KB
+i am unable to find the answer box plss guide me through that
+You could use AI assistance it helped me.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a web browser displaying a web application interface, likely a discussion forum or chat platform. The screen is divided into several sections, with a focus on a message thread and a help/assistant chatbot.\n\n**Key Elements:**\n\n1. **Left Panel - Message Thread:**\n * Displays a message with ID "221201630" and text "Keep getting this error." \n * There\'s a user icon with the letter "T".\n * A progress bar indicating 86/87 is visible.\n\n2. **Center Area - Message Input:**\n * A text input field with the message "231200098"\n * Formatting options for the input field (bold, italics, underline) are present.\n * A "Send" button is visible.\n * The text "you ask for Al assistance, for it helped." is also present in the input field.\n\n3. **Right Side - Help/Assistant Chatbot:**\n * A chatbot interface with a light blue background.\n * The text "How can I help you?" is displayed at the top.\n * A text input field at the bottom for user input.\n * A button labeled "Send feedback" is present.\n * The chatbot is showing a message like “Console: What does…”\n * A "Close" button is in the lower left corner of the chatbot.\n\n4. **Browser Interface:**\n * The browser is displaying a webpage with a URL containing “discourse.onlinedev.ai”.\n * Browser tabs are visible at the top.\n * The bottom of the screen shows the taskbar with time and date.\n\n**Technical Aspects:**\n* Developer tools window is open, showing “Elements”, “Console”, etc., suggesting the page is being inspected. \n* The console shows code related to scripts and stylesheets.\n\n\n\nIn summary, the image shows a user interacting with an online discussion platform and utilizing an AI assistant chatbot for help with an error they are encountering.image1920×1080 319 KB
+Oh OK sure. I will try out and let you know. Thank You!
+Got the answer but it was wired that I had run the curl command three time and the 3 times I got different result.
+its not working for me any other options plss??
+
+
+
+ 23f2003853:
+
+rm me where I did mistake
+
+
+Sorry but im facing an issue with question 6 and 7 where its saying load failed when I submit it. when I run the queries locally using curl im getting the expected results.  Any help would be appreciated.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a dark-themed user interface, likely from a development or testing environment. It appears to be a form or section related to API endpoint validation. \n\n**Key elements and details:**\n\n* **Text prompts:** The interface presents instructions and questions to the user, starting with "Make sure you enable CORS to allow GET requests from any origin." and "What is the API URL endpoint for your implementation? It might look like: http://127.0.0.1:8000/execute"\n* **Input field:** There is a text input field displaying the URL "http://127.0.0.1:8000/execute". \n* **Error message:** A prominent red error message box is positioned next to the input field. It displays "TypeError: Load failed". This indicates an issue with loading a resource at the specified URL.\n* **Descriptive text:** Below the input field and error message, there is more text explaining that the system will check the provided URL by sending a GET request with a specific task and will verify if the response matches expectations.\n* **Button:** A blue button labeled "Check" is located at the bottom. This likely initiates the validation process.\n* **Color scheme:** The background is dark, and the text is primarily white or light blue, creating a high-contrast interface. Red is used to highlight the error message.\n\n\n\nIn essence, the image depicts an error message encountered while attempting to validate an API endpoint, likely due to a loading or connection issue.Screenshot 2025-02-05 at 6.19.41 PM1304×299 30.1 KB
+curl "http://127.0.0.1:8001/execute?q=What%20is%20the%20status%20of%20ticket%2083742?"
+
+{"name":"get_ticket_status","arguments":"{\"ticket_id\": 83742}"}
+
+For question 2, do we have to make the API call to the proxy or openai? If to the proxy, are there any instructions on the page before question 2 that would have pointed me in that direction?
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a user interface, likely from a software development or API testing tool. It appears to be focused on defining and testing an API endpoint for retrieving ticket status. The interface is divided into two main sections: a left panel displaying code/instructions and a right panel for API request/response details. \n\n**Left Panel:**\n\n* **Code Snippet:** Displays JSON code with "name" as "get\\_ticket\\_status" and "arguments" as {"ticket\\_id": 83742}.\n* **Text Instructions:** Explains CORS requirements for allowing GET requests.\n* **API Endpoint Example:** Displays API endpoint URLs (http://127.0.0.1:8000/execute and http://127.0.0.1:8000/execute).\n* **Error Message:** Indicates a syntax error: "undefined" is not valid JSON.\n* **Instructional Text:** Notes that a GET request with \'q\' containing a task will be sent to verify the URL and arguments.\n* **Button:** A \'close\' button is visible in the lower-left corner.\n\n**Right Panel:**\n\n* **API Request Details:**\n * **Name:** \'q\'\n * **Description:** "What is the status of ticket 83742?"\n * **Type:** String (query)\n* **Buttons:** \'Execute\' and \'Clear\' buttons are shown.\n* **Responses Section:** Contains a "curl" command example and the "Request URL" (http://127.0.0.1:8000/execute?q=What+is+the+status+of+ticket+83742).\n* **Server Response:** Section with \'Code\' and \'Details\' tabs.\n\n**Additional Notes:**\n\n* A small indicator in the bottom-left corner mentions "Get an LLM to say Yes (1 mark)." suggesting interaction with a Large Language Model.\n* The overall color scheme is light gray with darker text, giving a clean and professional look.\n\n\n\nimage1287×568 32 KB
+I am trying this for so long how to fix this plss guide me. thanking you
+there is a problem in question 7 and 8, fast api question, when i click on save, both api calls happens at once at http://127.0.0.1:8000, and i can run fast api app for question 7 or 8 for one only, suppose i check for question 7 it shows correct, also for question 8 i check it shows correct , but when i try to save one of the answer gets incorrected because of simultaneous calls by question 7 and 8 at this address http://127.0.0.1:8000
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a web page displaying technical documentation related to a service flow and API endpoint for a similarity matching system. It appears to be from an educational or development environment.\n\n**Key Elements & Content:**\n\n1. **Browser Tabs:** Multiple browser tabs are visible at the top, indicating a user is navigating between different resources:\n * "My Dashboard - KT Madras"\n * "Course Introduction : BIM..."\n * "Tools in Data Science"\n * "XG 2025 Jan GA3 - Large..."\n * The currently active tab displays a URL related to "exam.sanand.workers.dev/lfa" suggesting a testing or learning platform.\n2. **Text Documentation:** The primary content is a series of numbered steps detailing a service flow:\n * **Request Payload:** Describes the JSON structure expected for the request, including fields for "docs" (an array of documents) and "query" (user\'s search query).\n * **Embedding Generation:** Explains how embeddings are generated using a text embedding model ("text-embedding-3-small").\n * **Similarity Computation:** Describes the calculation of cosine similarity between embeddings.\n * **Response Structure:** Details the JSON response format, listing the identifiers of the three most similar documents.\n3. **Example JSON:** A sample JSON response is displayed, with keys like "matches" and example content for each document.\n4. **API Endpoint URL:** The URL "http://127.0.0.1:8000/similarity" is provided as the API endpoint for implementation.\n5. **Additional Notes:**\n * There is a note about CORS (Cross-Origin Resource Sharing) and enabling OPTIONS and POST methods.\n * A line indicates the intention to send a POST request with a JSON body containing random documents and queries.\n6. **Buttons:** At the bottom are buttons labeled "Check" and "Save."\n7. **Timer:** The top-left corner indicates a remaining time of 04:15:56 with a score of 8.5/9.5\n\n**Overall, the image showcases the technical documentation of an API for a similarity search service, likely as part of a learning module or development process.**Screenshot 2025-02-05 at 7.44.03 PM1920×1249 130 KB
+while saving the 7th,8th question its alteranately getting incorrect
+im getting 8.5 marks but while saving it gets deducted to 7 because of these 2 questions
+this is really very frustrating since im working on this for so long like 5-8hours but still facing the same issue
+what to do
+@carlton @s.anand
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a web page displaying instructions and a code snippet related to a Large Language Model (LLM) sentiment analysis task, likely part of an online course or assessment. \n\n**Key Elements & Details:**\n\n1. **Web Browser Window:** The main content is displayed within a web browser window (appears to be Chrome). The address bar shows the URL: `exam.sanand.works/tds-2025-01-03-3fhq-get-llm-to-say-yes`.\n2. **Score & Buttons:** In the upper left corner, a score is displayed: "Score 8.5/8.5". Buttons labeled "Check all" and "Save" are present next to it.\n3. **Instructions (Numbered List):** A numbered list of instructions is prominently displayed:\n * Requires passing an authorization header with a dummy API key.\n * Specifies to use "gpt-do-min" as the model.\n * The first message must be a system message asking the LLM to analyze sentiment (GOOD, BAD, or NEUTRAL).\n * The second message must be the exact text contained above.\n4. **Test Description:** Following the numbered list, there’s a paragraph describing the purpose of the test, validating API integration and message formatting. It emphasizes reliability for categorizing data as GOOD, BAD, or NEUTRAL.\n5. **Note:** A note indicates the use of a dummy `httpx` library.\n6. **Code Snippet (Python):** There’s Python code illustrating the `httpx` request/response interactions.\n7. **JSON Data (Code Block):** Below the code is a JSON data block. This structure defines the message format for the LLM:\n * `"model"`: set to "gpt-do-min".\n * `"messages"`: an array containing two messages:\n * A system message asking the LLM to analyze the sentiment of the text as GOOD, BAD, or NEUTRAL.\n * A user message containing the text: "N PlxDC6t EXYmclF c k e xTxtPjUdLx 6H LTa YQzK".\n8. **Button:** A "Check" button is visible below the JSON data block.\n9. **LLM Token Cost:** At the bottom there is an indicator "LLM Token Cost (0.75 marks)."\n\n**Overall Context:** The screenshot likely depicts a task within a data science or machine learning course/assessment where the user needs to interact with an LLM API to perform sentiment analysis.Screenshot 2025-02-05 at 8.07.34 PM1920×1249 138 KB
+in the 1st as well both the outouts are exactly same but its still showing error
+@carlton
+You can run 2 different severs on different port numbers.
+http://127.0.0.1:8000 and http://127.0.0.1:8001
+I tried checking the JSON Output in the Networks tab. I am getting error as “Method Not Found”. But, I have allowed POST Method for question 7 as POST method is used in the question. I also tried checking my API by sending a POST request by the same parameters as given by the Website. I  am getting the proper response when I give an API request. Can you please help me out here? I have attached the screenshot  of the error as Picture -1 and the correct output what I get as Picture-2.  Please help me out as I am facing issue for all the API Questions though I am getting the right output. Thank You.
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays text rendered in a code-like format against a black background.\n* **Text:** The visible text reads: `"detail":"Method Not Allowed"}`. \n* **Formatting:** The text appears to be in JSON (JavaScript Object Notation) format, indicated by the curly braces `{}`, double quotes `""`, and colon `:`. \n* **Color:** The text is a pale yellow or white color, creating contrast against the dark background.\n* **Context:** The phrase "Method Not Allowed" suggests an error message or response from a web server or API, indicating a request using an invalid HTTP method.
+model='gemma3:27b' created_at='2025-06-13T04:45:40.57940441Z' done=True done_reason='stop' total_duration=36234327148 load_duration=18293866 prompt_eval_count=323 prompt_eval_duration=18744564023 eval_count=178 eval_duration=17470744532 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n* **Visual Representation:** The image displays a visual representation of an audio waveform. \n* **Waveform Pattern:** It features a dense pattern of vertical lines, which collectively form a waveform shape. The lines vary in height, depicting the amplitude of the audio signal.\n* **Color Scheme:** The waveform is rendered in shades of gray or white against a solid black background. This high-contrast color scheme enhances the visibility of the waveform.\n* **Horizontal Orientation:** The waveform extends horizontally across the entire image frame, suggesting a continuous audio segment.\n* **Overall Impression:** The image conveys a sense of sound, audio frequency, or signal processing, often associated with music, voice recording, or audio editing.\n\n\n\nIn essence, the image is a graphic depiction of sound as a visual waveform.", thinking=None, images=None, tool_calls=None)
+And for Question-9, I tried 80 prompts and I tried every different way, but I am not getting a Yess from the LLM. Can you please say how to proceed for that? Thank You
+import numpy as np
+def most_similar(embeddings):
+words = list(embeddings.keys())
+dot_product_df = 
+for i in words:
+for j in words:
+dot_product_df.append(np.dot(embeddings[i], embeddings[j]))
+return max(dot_product_df)
+print(most_similar({“I experienced issues during checkout.”:[-0.10228022187948227,-0.057035524398088455,-0.03200617432594299,-0.1569785177707672,-0.11162916570901871,-0.017878107726573944,-0.06209372356534004,0.18209508061408997,-0.0027645661029964685,0.12928052246570587,0.17609500885009766,-0.11846645176410675,-0.2356770783662796,0.05536108836531639,-0.07102405279874802,0.21265356242656708,-0.03218059614300728,0.2578633725643158,-0.11707108467817307,0.23163051903247833,0.1780485212802887,0.17972294986248016,0.05302385240793228,0.06889612227678299,-0.13932715356349945,-0.14428070187568665,0.17149029672145844,-0.25590986013412476,0.22311879694461823,-0.06321001797914505,0.019430451095104218,-0.1841881275177002,0.14204810559749603,-0.09976856410503387,-0.17888574302196503,0.07890786230564117,-0.008947774767875671,0.08065207302570343,0.3131197988986969,-0.009226848371326923,-0.1460946649312973,0.16423441469669342,0.024331670254468918,0.055779699236154556,-0.08274511992931366,0.2355375438928604,0.06582632660865784,-0.13674572110176086,-0.003309630323201418,0.008324221707880497],“The return process was easy and hassle-free.”:[-0.13446587324142456,0.02539028227329254,-0.17796370387077332,-0.011354454793035984,-0.04654333367943764,0.15717478096485138,0.07627015560865402,0.22960494458675385,0.001469996408559382,0.1792878359556198,0.05905640497803688,-0.17240233719348907,-0.10083285719156265,-0.08322186022996902,0.00746894720941782,-0.013042726553976536,-0.13718034327030182,0.02444683574140072,-0.07938187569379807,0.04598057642579079,0.0351557731628418,0.1953098624944687,0.011594453826546669,-0.13267828524112701,-0.13718034327030182,-0.14909756183624268,-0.1765071451663971,-0.16776786744594574,-0.11473626643419266,-0.1473761796951294,0.15889616310596466,-0.12354176491498947,0.18882159888744354,-0.040121279656887054,0.18749746680259705,0.16869474947452545,-0.0547860711812973,0.13943137228488922,0.08275841921567917,-0.012976519763469696,0.026582002639770508,0.2568821310997009,0.13314174115657806,-0.08845219761133194,0.025257868692278862,0.35831084847450256,-0.22483806312084198,-0.005697916727513075,0.2899854779243469,0.1855112612247467],“Fast shipping and great service.”:[-0.1079404279589653,0.020684150978922844,-0.30074435472488403,0.11729881167411804,0.13952496647834778,-0.018052106723189354,-0.21843314170837402,0.13527116179466248,-0.09257353842258453,-0.09384968131780624,0.11293865740299225,-0.03900212049484253,-0.059287477284669876,-0.1008152961730957,-0.019155437126755714,-0.007078605704009533,-0.02967032417654991,0.03711449354887009,-0.18302017450332642,0.20056714117527008,0.09076566994190216,0.02584189549088478,0.0943814069032669,-0.03799184039235115,-0.25246360898017883,-0.1235731765627861,0.028952494263648987,-0.309251993894577,0.021375395357608795,-0.22204887866973877,0.2159872055053711,-0.11921302229166031,0.21928390860557556,-0.11432114243507385,0.017453914508223534,0.10065577924251556,-0.04200637340545654,0.17493793368339539,0.1322934925556183,0.17025874555110931,-0.15271177887916565,0.004682514350861311,0.2531017065048218,0.11580997705459595,0.014688937924802303,-0.11176885664463043,-0.292662113904953,-0.0397731214761734,0.13729171454906464,0.027570005506277084],“The payment process was secure and efficient.”:[-0.04701301082968712,-0.20167900621891022,-0.22099372744560242,-0.05536692962050438,0.03149012476205826,0.049234796315431595,-0.02104772813618183,0.1948062777519226,0.004417652729898691,-0.11180031299591064,0.25831976532936096,-0.1503705382347107,-0.14669717848300934,-0.15866521000862122,0.07601473480463028,-0.03744451329112053,-0.1256050169467926,-0.004232503939419985,-0.19717617332935333,-0.07204513996839523,0.07216363400220871,0.23426520824432373,0.005728506948798895,-0.08347994089126587,-0.09248558431863785,-0.16150909662246704,-0.10895642638206482,-0.3507460951805115,-0.1641159951686859,-0.1695667803287506,0.21696490049362183,-0.1385210007429123,0.196346715092659,-0.025669043883681297,-0.07808840274810791,-0.0023291732650250196,-0.03386003151535988,0.14717115461826324,0.06078808754682541,-0.0358448289334774,-0.1290413737297058,0.17335861921310425,-0.08033981174230576,0.1285673975944519,-0.040229152888059616,0.11511818319559097,0.10747523605823517,-0.3336827754974365,0.09313730895519257,-0.002255113562569022],“Customer service resolved my issue quickly.”:[-0.27243417501449585,-0.08034132421016693,-0.3335980772972107,0.03278002515435219,-0.0688093826174736,-0.11652996391057968,-0.13710907101631165,0.2432539016008377,0.07779283076524734,0.0949951708316803,0.1365993618965149,-0.05979407951235771,-0.17151375114917755,-0.040170662105083466,0.12054384499788284,0.10894818603992462,-0.1374913454055786,-0.008736561983823776,-0.2501348555088043,0.040648505091667175,0.20974119007587433,0.021232154220342636,0.1484498679637909,-0.07186757773160934,-0.26733720302581787,0.24248935282230377,-0.04475795477628708,-0.1304829716682434,-0.11914216727018356,-0.2516639530658722,0.16577963531017303,-0.1684555560350418,-0.08875136077404022,-0.1995472013950348,-0.10072928667068481,0.1209898293018341,0.11015872657299042,-0.053359128534793854,0.16705389320850372,0.0013867400120943785,-0.018269527703523636,0.014486604370176792,0.08320838212966919,0.06033563241362572,-0.07224985212087631,0.09869049489498138,-0.021837422624230385,0.1448819786310196,0.10996758937835693,0.058328691869974136]}))
+
+
+
+ Jayeshbansal:
+
+print(most_similar({“I experienced issues during checkout.”:[-0.10228022187948227,-0.057035524398088455,-0.03200617432594299,-0.1569785177707672,-0.11162916570901871,-0.017878107726573944,-0.06209372356534004,0.18209508061408997,-0.0027645661029964685,0.12928052246570587,0.17609500885009766,-0.11846645176410675,-0.2356770783662796,0.05536108836531639,-0.07102405279874802,0.21265356242656708,-0.03218059614300728,0.2578633725643158,-0.11707108467817307,0.23163051903247833,0.1780485212802887,0.17972294986248016,0.05302385240793228,0.06889612227678299,-0.13932715356349945,-0.14428070187568665,0.17149029672145844,-0.25590986013412476,0.22311879694461823,-0.06321001797914505,0.019430451095104218,-0.1841881275177002,0.14204810559749603,-0.09976856410503387,-0.17888574302196503,0.07890786230564117,-0.008947774767875671,0.08065207302570343,0.3131197988986969,-0.009226848371326923,-0.1460946649312973,0.16423441469669342,0.024331670254468918,0.055779699236154556,-0.08274511992931366,0.2355375438928604,0.06582632660865784,-0.13674572110176086,-0.003309630323201418,0.008324221707880497],“The return process was easy and hassle-free.”:[-0.13446587324142456,0.02539028227329254,-0.17796370387077332,-0.011354454793035984,-0.04654333367943764,0.15717478096485138,0.07627015560865402,0.22960494458675385,0.001469996408559382,0.1792878359556198,0.05905640497803688,-0.17240233719348907,-0.10083285719156265,-0.08322186022996902,0.00746894720941782,-0.013042726553976536,-0.13718034327030182,0.02444683574140072,-0.07938187569379807,0.04598057642579079,0.0351557731628418,0.1953098624944687,0.011594453826546669,-0.13267828524112701,-0.13718034327030182,-0.14909756183624268,-0.1765071451663971,-0.16776786744594574,-0.11473626643419266,-0.1473761796951294,0.15889616310596466,-0.12354176491498947,0.18882159888744354,-0.040121279656887054,0.18749746680259705,0.16869474947452545,-0.0547860711812973,0.13943137228488922,0.08275841921567917,-0.012976519763469696,0.026582002639770508,0.2568821310997009,0.13314174115657806,-0.08845219761133194,0.025257868692278862,0.35831084847450256,-0.22483806312084198,-0.005697916727513075,0.2899854779243469,0.1855112612247467],“Fast shipping and great service.”:[-0.1079404279589653,0.020684150978922844,-0.30074435472488403,0.11729881167411804,0.13952496647834778,-0.018052106723189354,-0.21843314170837402,0.13527116179466248,-0.09257353842258453,-0.09384968131780624,0.11293865740299225,-0.03900212049484253,-0.059287477284669876,-0.1008152961730957,-0.019155437126755714,-0.007078605704009533,-0.02967032417654991,0.03711449354887009,-0.18302017450332642,0.20056714117527008,0.09076566994190216,0.02584189549088478,0.0943814069032669,-0.03799184039235115,-0.25246360898017883,-0.1235731765627861,0.028952494263648987,-0.309251993894577,0.021375395357608795,-0.22204887866973877,0.2159872055053711,-0.11921302229166031,0.21928390860557556,-0.11432114243507385,0.017453914508223534,0.10065577924251556,-0.04200637340545654,0.17493793368339539,0.1322934925556183,0.17025874555110931,-0.15271177887916565,0.004682514350861311,0.2531017065048218,0.11580997705459595,0.014688937924802303,-0.11176885664463043,-0.292662113904953,-0.0397731214761734,0.13729171454906464,0.027570005506277084],“The payment process was secure and efficient.”:[-0.04701301082968712,-0.20167900621891022,-0.22099372744560242,-0.05536692962050438,0.03149012476205826,0.049234796315431595,-0.02104772813618183,0.1948062777519226,0.004417652729898691,-0.11180031299591064,0.25831976532936096,-0.1503705382347107,-0.14669717848300934,-0.15866521000862122,0.07601473480463028,-0.03744451329112053,-0.1256050169467926,-0.004232503939419985,-0.19717617332935333,-0.07204513996839523,0.07216363400220871,0.23426520824432373,0.005728506948798895,-0.08347994089126587,-0.09248558431863785,-0.16150909662246704,-0.10895642638206482,-0.3507460951805115,-0.1641159951686859,-0.1695667803287506,0.21696490049362183,-0.1385210007429123,0.196346715092659,-0.025669043883681297,-0.07808840274810791,-0.0023291732650250196,-0.03386003151535988,0.14717115461826324,0.06078808754682541,-0.0358448289334774,-0.1290413737297058,0.17335861921310425,-0.08033981174230576,0.1285673975944519,-0.040229152888059616,0.11511818319559097,0.10747523605823517,-0.3336827754974365,0.09313730895519257,-0.002255113562569022],“Customer service resolved my issue quickly.”:[-0.27243417501449585,-0.08034132421016693,-0.3335980772972107,0.03278002515435219,-0.0688093826174736,-0.11652996391057968,-0.13710907101631165,0.2432539016008377,0.07779283076524734,0.0949951708316803,0.1365993618965149,-0.05979407951235771,-0.17151375114917755,-0.040170662105083466,0.12054384499788284,0.10894818603992462,-0.1374913454055786,-0.008736561983823776,-0.2501348555088043,0.040648505091667175,0.20974119007587433,0.021232154220342636,0.1484498679637909,-0.07186757773160934,-0.26733720302581787,0.24248935282230377,-0.04475795477628708,-0.1304829716682434,-0.11914216727018356,-0.2516639530658722,0.16577963531017303,-0.1684555560350418,-0.08875136077404022,-0.1995472013950348,-0.10072928667068481,0.1209898293018341,0.11015872657299042,-0.053359128534793854,0.16705389320850372,0.0013867400120943785,-0.018269527703523636,0.014486604370176792,0.08320838212966919,0.06033563241362572,-0.07224985212087631,0.09869049489498138,-0.021837422624230385,0.1448819786310196,0.10996758937835693,0.058328691869974136]}))
+
+
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image captures a snippet of Python code within what appears to be a coding environment (possibly a Jupyter Notebook or similar). The code is designed to calculate similarity scores and print a message related to "issues during checkout." However, the code is currently generating a `TypeError`.\n\n**Specific Details:**\n\n* **Code Snippet:**\n * The code iterates through a variable `words`.\n * Inside the loop, it calculates the dot product between elements of `df` and `embeddings`, appending the result to a list.\n * It then calculates the maximum value in the `df` list.\n * Finally, it prints a message indicating that issues were experienced during checkout, along with a list of numerical values that presumably represent similarity scores.\n* **Error Message:** A `TypeError: \'Z.runPyfunc\' object is not a function` is displayed in red text, indicating a problem within the code execution. The error suggests there might be a mismatch in how a function (potentially from TensorFlow/Keras) is being called.\n* **Numerical Output:** A list of floating-point numbers is displayed, which appear to be similarity scores.\n* **Environment:** The code is displayed within a dark-themed coding environment, characterized by a black background and light-colored text. There\'s a header stating "Write your Python code here."\n* **Highlighting:** The code contains some syntax highlighting with keywords and variables in different colors. Specifically, the error message is highlighted in red, drawing attention to the problem.\n\n**In summary,** the image displays a Python code snippet attempting to calculate similarity scores, but it\'s encountering a `TypeError`. The output indicates a list of numerical similarity values, which are likely related to the intended calculation.image1677×303 30.6 KB
+Here\'s a detailed description of the image:\n\n* **Content:** The image shows a screenshot of a web page or a code editor.\n* **Text:** The text is centered around a URL and an error message.\n * The URL is: "http://127.0.0.1:8000/execute?q=".\n * There is an error message: "TypeError: failed to fetch".\n* **Visual Elements:**\n * The URL is enclosed in a rectangular box with a red outline.\n * The error message is written in red.\n* **Context:** The surrounding text suggests this is related to an API endpoint and a GET request. The error message indicates a failure to fetch data from the specified URL.\n* **Overall Impression:** The image seems to be displaying the result of an API request which failed.image1592×233 19.9 KB
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image showcases a developer\'s workspace, displaying a web page with a text-based interface alongside a software development environment (likely VS Code) with code and API request/response information.\n\n**Left Side - Web Page:**\n\n* **Content:** The webpage appears to be a testing interface for a similarity matching service. It highlights the closest match ("Contents of document 1") and lists subsequent matches ("Contents of document 1", "Contents of document 2").\n* **Text:** There is explanatory text on the page:\n * Instructions regarding enabling CORS (Cross-Origin Resource Sharing) for POST requests.\n * A note that the URL `http://127.0.0.1:8000/similarity` is the API endpoint.\n * Error message related to a project blueprint migration and system maintenance.\n * Text about a self-service FAQ for common issues.\n* **UI Elements:** A "Check" button is prominently displayed, likely to trigger the similarity matching process. Score (7/95) and save options are visible at the top.\n\n**Right Side - VS Code (or similar IDE):**\n\n* **Thunder Client:** A request builder tool (Thunder Client) within the IDE is open, displaying a POST request to the URL `http://127.0.0.1:8000/similarity`.\n* **Request Details:** The request body is formatted as JSON, containing a "docs" array with strings ("Contents of document 1", "Contents of document 2", "Contents of document 3") and a "query" string ("new query string").\n* **Response:** A successful response (Status: 200 OK) is displayed in JSON format, containing a "matches" array with strings.\n* **Terminal/Console:** A terminal/console window is open at the bottom, displaying Python output related to training a model with changes in direction.\n* **Error/Warning Logs:** There are some lines of code indicating model fitting issues and an error message related to the “statsboard”.\n\n**General Observations:**\n\n* The workspace indicates someone is working on a project involving text similarity, likely natural language processing or information retrieval.\n* The developer is debugging or testing the API endpoint and refining the model training process.\n* The presence of both the web interface and the IDE suggests an iterative development and testing workflow.\n\n\n\nimage1915×999 143 KB
+@carlton @Jivraj  Sir please look at the err on Q7.I am able to run on my system and getting the desired json but its not working in the portal. Today is the deadline sir please help me out!
+I m attaching my codes:
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
+from fastapi.middleware.cors import CORSMiddleware
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+import re
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["OPTION","POST"],  
+    allow_headers=["*"],
+)
+
+class SimilarityRequest(BaseModel):
+    docs: List[str]
+    query: str
+
+def clean_text(text: str):
+    """Clean text by lowering case, removing punctuation, and extra spaces."""
+    text = text.lower()  
+    text = re.sub(r'\s+', ' ', text)  
+    text = re.sub(r'[^\w\s]', '', text)  
+    return text
+
+@app.post("/similarity")
+async def find_similar_docs(request: SimilarityRequest):
+    try:
+        cleaned_docs = [clean_text(doc) for doc in request.docs]
+        cleaned_query = clean_text(request.query)
+
+        vectorizer = TfidfVectorizer()
+        tfidf_matrix = vectorizer.fit_transform(cleaned_docs + [cleaned_query])
+
+        query_vector = tfidf_matrix[-1]
+        doc_vectors = tfidf_matrix[:-1]
+        similarity_scores = cosine_similarity(query_vector, doc_vectors)[0]
+
+        top_indices = sorted(range(len(similarity_scores)), key=lambda i: similarity_scores[i], reverse=True)[:3]
+        matched_docs = [request.docs[i] for i in top_indices]
+
+        return {"matches": matched_docs}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/execute")
+async def execute_query(q: str):
+    return {"message": f"Executing query: {q}"}
+
+
+
+
+
+
+
+
+
+
+
+
+Hi,
+I’m sorry if I’m asking an unrelated question, But I’m very confused with the concept of generating the token from https://platform.openai.com/api-keys
+Could any one suggest the step by step process? I couldn’t able to find that similar question asked by anyone since the conversations are vast.
+Please guide me on this. Also do i need to use my personal mail id or iitm mail id for accessing this token
+yes you have to use your IITM email id . Use this link and login you will get your token:
+https://aiproxy.sanand.workers.dev/
+Here\'s a point-by-point description of the image:\n\n1. **Content Type**: The image appears to be a screenshot of a software interface or a log window, likely from a development or testing environment.\n2. **Text Displayed**:\n * The primary text displayed is a URL: "http://127.0.0.1:8000/execute". This suggests a local server or an API endpoint.\n * There is an error message: “SyntaxError: Invalid Object”. This indicates that there is a problem with the object used in the code.\n * There is another error message that says, “SyntaxError: Invalid Object”.\n3. **Visual elements:** The URL is highlighted with a red rectangle.\n4. **Color Palette:** The background is a light grey/off-white color. The error messages and URL are in red, indicating potential errors or highlights.\n5. **Context**: The screenshot seems to represent a failed execution or an error related to an object or API call at the local server.image1572×133 10.7 KB
+The error shows your code is getting wrong answers for the test cases. I looked into your code and noticed that you are using sklearn (I think which is not required in this case). Just get embedding vector for each document content and query by passing a valid POST request to http://aiproxy.sanand.workers.dev/openai/v1/embeddings with required headers. And, then calculate similarity_scores simply using
+\cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}| |\mathbf{B}|}
+which in python syntax is-
+np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
+
+Sir, Regarding the embedding questions, I had posted earlier. Now, I am writing the error I faced. I tried to use the OpenAI API, but I am getting the error as “The Maximum Quota has reached”. I tried using 5 new API Keys from OpenAI, from 5 different accounts. So, I had to use SentenceTransformers, Alibaba gte model. So, as the model has changed, I think so it is expecting answer as got from OpenAI Model, but as I used Alibaba gte model, I am getting different result. Can you please explain how to solve this issue? This will be helpful in my future codes. I could do chat requests but it is not giving output for Embedding requests, I tried it multiple times with multiple different keys.Thank You
+model='gemma3:27b' created_at='2025-06-13T16:25:12.136081141Z' done=True done_reason='stop' total_duration=38666241235 load_duration=18369169 prompt_eval_count=323 prompt_eval_duration=18736402951 eval_count=197 eval_duration=19910772492 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:** The image presents a waveform visualization against a black background. This suggests audio or signal processing data. \n\n**Key Features:**\n\n* **Waveform:** A series of vertical lines, representing an audio or signal waveform, stretches across the image width.\n* **Density:** The lines are densely packed, indicating a complex signal or audio track. The density of lines varies, indicating dynamic changes in the signal's amplitude. \n* **Color:** The waveform is white against the solid black background.\n* **Text:** A line of text is visible above the waveform, though the specific words are difficult to discern due to the small size and possible distortions. \n\n**Interpretation:** The image likely depicts a visual representation of an audio track or signal, such as an equalizer display or a waveform editor screenshot. The text may provide context about the source or characteristics of the signal.", thinking=None, images=None, tool_calls=None)
+This is my code for the 7th question of finding similarities. This code, I tried on my own, but it is showing Incorrect Matches. I think so it is due to the Aliababa GTE Model. Please correct me if I have gone wrong anywhere. Thank You
+from fastapi import FastAPI, Query
+import httpx
+from typing import List
+import numpy as np
+import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
+from sentence_transformers import SentenceTransformer
+from sentence_transformers.util import cos_sim
+
+model = SentenceTransformer('Alibaba-NLP/gte-large-en-v1.5', trust_remote_code=True)
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["OPTIONS", "POST"],  # Allows all methods (GET, POST, OPTIONS, etc.)
+    allow_headers=["*"],  # Allows all headers
+)
+
+class similarity1(BaseModel):
+    docs: list[str]
+    query: str
+@app.post("/similarity")
+async def similarity(similarity1: similarity1):
+    docs = similarity1.docs
+    query = similarity1.query
+    results_docs = model.encode(docs)
+    results_query = model.encode(query)
+    similarities = {}
+    output = []
+    for i in range(len(results_docs)):
+        c = np.dot(results_docs[i], results_query) / (np.linalg.norm(results_docs[i])*np.linalg.norm(results_query))
+        similarities[c] = docs[i]
+    k = sorted(list(similarities.keys()))
+    for i in k[::-1][:3]:
+        output.append(similarities[i])
+    return {"matches" : output}
+if __name__ == "__main__":
+  (uvicorn.run(app))
+
+
+Here\'s a detailed description of the image:\n\n* **Overall Layout:** The image captures a screenshot of a digital interface, likely a web application or online platform. The background is predominantly dark teal/green.\n\n* **Top Bar:** The top of the screen indicates the session ended on Wednesday, February 5th, 2025, at 11:59 PM IST. It also displays a score of 0, along with buttons labeled "Check all" and "Save."\n\n* **Discussion Link:** A teal-colored box displays a message inviting the user to join the discussion on Discourse. \n\n* **User Login Information:** Below this, text indicates the user is logged in as "24f2005437@ds.study.iitm.ac.in" with a "Logout" button.\n\n* **Recent Saves:** The bottom portion of the screen lists "Recent saves," with two entries:\n * "Loaded" from February 5th, 2025, at 11:20:33 PM with a score of 6.\n * "Reload" from February 5th, 2025, at 11:20:20 PM with a score of 6.\n\n* **Color Scheme:** The interface is primarily dark-themed, utilizing teal, green, and white for text and interactive elements.image925×544 25.9 KB
+i submitted the assignment on time but i am still getting assignment not submitted. And it also show zero marks. Same thing happened with graded assignment 2. @Jivraj
+@Jivraj @carlton
+I have submitted ga3 still showing not submitted , why sir?
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a web page related to a learning module, specifically a "Large Language Models" assignment within the "TDS 2025 Jan GA3" course. It appears to be a student\'s view of the assignment details and submission status.\n\n**Key Elements and Details:**\n\n1. **Browser Interface:** The screenshot shows a web browser window with a dark theme. The URL bar indicates a course platform or website.\n\n2. **Course/Module Title:** At the top, it reads "TDS 2025 Jan GA3 - Large Language Models". This indicates the course and the specific module being viewed.\n\n3. **Instructions:** A set of numbered instructions is displayed, outlining expectations for the assignment. These instructions cover aspects like learning material, answering questions, and seeking help.\n\n4. **Submission Status:** A table lists "Graded Assignment 3: Assessment", with "Not Submitted" displayed in its column, along with columns for “Your Score,” "Peer Average," and "Median Score" which are all currently blank.\n\n5. **User Identification:** A red banner indicates the user is logged in as a specific ID.\n\n6. **Call to Action:** Buttons encourage users to "Join the discussion on Discourse" and suggest checking recent saves.\n\n**In summary,** the image is a screenshot of a learning management system interface showing assignment details, instructions, and submission status for a module on Large Language Models. The student hasn\'t yet submitted the assignment.Untitled design1414×2000 314 KB
+@Jivraj @carlton
+please reply why its showing not submitted in ga3 but i have submitted that
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a web page related to a learning module, specifically a "Large Language Models" assignment within the "TDS 2025 Jan GA3" course. It appears to be a student\'s view of the assignment details and submission status.\n\n**Key Elements and Details:**\n\n1. **Browser Interface:** The screenshot shows a web browser window with a dark theme. The URL bar indicates a course platform or website.\n\n2. **Course/Module Title:** At the top, it reads "TDS 2025 Jan GA3 - Large Language Models". This indicates the course and the specific module being viewed.\n\n3. **Instructions:** A set of numbered instructions is displayed, outlining expectations for the assignment. These instructions cover aspects like learning material, answering questions, and seeking help.\n\n4. **Submission Status:** A table lists "Graded Assignment 3: Assessment", with "Not Submitted" displayed in its column, along with columns for “Your Score,” "Peer Average," and "Median Score" which are all currently blank.\n\n5. **User Identification:** A red banner indicates the user is logged in as a specific ID.\n\n6. **Call to Action:** Buttons encourage users to "Join the discussion on Discourse" and suggest checking recent saves.\n\n**In summary,** the image is a screenshot of a learning management system interface showing assignment details, instructions, and submission status for a module on Large Language Models. The student hasn\'t yet submitted the assignment.Untitled design1414×2000 314 KB
+@carlton, @Jivraj
+Both the api based questions i am unable to get the output it always says bad request
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a code editor (likely Visual Studio Code) displaying Python code within a project structure. The code appears to be related to parsing queries, specifically for arrangements and expense balances. The bottom section of the screen displays console output with error messages and informational logs.\n\n**Detailed Breakdown:**\n\n* **Code Editor:** A Visual Studio Code window is prominently displayed, with elements like the file explorer, editor area, and a debug/terminal panel visible.\n\n* **File Structure (Explorer Panel):** \n * The file explorer on the left shows the project\'s file structure.\n * Key files include: `main.py`, `.env`, `requirements.txt`, and a directory called `app` with a `parse_query.py` file inside.\n\n* **Code (`parse_query.py`):**\n * The code open in the editor is a Python file named `parse_query.py`.\n * It contains functions like `parse_query` and attempts to match strings to extract relevant information, such as meeting times and expense balances.\n * Regular expressions (using `re.match`) are used for parsing.\n * The code includes comments describing the purpose of each match (e.g., "# Match Arrange meeting").\n\n* **Console Output:** \n * The bottom panel displays console output.\n * There are error messages related to query formatting, indicating that some queries did not match expected patterns.\n * There are informational messages with request/response data from a server (containing information about HTTP requests/responses).\n * It is likely from a server side application, with the error indicating a mismatch between the expected format and the received query.\n\n* **User Interface Elements:**\n * Standard VS Code UI elements are present: tabs, file explorer, debug/terminal panel, and a status bar with information about file encoding and line endings.\n * The bottom bar also displays information such as the Python interpreter being used, and the line/column position within the file.\n\n**In essence, the image depicts a developer debugging a Python application that parses natural language queries, likely within a web application or chatbot environment.**Screenshot 2025-01-30 at 3.55.56 PM1920×1200 219 KB
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a web page, likely from an interactive coding or data analysis platform, showing a code snippet, an input field, and error messages related to a network request.\n\n**Key Elements:**\n\n1. **Page Header:** The top of the screen displays a header with the date "Sun, 2 Feb, 2025, 11:59 pm IST" and a score of "6.5 / 9.5" along with "Check" and "Save" buttons.\n\n2. **Code Snippet:** A block of JSON-formatted code is present, defining a function call with:\n * "name": "get\\_ticket\\_status"\n * "arguments": "{\\"ticket\\_id\\": 83742}"\n\n3. **Instructions:** Text instructing the user to enable CORS (Cross-Origin Resource Sharing) GET requests.\n\n4. **API Endpoint Input:** A field with the URL "http://127.0.0.1:8000/execute" is visible, acting as an API endpoint.\n\n5. **Error Message:** A red-bordered error message states "Error: Failed to fetch: Bad Request". This indicates a failed network request.\n\n6. **Explanation:** Text explains that the system will attempt a GET request to verify the endpoint and match the expected response.\n\n7. **Bottom Bar:** A bar at the bottom displays a task "Get an LLM to say Yes (1 mark)".\n\n\n\n**In summary:** This image shows a coding or analysis environment where a user is attempting to call an API endpoint, but is receiving a "Bad Request" error, likely due to CORS issues or incorrect request parameters. It appears to be part of a larger task that involves prompting a Large Language Model (LLM).Screenshot 2025-01-30 at 3.57.17 PM2048×1280 284 KB
+all other questions i have finished. even in Ga2 all these api and flask creates a lot of issues. if there is any complete guide to understand this also pls help us.
+Hi @23ds1000022 ,
+Check network tab, there check for response of http://127.0.0.1:8000/api request.
+I have counted the number of tokens in gpt-4o-mini but when I was entering the answer in portal it was showing incorrect please take a look and provide a solution for it .
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of the OpenAI Platform interface, specifically showcasing a text input area displaying a long string of alphanumeric characters. It appears to be a generated output, likely from a language model.\n\n**Key Elements:**\n\n* **Interface:** The top of the image shows a navigation bar with options like "GPT-4" and "GPT-3," indicating it\'s related to OpenAI\'s large language models. There are links for documentation ("Docs") and API reference.\n* **Text Area:** The majority of the image is filled with a large text area. The text is a seemingly random sequence of letters, numbers, and symbols. It suggests a model output (perhaps a token sequence or a piece of generated content).\n* **Token & Character Count:** At the bottom left, the interface displays "Tokens: 406" and "Characters: 625," quantifying the length of the displayed text. This is a common metric in language model interfaces to track usage and cost.\n* **Buttons:** Below the token count, there are two buttons labeled "Clear" and "Show Example," indicating user interaction options to reset the text or view a sample output.\n* **Background:** The overall background is dark, making the text and interface elements more visible.\n\n**In summary:** The image depicts the OpenAI platform\'s text input area containing a lengthy sequence of tokens likely produced by a large language model, with metrics for token and character count displayed.Screenshot 2025-02-01 1806272458×1183 284 KB
+There are few more tokens for the user prompt, I think if you add 7 or 8 then you would get correct answer.
+Other way to do this question is send a request to anand sir’s aiproxy and in response you will get number of input tokens.
+I inspected the JavaScript code of this website, I saw that the answer took my input and added 7 to it, why is it programmed this way? Even if I were to use the AI proxy that was given shouldn’t the number of tokens remain unaffected?
+When you send request to openai through anand sir’s proxy it takes some tokens for user prompt.
+When you use tokenizer from openai’s webpage then it doesn’t take care of that.
+How to answer the 3rd question in ga 3 i have to no clue (tired inspecting its html pages)
+
+
+drive.google.com
+
+
+
+2025-02-04 03-50-48.mkv
+Google Drive file.
+
+
+
+
+
+Q3 how to generate answer box ,I am not able to do it. kindly guide me with that.
+Q7 &amp; Q8 in these questions the problem is the same my app couldn’t fetch the details from the file.
+`from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from typing import List
+import openai
+from fastapi.responses import JSONResponse
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Initialize FastAPI app
+app = FastAPI()
+
+# Add CORSMiddleware with more restrictive settings
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Allow only this specific origin
+    allow_credentials=True,
+    allow_methods=["POST", "OPTIONS"],  # Allow only POST and OPTIONS methods
+    allow_headers=["Content-Type", "Authorization"],  # Allow only specific headers
+)
+
+# OpenAI API key (use your own key)
+openai.api_key = 'eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjIwMDY3NDlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.tMJtqZrzRqREY7E3wsFMd9PkElXEbRBpCkb533ORGEU'
+
+# Request body model for /similarity endpoint
+class SimilarityRequest(BaseModel):
+    docs: List[str]
+    query: str
+
+# Function to get embeddings (using OpenAI API)
+def get_embedding(text: str):
+    response = openai.Embedding.create(
+        model="text-embedding-ada-003",  # Use the correct model
+        input=text
+    )
+    return response['data'][0]['embedding']
+
+# POST /similarity endpoint
+@app.post("/similarity")
+async def similarity(request: SimilarityRequest):
+    docs = request.docs
+    query = request.query
+    query_embedding = get_embedding(query)
+    doc_embeddings = [get_embedding(doc) for doc in docs]
+    
+    # Cosine similarity
+    similarities = [cosine_similarity([query_embedding], [doc_embedding])[0][0] for doc_embedding in doc_embeddings]
+    ranked_docs = [docs[i] for i in np.argsort(similarities)[::-1]]
+    
+    return JSONResponse(content={"matches": ranked_docs[:3]})
+
+# Optionally, handle requests to the root (GET /)
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the similarity API!"}
+`
+
+and for Q8
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from typing import Dict, Any
+import re
+
+# Create the FastAPI app
+app = FastAPI()
+
+# CORS configuration to allow any origin
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods (GET, POST, etc.)
+    allow_headers=["*"],  # Allows all headers
+)
+def get_ticket_status(ticket_id: int) -&gt; Dict[str, Any]:
+    # Mock response for illustration purposes
+    return {"ticket_id": ticket_id, "status": "open"}
+
+def schedule_meeting(date: str, time: str, meeting_room: str) -&gt; Dict[str, Any]:
+    # Mock response for illustration purposes
+    return {"date": date, "time": time, "meeting_room": meeting_room, "status": "scheduled"}
+
+def get_expense_balance(employee_id: int) -&gt; Dict[str, Any]:
+    # Mock response for illustration purposes
+    return {"employee_id": employee_id, "balance": 1000.0}
+
+def calculate_performance_bonus(employee_id: int, current_year: int) -&gt; Dict[str, Any]:
+    # Mock response for illustration purposes
+    return {"employee_id": employee_id, "current_year": current_year, "bonus": 500.0}
+
+def report_office_issue(issue_code: int, department: str) -&gt; Dict[str, Any]:
+    # Mock response for illustration purposes
+    return {"issue_code": issue_code, "department": department, "status": "reported"}
+import re
+
+def extract_parameters(query: str) -&gt; Dict[str, Any]:
+    """Extract parameters from the query string."""
+    # Convert the query to lowercase for case-insensitive matching
+    query = query.strip().lower()
+
+    if match := re.match(r"what is the status of ticket (\d+)\?", query):
+        return {
+            "name": "get_ticket_status",
+            "arguments": {"ticket_id": int(match.group(1))}
+        }
+    elif match := re.match(r"schedule a meeting on (\d{4}-\d{2}-\d{2}) at (\d{2}:\d{2}) in (.+)\.", query):
+        return {
+            "name": "schedule_meeting",
+            "arguments": {
+                "date": match.group(1),
+                "time": match.group(2),
+                "meeting_room": match.group(3)
+            }
+        }
+    elif match := re.match(r"show my expense balance for employee (\d+)\.", query):
+        return {
+            "name": "get_expense_balance",
+            "arguments": {"employee_id": int(match.group(1))}
+        }
+    elif match := re.match(r"calculate performance bonus for employee (\d+) for (\d{4})\.", query):
+        return {
+            "name": "calculate_performance_bonus",
+            "arguments": {
+                "employee_id": int(match.group(1)),
+                "current_year": int(match.group(2))
+            }
+        }
+    elif match := re.match(r"report office issue (\d+) for the (\w+) department\.", query):
+        return {
+            "name": "report_office_issue",
+            "arguments": {
+                "issue_code": int(match.group(1)),
+                "department": match.group(2)
+            }
+        }
+    return {}
+
+@app.get("/execute")
+async def execute_query(q: str):
+    # Extract the function name and arguments from the query
+    result = extract_parameters(q)
+    
+    if not result:
+        return JSONResponse(content={"error": "No matching function found for the query"}, status_code=400)
+    
+    # Call the respective function
+    func_name = result["name"]
+    arguments = result["arguments"]
+    
+    # Call the function dynamically based on func_name
+    if func_name == "get_ticket_status":
+        response = get_ticket_status(**arguments)
+    elif func_name == "schedule_meeting":
+        response = schedule_meeting(**arguments)
+    elif func_name == "get_expense_balance":
+        response = get_expense_balance(**arguments)
+    elif func_name == "calculate_performance_bonus":
+        response = calculate_performance_bonus(**arguments)
+    elif func_name == "report_office_issue":
+        response = report_office_issue(**arguments)
+    
+    # Return the response in the requested format
+    return JSONResponse(content={"name": func_name, "arguments": arguments}, status_code=200)
+
+Please kindly guide me with these problems as I am trying to do it since last 3 days. I am exhaust now, Please help me with this. @Jivraj , @carlton , @Saransh_Saini
+Hi Sakshi
+
+
+
+ Sakshi6479:
+
+Q3 how to generate answer box ,I am not able to do it. kindly guide me with that.
+
+
+
+
+drive.google.com
+
+
+
+2025-02-04 03-50-48.mkv
+Google Drive file.
+
+
+
+
+
+
+For question 7
+
+
+
+ Sakshi6479:
+
+import openai
+
+
+
+You won’t be able to send request through openai python module, here is one example how you would make a request
+headers = {
+    'Content-Type': 'application/json',
+    'Authorization': f'Bearer {OPENAI_API_KEY}'
+}
+
+json_data = {
+    'model':'gpt-4o-mini',
+    'messages':[
+        {
+            'role':'user',
+            'content':'What is 2+2?'
+        }
+    ]
+}
+r = httpx.post('http://aiproxy.sanand.workers.dev/openai/v1/chat/completions', headers = headers, json = json_data, timeout=10.0)
+
+You would need to use professor Anand’s proxy or some other api key through which request can be made.
+Url’s for free api keys:
+
+AI Proxy
+OpenAI GPT-4o · GitHub Models
+
+The way to use api’s is demonstrated in live sessions, also refer to this documentation sanand0/aiproxy: Authorizing proxy for LLMs.
+
+For question 8, you’ll need to use OpenAI’s function calling feature and identify which function needs to be called and arguments to be used, we discussed in last Friday’s session on functions like order and cancel_order.
+Kind regards
+Hello sir,
+While working on this question, I’m encountering this problem. It looks like the request is being made successfully (and I verified it by a POST request via Postman ), however while submitting my URL at the assignment portal, I’m getting an error.
+Here\'s a point-by-point description of the image:\n\n* **Display Type:** The image shows a terminal or command-line interface.\n* **Text Content:** It displays a sequence of informational messages related to a database operation. \n* **Database Actions:** The messages indicate that a collection named "documents" was successfully reset and created. 10 new documents were added to this collection.\n* **Search Query:** A search query was executed: "How is our internal training addressing cybersecurity challenges?".\n* **Search Results:** The search found the following matches:\n * "Employee training on cybersecurity best practices is being rolled out company-wide."\n * "The staff handbook has been updated to reflect current operational policies."\n * "Our quality assurance team has implemented automated testing protocols."\n* **HTTP Status:** HTTP requests related to similarity search returned a 200 OK status.\n* **IP Address and Port:** The messages include the IP address 127.0.0.1 and port 59423, indicating a local server connection.\n* **Background:** The background is black.\n* **Color:** The text is primarily green, providing contrast against the dark background.image1550×207 22.2 KB
+Here\'s a point-by-point description of the image:\n\n* **Background:** The image has a dark background, likely black.\n* **Text:** The primary content consists of text displayed on the screen.\n* **Question:** The initial line asks, "What is the API endpoint for your implementation? It might look like: http://127.0.0.1:8000/similarity"\n* **Input Field:** Below the question, there is an input field with the text "http://127.0.0.1:8000/similarity" entered into it. The field is highlighted with a yellow outline.\n* **Error Message:** At the bottom of the image, there\'s an error message that reads, "Error: Got incorrect matches: Employee training on cybersecurity best practices is being rolled out company-wide. The staff handbook has been updated to reflect current operational policies. Our quality assurance team has implemented automated testing protocols." This message is highlighted with a red background.\n* **Interface:** The image shows what appears to be a user interface, likely from a web application or a command-line tool, where a user is prompted for an API endpoint and receives an error message upon input.image1288×138 7.33 KB
+I even tried deploying on a public URL using render. My guess is there is a formatting issue or it’s not sorting correctly based on the similarity score and not returning the top 3.
+Would appreciate if I can get some clarity on the same
+Thanks and Regards
+Shalini
+Hello, I think the format of the response body should be like: { “matches” : [ “ABC”, “ABC”, “ABC”]}. I think it is because of your formatting issue.
+Here is a detailed description of the image:\n\n**Overall Impression:** The image showcases a screenshot of a Postman request and its JSON response. The interface is dark-themed.\n\n**Key Elements:**\n\n1. **Postman Interface:** A Postman window is visible, indicating a tool for API testing.\n2. **Request URL:** The request is made to `http://127.0.0.1:8000/similarity`. This likely represents a local server endpoint for measuring similarity.\n3. **Request Method:** The request method is "POST".\n4. **Authentication:** The authentication type is set to "No Auth".\n5. **Response:** The response body is a JSON object.\n6. **JSON Response:** The JSON data includes a key "matches" containing an array of strings. The strings include:\n * "FastAPI is great for APIs."\n * "Embedding models improve NLP."\n * "Machine learning is evolving."\n7. **Status Code:** The status code of the response is "200 OK", indicating a successful request.\n8. **Response Size:** The response size is 17.26 KB and 232 B.\n9. **Postman Tabs:** Tabs at the bottom of the screen show Postman functionalities like \'Runner\', \'Capture requests\', \'Cookies\', \'Vault\', and \'Trash\'.\n\n**In Summary:** The image captures a successful POST request to a similarity endpoint, returning an array of text strings as matches in JSON format. The request is made to a local server, and no authentication is required.Screenshot_20250204_032923991×615 43.7 KB
+I had used (well gpt) the below two decorators to format:
+class SearchRequest(BaseModel):
+    docs: List[str]  # The list of documents to search through
+    query: str       # The search query string
+
+class SearchResponse(BaseModel):
+    matches: List[str]  # The list of matched documents
+
+.........
+
+@app.post("/similarity", response_model=SearchResponse)
+
+
+.........
+
+return SearchResponse(matches=sorted_matches[:3])
+
+It basically checks the Request  and Response formatting. This worked for me. Hope it helps. And thanks btw for mentioning using POSTMAN, as I had never used it before, so it clicked in my mind after reading your post only that I can basically debug using POSTMAN. Thank you for that 
+{
+  "matches": ["Contents of document 3", "Contents of document 1", "Contents of document 2"]
+}
+
+Check if your response is in this format.
+kind regards
+Jivraj
+Does the final submission get graded, or is the highest-scoring submission considered?
+I’m facing an issue where my score dropped from 8 to 6.5 when I checked all the answers one last time before submitting. I suspect the drop is due to the 3rd and 7th questions.
+Here is a detailed description of the image:\n\n* **Overall Layout:** The image displays a list of "Recent saves" with details about each save.\n* **Color Scheme:** The image has a dark green background and light green highlights for buttons and text.\n* **List Items:** There are three list items, each containing the following information:\n * A button labeled "Reload" with a light green background.\n * A date and time stamp: 2/5/2025, followed by a specific time.\n * A "Score" value, displayed numerically.\n* **Specific Data:**\n * The first save occurred on 2/5/2025 at 11:59:18 PM, with a score of 6.5.\n * The second save occurred on 2/5/2025 at 11:30:37 PM, with a score of 8.\n * The third save occurred on 2/5/2025 at 10:44:08 PM, with a score of 6.5.Screenshot 2025-02-06 001446810×296 14.8 KB
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of an online quiz or exam interface titled "TDS 2025 Jan GA3 - Large Language M". It displays instructions for the user.\n\n**Key Elements & Details:**\n\n* **Header:** At the top, it shows "[Admin] Ended at Wed, 5 Feb, 2025, 11:59 pm IST" and buttons for "Score: 0", "Check all" and "Save".\n* **Title:** Centrally displayed in large font is "TDS 2025 Jan GA3 - Large Language M".\n* **Instructions Box:** A rectangular box with the title "Instructions" is prominent on the left side. The box contains an eye icon.\n* **Numbered Instructions:** Beneath the "Instructions" box, there\'s a list of numbered instructions:\n 1. Encourages reading material but allows skipping questions.\n 2. Instructs users to check answers using the "Check" button.\n 3. Instructs users to save regularly using the "Save" button, with a note that the last submission will be evaluated.\n 4. Indicates reloading is okay but that questions won\'t change due to randomization.\n 5. Provides troubleshooting advice for browser loading issues.\n 6. Permits the use of any resources, including the internet and tools like ChatGPT.\n 7. Explicitly states the quiz is hackable, allowing users to find answers through code.\n* **Note:** A note at the bottom mentions the need for multiple servers to run simultaneously during checking or saving.\n\n**Color Scheme:** The background is primarily light gray, with dark text, and highlights on the instruction box and buttons.\n\n**Overall Tone:** The tone is somewhat unusual due to the explicit mention of "hackability", which is not common in traditional exams. The instructions are comprehensive and permissive regarding resource usage.Screenshot 2025-02-06 at 11.27.07 am2570×1136 358 KB
+The score drops because some questions may require you to either keep a server turned on or some dynamic changes may occur for some questions (The dynamic changes are intentional in some questions, in order to get students to learn by doing. So if you solved everything and the score is the maximum… just make that your last submission. The score you see is the score you will get for your last submission).
+If you want check a question without submitting. Then just use the check button instead. But your last submission is whats scored.
+Same problem with my submission
+Here\'s a detailed description of the image:\n\n**Overall:** The image is a bar chart visualizing the distribution of scores on a GA3 assessment. \n\n**Key Elements:**\n\n* **Title:** "GA3 Active Score Distribution"\n* **X-axis:** Represents score ranges (0-10, 11-20, 21-30...91-100).\n* **Y-axis:** Represents the number of students who fell within each score range ("GA3 Student Count").\n* **Bars:** Each bar represents the number of students that fell within a particular score range. The height of each bar corresponds to the student count.\n* **Data Trends:**\n * The number of students is lowest in the 0-10 score range (12 students).\n * The number of students generally increases as the score range increases.\n * The highest number of students (over 200) fall within the 91-100 score range. \n\n**Color Scheme:** The bars are in a shade of blue.\n\n**Overall Impression:** The chart demonstrates that the majority of students performed well on the GA3 assessment, with a substantial peak in the highest score range.Screenshot 2025-02-06 at 8.11.15 pm3444×1394 188 KB
+For those that are interested.
+sir why the GA marks is not being reflected in the course page. We are getting a sign of non submission.
+Is there any way getting the score.
+Hello sir ,I find a issue with submission of GA4.  Actually i submitted ga3 on “Technical Assessment”        with full marks but in the course &gt;grade portal it is saying it is not submitted. what’s the issue is this?
+I also have same problem
+can you please reply?
+@Jivraj @carlton
+A post was merged into an existing topic: GRADED ASSIGNMENT RESULT NOT SHOWING , kindly check on this

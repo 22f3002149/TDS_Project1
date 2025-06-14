@@ -1,0 +1,571 @@
+Please post any questions related to Graded Assignment 1 - Development Tools.
+
+Important Instruction
+Please use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. Visit this link for more details: Extended Syntax | Markdown Guide.
+A friendly suggestion: kindly go through Discourse Docs! 
+
+Deadline: 26 Jan 2025, midnight IST
+@carlton @Jivraj Please keep an eye on this thread for support.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a coding exercise or instruction set, likely from an online learning platform. It presents a task involving file manipulation via the command line.\n\n**Key Elements:**\n\n1. **Heading:** At the top, there\'s a heading labeled "Move and rename files (0.5 marks)", indicating this is a small part of a larger assignment.\n2. **Instructions:** A paragraph of text explains the task. It details the following steps:\n * Download a zip file named "q-move-rename-files.zip".\n * Extract the contents of the zip file.\n * Use `mv` to move all files within subfolders into an empty folder.\n * Rename all files by replacing each digit in the filename with the next digit (e.g., "a19b.txt" becomes "a20b.txt").\n3. **Command Line Prompt:** Below the instructions is a text line that asks “What does running grep `.*` | LC_ALL=C sort | sha256sum in bash on that folder show?” \n\n**Color Scheme:** The background is a dark shade of blue, with white text providing contrast. This is typical for coding environments.\n\n**Overall, the image demonstrates a coding task requiring the use of command-line tools for file manipulation and a secondary question regarding shell commands.**image1296×158 7.29 KB
+For question 16 of GA1, It says "Rename all files replacing each digit with the next "
+Accepted answer is working only if file names are renamed as
+2h3q9x.txt → 3h4q0x.txt
+eb209nmlca.txt → eb310nmlca.txt
+That means if digit is 9 then next digit should be 0. @carlton @Jivraj let me know if this is what is expected. since 9-&gt;10 or 209 → 210 is not working
+Hi anant,
+Question mentions every digit should be replaced by next one.
+In that case 209 would get replaced by 310
+Hello Sir, When I am following that logic to rename files, assessment check is giving error “Incorrect. Try again.”
+@21f2000370 Since you have managed to get all the answers correct, I presume there are no further issues w/ Q16.
+Hi, I am unable to access Graded Assignment 1. Every time I click on the given link, all I can see is this page. Please advise.
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays a screenshot of a learning management system (LMS) or online quiz interface.\n* **Title:** The main heading reads "Tools in Data Science - Graded Assignment 1."\n* **Deadline:** A "Deadline" label is visible, indicating a due date for the assignment.\n* **Note:** A note is provided stating, "Every page reload randomizes the quiz. So don\'t copy answers from previous attempts. You can submit multiple times."\n* **Background:** The background is a light gray, suggesting a minimalist and clean interface design.\n* **Font:** A sans-serif font is used for all text elements, likely for readability.\n* **Overall Impression:** The image conveys an educational context, specifically an assignment related to data science tools within an online learning platform.tdsga11902×919 31.1 KB
+Possible reasons for this issue.
+
+Disable/remove Ad blocker
+Disable/remove Tracking blocker (Allow third party cookies)
+Use Chrome browser
+Disable Browser extensions
+
+As I highlighted earlier, Its not accepting the answer  if I follow correct logic for renaming for example 209-&gt;210, but it is accepting if rename as 209-&gt;310
+Hi Anant,
+
+
+
+ 21f2000370:
+
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a coding exercise or instruction set, likely from an online learning platform. It presents a task involving file manipulation via the command line.\n\n**Key Elements:**\n\n1. **Heading:** At the top, there\'s a heading labeled "Move and rename files (0.5 marks)", indicating this is a small part of a larger assignment.\n2. **Instructions:** A paragraph of text explains the task. It details the following steps:\n * Download a zip file named "q-move-rename-files.zip".\n * Extract the contents of the zip file.\n * Use `mv` to move all files within subfolders into an empty folder.\n * Rename all files by replacing each digit in the filename with the next digit (e.g., "a19b.txt" becomes "a20b.txt").\n3. **Command Line Prompt:** Below the instructions is a text line that asks “What does running grep `.*` | LC_ALL=C sort | sha256sum in bash on that folder show?” \n\n**Color Scheme:** The background is a dark shade of blue, with white text providing contrast. This is typical for coding environments.\n\n**Overall, the image demonstrates a coding task requiring the use of command-line tools for file manipulation and a secondary question regarding shell commands.**image1296×158 7.29 KB
+
+
+Here in question, it’s mentioned to replace every digit with next digit, that’s why 209 would be 310.
+In attempting the third question, I’m unable to download the npm package as it requires docker. When trying to install docker from the installer, it freezes in the verifying package stage. Can somebody please help solve my problem?
+@carlton @Jivraj
+Here\'s a detailed description of the image:\n\n* **Overall Impression:** The image shows a dark-themed screen, likely from a coding or learning platform, posing a challenge related to CSS selectors.\n* **Text Content:**\n * "Let\'s make sure you know how to select elements using CSS selectors. Find all ``s having a `foo` class in the hidden element below. What\'s the sum of their `data-value` attributes?" is the main instruction/question.\n * "Sum of data-value attributes" is a label above an input field.\n* **Input Field:** A rectangular input field is visible, with a red border. It is intended for the user to type their answer. A small red circle with a number \'0\' is present to the right of the input field.\n* **Color Scheme:** The overall color scheme is dark, with white or light-colored text and red highlighting.\n* **Purpose:** The image presents a programming exercise/challenge focusing on selecting elements with CSS and retrieving the value of a specific attribute.image1627×202 12.6 KB
+Which HTML content we want to take?
+Hi Suhani,
+npm does not require docker.
+Kind regards
+Hi Hisham,
+Its described in the question. There is a hidden element hiding somewhere after that question. You would have to inspect the DOM to find it.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a web page, likely an online learning platform or a coding assignment interface. It displays a coding challenge or assessment related to CSS selectors.\n\n**Key Elements & Content:**\n\n1. **Top Banner:** Displays the due date ("Sun, Jan 26, 2025, 11:59 pm IST") and score ("8.75/10"). Buttons for "Check" and "Save" are present.\n\n2. **Main Content Area:**\n * **Text Description:** A paragraph explains that the Mozilla Developer Network (MDN) provides documentation on CSS selectors (basic, attribute, and combinators).\n * **Interactive Tool Mention:** Refers to "CSS Diner," a fun game to learn CSS selectors.\n * **Coding Challenge:** Asks the user to find all `` elements with a class "foo" and calculate the sum of their "data-value" attributes.\n * **Error Message:** Shows an "Incorrect. Try again." message indicating an attempt at the challenge.\n\n3. **Right Sidebar:**\n * Lists files named "q-unicode-data.zip," "README.md," "Book 2\\[Sheet].csv," and "q-move-rename-files.zip," all labeled as "Removed".\n\n4. **Bottom Navigation:** Displays "12. Process files with different encodings (1 mark)".\n\n**Visual Details:**\n\n* The interface is predominantly white and gray, typical of many web development environments.\n* The coding challenge includes code snippets highlighting HTML elements and attributes.\n* A red error icon (circle with an "i") is visible next to the incorrect answer message.\n\n\n\nIn essence, the image portrays a user working through a CSS selector exercise on an online learning platform, with files related to a previous task listed in the sidebar.Screenshot 2025-01-11 at 10.29.41 PM1440×900 160 KB
+@s.anand  please guide me through this question, my answer is showing incorrect
+Hello Sir. I am unable to install uv in my windows system. Whenever I run the code provided at the reference link in Powershell, my anti-virus system sends a message that it was blocked. Even after blocking Real-time security, uv does not display. What am I doing wrong?
+Hi, I’m unable to view assignments. below is the screenshot for your reference.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays an error message from a web browser indicating a connectivity issue with a specific website. The background is dark gray with white text and blue buttons.\n\n**Key Elements & Details:**\n\n* **Error Message:** Prominently displayed text reads "This site can\'t be reached."\n* **Domain Name:** Below the main message, the URL “exam.sanand.workers.dev” is shown, indicating the website that couldn\'t be connected to. A secondary message states the domain "unexpectedly closed the connection".\n* **Troubleshooting Steps:** A bulleted list provides potential solutions:\n * “Checking the connection”\n * “Checking the proxy and the firewall”\n * “Running Windows Network Diagnostics”\n* **Error Code:** Below the list of suggestions the error code “ERR_CONNECTION_CLOSED” is shown.\n* **Buttons:** Two buttons are located at the bottom:\n * A blue button labeled “Reload”.\n * A blue button labeled “Details”.\n* **Icon:** Above the main error message, there is a small icon resembling a desktop monitor with an "x" on it, visually representing a connection issue.\n\n**In summary,** the image is a typical browser error screen indicating a failed connection to a website, providing both an explanation and troubleshooting advice to the user.Screenshot 2025-01-12 150511963×632 14.5 KB
+Please suggest me a way to view it. I have allowed third-party cookies as well.
+Thanks
+Hi manmeet,
+I don’t know about solution to this.
+Some network setting might be causing problem.
+Alternatively you can make use of GitHub codespaces which provides 120 hours of free run time in a month. With GitHub codespaces you can use Ubuntu os, and visually it gives you feel of vs code. You can also active your GitHub student developer pack and get 180 hours of GitHub codespaces and some more benefits such as cloud resources and domains.
+I have done all questions of week1 and week2 on codespaces only, codespaces works very well if you have good internet connection.
+Hi samra,
+Try installing some other browser see if that works.
+Hi mishkat,
+Without sharing code, can you pls share your approach how you are trying to solve this question.
+Ok, thanks. I turned off many security features including anti-virus system’s security and windows security options etc. Then it allowed me to download uv on the system. Now it is running, and I got output as json for Q2.
+2 days ago I  attempted TDS 2025 Jan GA1 - Development Tools and scored 8.5. I didn’t submit as I wanted to attempt incorrect answer questions.
+When I logged in today it says score is 0.
+Shall I submit or not? Do I have to attempt all questions again?
+Why the assignment and submissions are two separate pages/links?
+If [seek] (Nptel Seekh) can access [TDS exam] (Technical Assessment) then why we need to submit from seek?
+The seek portal question is to confirm that the student has seen the GA. It does not actually give you a score. Otherwise students sometimes claim that they looked and did not find any GAs (this has happened in the past). Hence the two stage verification. You still need to  the submissions to get a score for the GA.
+The actual GA questions are on https://exam.sanand.workers.dev/ via the seek portal or
+on the Tools in Data Science introduction page.
+Its just a more robust way of ensuring that students have indeed viewed the GAs.
+As far your submission goes, we have your last submission and the score. 
+We will check on our end why your submission has not reloaded into your browser.
+Normally these are stored in session storage. So if your browser has deleted them, it might have not loaded from our back end server. @s.anand will be able to confirm the reason for this problem.
+For the time being if you are making a fresh submission, just fill in all the answers in again, so that your latest submission will be marked correctly.
+Kind regards
+Thanks @carlton.
+I answered questions on https://exam.sanand.workers.dev/ but didn’t click on the button “Submit Answers” on seek as my answers for 2 questions were incorrect.
+My question is whether I need to submit on seek to save answers on Exam? (I checked my score and saved it on the exam site.)
+Hi @Nelson
+Your answers on the exam site that have been submitted will be saved and used as the basis for your score. Saying yes/no on seek does not materially impact scoring. Its just an awareness question. Even if you answered yes on the seek portal, you can still revise your answers on the exam site. The final submission is always whats locked in for the score (until the deadline passes).
+Kind regards
+It might be because you are not adding up the correct tags with attribute data-value. There may be other tags within the same DOM and having the attribute data-value.
+Kind regards
+I am stuck with the last question. SQLite question.
+It gives the error:
+Error: Got [[121510.39]]...
+
+
+Is it possible to have a more descriptive error? It’s a simple SQL query. I tried various options in my query. I didn’t succeed. 
+Hi Nelson,
+I checked your set of questions, you are using wrong query to get answer.
+kind regards
+@carlton @Jivraj
+In this picture for the given question i have tried in python and chatgpt both are giving same answer still showing wrong. GA1 question
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image appears to be a screenshot of a coding environment (likely an IDE) displaying Python code and its output. The problem the code is trying to solve is counting the number of Wednesdays within a specific date range.\n\n**Breakdown:**\n\n1. **Top Section:** A question or prompt is visible: "How many Wednesdays are there in the date range 1986-08-09 to 2012-06-19?". Beneath this, the answer "1349" is given, followed by "imported by agnes." and a note regarding the date format.\n\n2. **Middle Section:** This section showcases the Python code. Key parts of the code include:\n * Importing the `datetime` and `timedelta` modules.\n * Defining the start and end dates.\n * Iterating through each day in the date range to determine if it’s a Wednesday.\n * The core logic checks if the current date is a Wednesday (weekday 2) and increments a counter accordingly.\n * Printing the total count of Wednesdays.\n\n3. **Bottom Section:** This shows the execution results of the Python script. The final result states: "There are 1349 Wednesdays in the date range from August 9, 1986, to June 19, 2012." The output also shows UI elements for a feedback response: "0 of 6". \n\n4. **UI Elements:** A black terminal window with code is displayed. UI elements along the bottom of the screen indicate the file path (C:\\Users\\roy\\AppData\\Local\\Programs\\Python\\Python39\\python.exe) and the filename (casting.py).\n\n\n**In summary:** The image demonstrates a Python script that effectively calculates the number of Wednesdays within a given date range and shows the execution and its results.Neutral Minimal Photo Collage Mood Board Instagram Story1080×1920 119 KB
+@Jivraj @carlton
+The same issue is happening in the question 12 of GA1. I have given the answer by using collab and gemini , its giving the proper result but showing wrong.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a computer screen showing a code editor with Python code, accompanied by a video frame showing a man and a video title/description.\n\n**Left Panel (Code Editor):**\n* **Content:** The left panel is filled with lines of Python code.\n* **Code Structure:** The code appears to involve file handling (opening and reading files), data processing, and likely some string manipulation.\n* **Comments:** There are comments interspersed within the code, indicating the purpose of certain sections.\n* **File Type:** The code seems related to processing CSV files and handling Unicode encoding.\n* **Highlighting:** Syntax highlighting is present, making it easier to read the code.\n\n**Right Panel (Video & Description):**\n* **Video Content:** A man with short hair and a beard is shown in the video frame. He appears to be speaking directly to the viewer.\n* **Video Title:** The text "COMPUTER STUFF, THEY DIDN\'T TEACH YOU" and "Code Pages, Character Encoding, Unicode, UTF-8 and the BOM" are visible, indicating the video\'s topic.\n* **Video Description:** Some text is visible in the description area below the video, but is difficult to make out. \n\n**General:** The combined content suggests the user is learning or working with character encoding, Unicode, and potentially CSV file processing in Python, likely guided by the video tutorial.Minimal Square Photo Collage Photography Instagram Post1080×1080 126 KB
+Hi Shouvik,
+Your code seems correct to me. I think there is an extra space before your answer in input box.
+Btw instead of using a while loop, there is a much more optimal, which uses difference of dates and doesn’t require a loop at all. Try to figure it out.
+kind regards
+yeah thank you sir. now please say for the 2nd problem
+Try copy pasting exact symbols — OR † OR € Can you share code in code block, it’s difficult to read symbols that are present.
+Also have a look at what all_content variable contains, see if there are some problem with content.
+!pip install chardet==5.1.0  # Install the chardet library
+
+import chardet
+def read_files():
+  """Gets two CSV files and one TXT file from the user and reads them.
+
+  Returns:
+    A tuple containing the contents of the three files.
+  """
+    # Get the file paths from the user.
+  csv_file_1_path = input("Enter the path to the first CSV file: ")
+  csv_file_2_path = input("Enter the path to the second CSV file: ")
+  txt_file_path = input("Enter the path to the TXT file: ")
+
+  # ... (Get file paths from user - same as before)
+
+  # Read the CSV files.
+  try:
+    with open(csv_file_1_path, 'rb') as f:  # Open in binary mode
+      rawdata = f.read()
+      encoding = chardet.detect(rawdata)['encoding']  # Detect encoding
+    with open(csv_file_1_path, 'r', encoding=encoding) as csv_file_1:  # Use detected encoding
+      csv_data_1 = csv_file_1.read()
+
+    # Repeat for csv_file_2_path using the same pattern
+    with open(csv_file_2_path, 'rb') as f:
+        rawdata = f.read()
+        encoding = chardet.detect(rawdata)['encoding']
+    with open(csv_file_2_path, 'r', encoding=encoding) as csv_file_2:
+        csv_data_2 = csv_file_2.read()
+
+  except FileNotFoundError:
+    print("Error: One or both of the CSV files could not be found.")
+    return None
+  except UnicodeDecodeError:
+    print("Error: Could not decode one or both of the CSV files.")
+    return None
+
+  # Read the TXT file.
+  try:
+    with open(txt_file_path, 'rb') as f:  # Open in binary mode to detect encoding
+        rawdata = f.read()
+        encoding = chardet.detect(rawdata)['encoding']  # Detect encoding
+    with open(txt_file_path, 'r', encoding=encoding) as txt_file:  # Open in text mode with detected encoding
+        txt_data = txt_file.read() # Read the content of the file
+  except FileNotFoundError:
+    print("Error: The TXT file could not be found.")
+    return None
+  except UnicodeDecodeError:
+    print("Error: Could not decode the TXT file.")
+    return None
+
+  # Return the contents of the files.
+  return csv_data_1, csv_data_2, txt_data
+
+# Call the function to read the files.
+file_contents = read_files()
+if file_contents:
+  csv_data_1, csv_data_2, txt_data = file_contents
+  #print("Content of the first CSV file:\n", csv_data_1)
+  #print("\nContent of the second CSV file:\n", csv_data_2)
+  #print("\nContent of the TXT file:\n", txt_data)
+
+  # Combine the content of all files into a single string
+  all_content = csv_data_1 + csv_data_2 + txt_data
+
+  # Split the content into lines
+  lines = all_content.split('\n')
+
+  # Initialize the total sum
+  total_sum = 0
+
+  # Iterate through each line
+  for line in lines:
+    # Split the line into symbol and value, handling potential extra spaces
+    try:
+      parts = line.strip().split(',')
+      symbol = parts[0].strip()  # Remove leading/trailing spaces from symbol
+      value = parts[1].strip()   # Remove leading/trailing spaces from value
+
+      # Check if the symbol matches the criteria (using a more robust check)
+      if symbol in ['€', 'ˆ', '’'  # Euro symbol variations
+                     # Add any other known variations of the target symbols
+                   ]:
+        # Convert the value to a number and add it to the total sum
+        total_sum += float(value)
+
+    except (IndexError, ValueError):
+      # Ignore lines with incorrect formatting or non-numeric values
+      pass
+
+  # Print the total sum
+  print("The sum of all values associated with the specified symbols is:", total_sum)
+
+i have given all the symbols correctly sir
+Hi Jivraj,
+I have tried with a different browser, but still not working. Below is the screenshot for your reference.
+Here\'s a detailed description of the image:\n\n* **Overall Impression:** The image is a dark-themed error screen, likely from a web browser or application.\n* **Visual Element:** A cartoon-style, colorful image of a dinosaur with multiple spheres stacked on its head is positioned at the top-left.\n* **Text:** The dominant text reads "Your connection was interrupted" in a large, white font. Below this is a smaller line stating, "A network change was detected." Additionally, a code "ERR_NETWORK_CHANGED" is displayed.\n* **Button:** A rectangular, bright blue button with the text "Refresh" is located at the bottom center of the screen.\n* **Background:** The entire background is solid black.\n* **Purpose:** The image clearly indicates a network connectivity issue, prompting the user to refresh the page or check their internet connection.\n\n\n\nScreenshot 2025-01-13 2240571005×714 27.3 KB
+Thanks
+One unicode character is in both UPPERCASE and lowercase. Do a case sensitive search.
+@Samra this is almost certainly due to a (typically corporate) firewall or antivirus. Please try with a personal laptop from a public / home network.
+(I face this problem at office often. Once, our company’s firewall blocked our own company website )
+Hi Nelson,
+I checked with your dataset for this particular question. Using correct query I am able to get correct answer. Pls check sql query that you are using.
+Kind regards
+What is the windows equivalent of sha256sum?
+npx -y prettier@3.4.2 README.md | sha256sum.
+sha256sum. : The term 'sha256sum.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:35
++ npx -y prettier@3.4.2 README.md | sha256sum.
++                                   ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sha256sum.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+@s.anand Actually, I’m using a personal laptop. Is this country dependent or restricted?
+Check this link from akamai
+Did you try the following:
+
+ping exam.sanand.workers.dev
+tracert exam.sanand.workers.dev
+
+This is what I got while doing this:
+ping exam.sanand.workers.dev
+
+Pinging exam.sanand.workers.dev [104.21.31.149] with 32 bytes of data:
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+
+Ping statistics for 104.21.31.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 9ms, Average = 8ms
+
+tracert exam.sanand.workers.dev
+
+Tracing route to exam.sanand.workers.dev [104.21.31.149]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     2 ms  192.168.18.1
+  2     5 ms     6 ms     4 ms  10.122.0.1
+  3     *        *        6 ms  172.17.0.2
+  4     5 ms     5 ms     4 ms  172.17.0.109
+  5    16 ms     8 ms     8 ms  10.8.1.2
+  6    21 ms     8 ms     8 ms  103.70.37.171
+  7    10 ms     8 ms     8 ms  104.21.31.149
+
+Trace complete.
+
+You could also try switching Google Public DNS and see if the site is getting picked up in your next query.
+Helpful Resources
+
+Ping+Tracert for troubleshooting network connections
+Product pages for err_network_changed error
+Network Troubleshooting skills and commands
+
+Thank you JK. I have another question. I should have asked that before this
+npx -y prettier@3.4.2 README.md 
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/README.md - Not found
+npm ERR! 404 
+npm ERR! 404  'README.md@latest' is not in the npm registry.
+npm ERR! 404 Your package name is not valid, because 
+npm ERR! 404  1. name can no longer contain capital letters
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\sivab\AppData\Roaming\npm-cache\_logs\2025-01-14T17_22_04_622Z-debug.log
+Install for [ 'README.md@latest' ] failed with code 1
+
+This is throwing an error. Please help
+This is regarding Question 11.
+I have extracted all the elements and added them manually. Tried all the options. Not even one appears to be correct . I evne tried ChatGPT which gave the answer as 411. Which of the following should be chosen?
+&lt;div class="d-none" title="This is the hidden element with the data-value attributes"&gt;
+        &lt;div class="bar baz" data-value="17"&gt;
+          &lt;div class="baz foo" data-value="29"&gt;&lt;/div&gt;
+          &lt;div class="foo" data-value="20"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="bar foo baz" data-value="71"&gt;
+          &lt;div class="foo" data-value="48"&gt;&lt;/div&gt;
+          &lt;span class="foo" data-value="30"&gt;&lt;/span&gt;
+          &lt;div class="foo bar" data-value="90"&gt;
+            &lt;div class="bar" data-value="8"&gt;&lt;/div&gt;
+            &lt;div class="" data-value="48"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="baz foo" data-value="58"&gt;
+          &lt;div class="baz foo" data-value="19"&gt;&lt;/div&gt;
+          &lt;div class="foo bar" data-value="76"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="bar baz" data-value="89"&gt;
+          &lt;div class="foo bar" data-value="38"&gt;&lt;/div&gt;
+          &lt;div class="foo bar" data-value="9"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+
+ siva.bhaskaran:
+
+npx -y prettier@3.4.2 README.md
+
+
+Shouldn’t it be npx -y prettier@3.4.2 --write README.md or npx prettier README.md (Depending on whether to write or read)?
+Apologies, I may not know full context of the question, as I haven’t attempted GA1 fully yet
+I had this same doubt, I tried by adding the “span” tag’s value too it showed correct for me. I’d suggest you to try that.
+Oh, good catch, @23f2000237 and @siva.bhaskaran - I made a mistake in the evaluation script. It included the span.
+I fixed it. Note: None of the earlier answers are affected, i.e. if you got it right earlier, it’ll stay right.
+
+It’s hackable. It’s possible to get the answer to some questions by hacking the code for this quiz. That’s allowed.
+
+What does exactly mean, if someone could elaborate without giving it away, please?
+@carlton
+I have tried but still am unable to do only that question if someone can help me with the code because everytime im getting a different answer its my last question
+@21f2000370 i hope you wouldve completed it
+Use Git bash the problem will be resolved
+Hi Daksh,
+Did you solve it or still facing some issues with it ?
+Kind regards
+im still facing issue in that questioneven after watching the youtube video given and taking help of chatgpt im unable to solve that question only
+Hello Gentlemen Instructors,
+In all the video lectures, I am first required to download the tools, install them on my computer ? Is it not going to overload my computer’s RAM etc.,
+In one of the classes, you said that there is something  - colab like cloud wherein we can go and practice without overloading our own computers. Will you please let me know how to go about it ??
+Thanks and regards,
+ULAGAOOZHIAN,
+France
+24ds1000121
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a PowerShell terminal window. It displays the output of several commands related to file hashing and formatting. \n\n**Key Elements & Details:**\n\n1. **PowerShell Prompt:** The typical "PS C:\\Users\\kaiff>" prompt is visible, indicating the current directory in the file system.\n2. **Commands:** Several commands have been executed:\n * `Get-FileHash -Path formatted.md -Algorithm SHA256`: This command calculates the SHA256 hash of the "formatted.md" file.\n * `npx -y prettier@4.2 "F:\\BS DATA SCIENCE\\Diploma Level\\1\\TDS\\README.md" > formatted.md`: This command uses the `prettier` code formatter to format the "README.md" file and save the result as "formatted.md".\n * `certutil -hashfile formatted.md SHA256`: This command is used to calculate the SHA256 hash of the "formatted.md" file.\n3. **Hash Output:** The output of the hashing commands is displayed in a table-like format:\n * **Algorithm:** Shows "SHA256" indicating the hashing algorithm used.\n * **Hash:** Displays the SHA256 hash value, a long hexadecimal string.\n * **Path:** Shows the file path, "C:\\\\Users\\\\kaiff\\\\formatted.md."\n4. **Text Output:** There\'s additional textual output indicating:\n * "SHA256 hash of formatted.md:" followed by the hash value.\n * "Certutil: -hashfile command completed successfully."\n\n**In summary,** the image demonstrates a workflow where a markdown file is formatted using `prettier`, and its hash is then calculated using PowerShell and `certutil` to verify its integrity or to confirm that the formatting process didn\'t alter the file content.Screenshot 2025-01-18 1543211317×630 30.9 KB
+In question 3 of GA-1 while checking the answer  it’s showing incorrect answer.
+216375D6F5A1DAF9EB6350251E9F0A7395A0B2988D58ED6E57D9568E8B1AD175
+This was the output which I got after the execution of the given code in the question.Kindly guide If I did some error or error in entering the value.
+how to calculate How many Wednesdays are there in the date range 1981-08-30 to 2017-07-17?
+The dates are in the year-month-day format. Include both the start and end date in your count. You can do this using any tool (e.g. Excel, Python, JavaScript, manually).
+=SUM(TAKE(SORTBY({3,7,13,8,7,7,11,11,13,14,0,13,9,14,10,7}, {10,9,13,2,11,8,16,14,7,15,5,4,6,1,3,12}), 1, 16))
+I do not have the required excel version can someone please tell how can I find the solution to this one?
+@carlton @Jivraj
+Sir i have saved the answers 2 days ago and scored around 7.5 . now when i open the portal today it is showing as 0 and all the answers has been cleared. how can i restore it.
+yes same issue with me as well.2 3 days back i have answered and saved all the questions and today it is showing me 0 and all the answers are gone
+@23f2005067 @23f2003751 I added a “Recent saves” feature.
+This will show the time and score for the last 3 times you saved. You can load from any of these.
+Here\'s a detailed description of the image:\n\n* **Overall:** The image displays a list of recent saves, likely from a software application or online platform.\n* **Header:** The title "Recent saves" is displayed in bold text at the top of the list.\n* **List Items:** The list consists of three entries, each displaying the following information:\n * A "Reload" button, which appears to be a rectangular button with rounded corners.\n * A timestamp indicating the date and time of the save (e.g., "19/1/2025, 8:17:25 pm").\n * A "Score" value, a numerical value associated with each save (1.25, 0.25, and 0).\n* **Color Scheme:** The background is a light green color.\n* **Layout:** The items are displayed in a vertical list format, with each item on a separate line.image368×152 5.35 KB
+Do remember to click the “Check” button to calculate your score. That is not automatic.
+Please check this out and let me know if there are any bugs. Thanks.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image appears to be a screenshot of a mobile application interface, likely a learning or quiz platform. It displays recent saves and a list of questions, suggesting an interactive educational context. \n\n**Detailed Breakdown:**\n\n1. **Top Bar:** Displays the date and time: "Due Sun, 26 Jan, 2025, 11:59 pm IST" with a “Score” indicator.\n2. **Menu Icon:** A hamburger menu icon (three horizontal lines) is visible on the top left.\n3. **Recent Saves:**\n * A section titled "Recent saves".\n * It lists three entries showing the date and time of saves (e.g., "from 19/01/2025, 16:22:36") along with a "Score: 0" for each.\n * Each entry has a “Reload” button.\n4. **Questions List:**\n * A section labeled “Questions”.\n * A numbered list of questions is displayed. \n * Each question is followed by the marks it is worth in parentheses (e.g., "(0.25 marks)", "(1 mark)"). \n * Questions cover a variety of programming and data manipulation topics including: VS Code, HTTP requests, command-line tools, Google Sheets, Excel, DevTools, data extraction and manipulation (CSV, JSON, ZIP files), Git, and file operations.\n\n**Color Scheme:** \n\nThe interface has a dark background with green and white text, typical of many mobile app designs.\n\n**Overall, the image showcases an application designed for learning or practicing programming/data skills, tracking progress and scores.**Screenshot_2025-01-19-19-15-29-055_com.android.chrome1080×2400 172 KB
+Sir i might already clicked 3 save todays. So the previous clicks dates are of today. And the same 0 score is showing this.
+Sha256sum is not recognized as an internal or external command how to solve this plzz answer
+@carlton
+If you are on windows, you might not be able to use sha256sum.
+Here are two disussions that might help you out.
+
+Discussion 1
+Discussion 2
+
+@Rohitkumar7463 @23f2003845
+If you are on Windows Powershell
+Then instead of sha256sum you can simply use Get-FileHash
+Send the output of the npx -y prettier@3.4.2 README.md to a text file eg. output.txt and then use Get-FileHash on powershell with the output.txt and it will use sha256 by default and give you the exact same output.
+You might be able to pipe the data directly to Get-FileHash but I have not tried direct piping. The above method works guaranteed.
+Kind regards
+@s.anand Sir
+as you said in the previous post, the evaluation script is also updated based on errors other students point out.
+I am submitting my answers as soon as the GA is released and stopping once I get 10/10.
+Will you reevaluate the answers once the deadline is over? Or the marks I see right now will be set in stone?
+If you will, then it will be based on the updated evaluation script which can reduce my marks.
+Here is a detailed description of the image:\n\n* **Overall Impression:** The image is a screenshot of a digital interface, likely from a game or application that tracks scores and saves. \n* **Color Scheme:** The dominant color is a shade of green, used as a background.\n* **Text Elements:**\n * "6 Jan 2025 at 11:59 PM IST" is displayed in the top left.\n * "Score: 10 / 10" is in the top right, indicating a perfect score.\n * "Recent saves" is a heading in the center.\n * "Reload" is the text within a button at the center left.\n * "from 20/1/2025, 6:05:24 PM. Score: 10" is displayed below the reload button.\n* **Interface Elements:** There is a button labeled "Reload" suggesting a function to restart or reload content. \n* **Data Indication:** The text details a recent save from January 20, 2025, at 6:05:24 PM, with a score of 10. This implies the interface tracks game progress or task completion.image742×336 21.3 KB
+@iamsarthak – as long as you don’t save again, your score will stay 10, even if I modify the evaluation script  
+We don’t re-evaluate previous results in the graded assignments.
+@s.anand sir,
+Question 15 is under the section for linux
+I got the file which needs to be processed to answer the question
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image displays a table-like output, likely from a command-line interface or a text-based file listing. It presents data about several files.\n\n**Specific Details:**\n\n* **Columns:** The data is organized into four columns, labeled:\n * "Length" – presumably file size in bytes.\n * "Date" – date of last modification.\n * "Time" – time of last modification.\n * "Name" – file name.\n* **Data Rows:** Four rows of data are visible:\n * **Row 1:** Length 4094, Date 2004-03-10, Time 07:49, Name file0.txt\n * **Row 2:** Length 8410, Date 2007-02-11, Time 18:46, Name file1.txt\n * **Row 3:** Length 8062, Date 2000-01-26, Time 13:40, Name file2.txt\n * **Row 4:** Length 9748, Date 2010-09-27, Time 00:34, Name file3.txt\n* **Formatting:** The data is presented in a monospaced font, which is common for command-line output. Dashed lines separate the column headers from the data rows.\n* **File Names:** The file names follow a numerical naming convention (file0.txt, file1.txt, etc.) and have the ".txt" extension, indicating they are likely plain text files.\n\n**In Summary:** The image shows a list of four text files, along with their file sizes, dates, and times of last modification. It gives information about a small set of files within a directory.image583×167 4.09 KB
+I can solve this now using pandas.
+From learning perspective, is this question aimed at making students to use something like awk or is it fine if i can carry on with pandas?
+@23f2000573 You can solve it with any tool you’re comfortable with, including pandas.
+But since you already know how to do it with pandas, I suggest you explore how to do it with something like awk (or any other tool) to get a broader exposure into different approaches.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image depicts a computer screen displaying a PowerShell command-line interface. It appears to be a record of commands executed, specifically related to file hashing and path operations. \n\n**Specific Elements:**\n\n* **PowerShell Window:** A dark blue window with white text, characteristic of the PowerShell environment.\n* **Command History:** Several lines of commands and their corresponding outputs are visible. These include:\n * `cd downloads`: An attempt to change the current directory to "downloads." This command fails, as indicated by the error message "because it does not exist."\n * `npv x prettier@3.4.2 README.md > output.txt`: A command that appears to use "npv" (likely a tool or script) to process "README.md" and redirect the output to "output.txt."\n * `Get-FileHash -Algorithm SHA256`: A PowerShell command to calculate the SHA256 hash of a file.\n* **Hash Output:** The image displays the SHA256 hash value: `7EA1921D69EAA2FDA9F685143A291CB94CDC59E6CF6DBAA9EC8FFD4449A8F7E5`.\n* **File Path:** A file path is also displayed: `C:\\Users\\`.\n* **Screen Artifacts:** There appears to be a vertical light-colored stripe across the left side of the screen, possibly a screen artifact or a reflection.\n\n**Overall Context:**\n\nThe image suggests someone is working with files, likely involving code or documentation ("README.md"), and is verifying their integrity using SHA256 hashing. The initial attempt to navigate to a “downloads” directory indicates a possible setup or workflow issue.20250120_2039501920×1440 168 KB
+Sir is it right of sha sum question
+to pass the graded 1 how much points are required for 10 ?
+use chatgpt for the solution(sum(take(sortby))), it will give you the wrong answer but explain the concepts, use that go to colab and code one solution(will take abt 2 mins)
+I used
+https://www.microsoft365.com/launch/excel?auth=1
+@Rohitkumar7463 The hash code is exactly what you see under the column Hash,
+7E…E5
+Thats the Hash code for the file output.txt
+A Hash is a nearly unique representation of some data within some range dependent on the type of hashing algorithm and the amount of unique pieces of data that need to be encoded. (just my colloquial definition of it, i am sure you are able to ask GPT to give you a much better explanation)
+Kind regards
+Time Zone Issues with the “List Files and Attributes” Question
+quick heads‐up about Question 15 (the one asking for files at least 8143 bytes, modified on or after Sun, 19 Nov 2006, 7:38 am GMT‑5). I’m physically in a different time zone, but I eventually discovered the question seems to expect you to be located in India and to interpret that files date/time accordingly.
+I got the correct answer once i localized the files timestamp to IST.
+thanks
+GA1 Q18. What is the total sales of all the items in the “Gold” ticket type? Write SQL to calculate it.
+I always get the answer in a nested array. Error: Got [[51006.69]]…
+I could not use cursor in that shell, to extract the value also.
+@carlton @Jivraj Please help me with this.
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a JSON (JavaScript Object Notation) data structure presented in a text-based format. It appears to be a network request or response log.\n\n**Key Components:**\n\n* **Root Element:** The outermost structure is a JSON object enclosed in curly braces `{}`.\n* **"args" object:** Contains a key-value pair where the key is `"email"` and the value is `"24100176@s.study.iitm.ac.in"`.\n* **"headers" object:** A complex nested object containing various HTTP request headers. These headers provide information about the client making the request and the desired response format.\n * **Accept:** Specifies the MIME types the client can handle.\n * **Accept-Encoding:** Indicates supported compression methods.\n * **Accept-Language:** Specifies the preferred languages.\n * **Dnt:** "1" which means the user does not want tracking.\n * **Host:** Specifies the domain name of the server.\n * **Priority:** "u=0, f=1" refers to request priority.\n * **Sec-Ch-Ua:** Describes the browser.\n * **Sec-Ch-Ua-Mobile:** “?0” indicates if device is mobile.\n * **Sec-Ch-Ua-Platform:** Indicates the OS platform, “Windows”.\n * **Sec-Fetch-Dest:** Specifies that the request is for the document.\n * **Sec-Fetch-Mode:** Navigation request.\n * **Sec-Fetch-Site:** Request origin.\n * **Sec-Fetch-User:** “?1”.\n * **Upgrade-Insecure-Requests:** “1”.\n * **User-Agent:** The browser details.\n * **X-Client-Trace-Id:** A unique ID for tracking the request.\n* **Origin:** `"45.118.156.154"` – The IP address of the client making the request.\n* **URL:** `"https://httpbin.org/get/email@24100176%40s.study.iitm.ac.in"` – The complete URL being requested.\n\n**In Summary:** The image showcases a JSON representation of network request data, likely generated by a tool like `curl` or a debugging proxy, detailing the HTTP headers, originating IP address, and the requested URL. The request seems to be related to an email address from the `iitm.ac.in` domain.image1327×464 18.1 KB
+I am getting error in the uv question.
+I have got the output json but I cant understand what part do I need to submit in the answer section.
+Here\'s a detailed description of the image:\n\n* **Content Type:** The image is a screenshot of a coding or system administration interface, likely a terminal or a web-based coding environment.\n* **Text Content:**\n * **Heading:** "Move and rename files (0.5 marks)"\n * **Instructions:** Instructions describe downloading a file named "move-rename-files.zip", extracting it, using `mv` to move all files within its folders to an empty folder, and renaming files—1 becomes 2, and 9 becomes 0.\n * **Question:** The question asks what running the command “grep - * | LC_ALL=C sort | sha256sum” in bash on that folder will show.\n * **Output:** A long string of hexadecimal characters: "f1056cb734a6835d17e8129fe9c9a8ebccca5482d4e2b13c18b7816800b7d *" is shown, likely the result of the `sha256sum` command.\n * **Comment:** The phrase “Incorrect or ignore.” is displayed at the bottom.\n* **Visual Elements:** \n * A dark background.\n * The text is highlighted in various colors (white, red, and light blue).\n * An icon of a question mark with a circle around it is visible to the right of the output.\n* **Purpose/Context:** This appears to be a problem or challenge within a coding course or system administration training exercise, specifically dealing with file manipulation and checksum calculations. The question asks what the SHA256 checksum of the resulting files would be after the series of operations.image1641×356 26.7 KB
+Sir I’m facing issue in this question even though i have done every thing as it mentioned. Can I get hint of the mistake for my code snippet.
+My code: -
+mkdir all_files
+find parent/ -type f -exec mv {} all_files/ \;
+for file in all_files/*; do
+    new_name=$(echo "$file" | sed 's/[0-9]/\n&amp;\n/g' | awk '
+    { 
+        if ($0 ~ /^[0-9]$/) print ($0 == "9") ? 0 : $0+1; 
+        else print $0 
+    }' | tr -d "\n")
+    mv "$file" "$new_name"
+done
+
+Good Evening, I have a doubt regarding the SQL Question I have attached my query. Please clarify me where I got wrong. I tried changing the gold string to lower and checking it. Even,  that didn’t work.
+Here\'s a detailed description of the image:\n\n1. **Screenshot of a Coding Interface:** The image displays a screenshot of what appears to be an online coding or database query interface. It has a dark background, typical of coding environments.\n2. **Prompt Text:** At the top, there\'s a prompt asking, "What is the total sales of all the items in the \'Gold\' ticket type? Write SQL to calculate it."\n3. **SQL Query Input Field:** Below the prompt is a rectangular input field containing the following SQL query: `SELECT SUM(Units*Price) FROM tickets WHERE TYPE = \'Gold\';`\n4. **Error Message:** An error message, “Error: (1428105)!!…”, is displayed in red next to the SQL query input field, indicating the query has an issue.\n5. **Instructional Text:** At the bottom of the image, there’s further text instructing the user to “Get all rows where the ‘Type’ is ‘Gold.’ Ignore spaces and treat mis-spellings like GOLD, gold, etc. as ‘Gold.’ Calculate the sales as Units * Price, and sum them up.”\n\nIn essence, the image presents a coding challenge where a user is asked to write an SQL query to calculate total sales for items of type "Gold" from a "tickets" table. The query has been submitted but produces an error.Screenshot 2025-01-22 2317181599×362 19.1 KB
+Thank You.
+I have another doubt regarding the CSS Selector question. I know how to select elements using CSS Selector but i don’t know how to get the sum using CSS Selectors as it cannot perform arithmetic operations. And also, I didn’t understand the question completely about the ‘hidden element’. Please clarify it. Thank you so much.
+Here\'s a detailed description of the image:\n\n* **Content:** The image shows a programming exercise or challenge displayed within a dark-themed interface.\n* **Text:** \n * The initial line reads: "Let\'s make sure you know how to select elements using CSS selectors. Find all `<div`s having a `foo` class in the hidden element below. What\'s the sum of their `data-value` attributes?"\n * Below this is a prompt: "Sum of `data-value` attributes:"\n * There is a rectangular input field, designed for a numerical answer. A small red error icon is present within the input field, indicating that no valid input has been entered.\n * The phrase “Incorrect” appears at the bottom of the screen.\n* **Interface:** The background is dark, possibly black or a very dark gray. \n* **Purpose:** This appears to be an interactive coding exercise or a challenge from a web development training platform. The user is asked to use CSS selectors to find specific elements and calculate the sum of a particular attribute value.Screenshot 2025-01-22 2323381621×255 13.9 KB
+It can be GOLD,gold, or even GoLD.
+"  Get all rows where the Type is “Gold”. Ignore spaces and treat mis-spellings like GOLD, gold, etc. as “Gold”. Calculate the sales as Units * Price, and sum them up.  "
+Try to go through the given video of css selector and go through all foo classes carefully(using inspect) and sum them up!
+Try to remove the White spaces in your code!
+@carlton @Jivraj
+sir i have gone through the process of solving the ques but still ans is showing wrong even i have used chatgpt and used cmd also. the cmd is is showing the result still ans is wrong
+model='gemma3:27b' created_at='2025-06-13T06:48:27.439030905Z' done=True done_reason='stop' total_duration=57311829617 load_duration=18657587 prompt_eval_count=323 prompt_eval_duration=18554637810 eval_count=384 eval_duration=38737719049 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:**\n\nThe image showcases a computer screen displaying a command-line interface (likely a terminal or console window) alongside a pop-up dialog box. The dominant color is black, with white and red text providing contrast.\n\n**Command-Line Interface:**\n\n* The command line is filled with numerous lines of text, typical of directory listings or file information output.\n* The text appears to be output from a Linux or Unix-like operating system, based on the commands and file paths visible.\n* There are directory names and file names with various extensions, showing a hierarchical file structure.\n* The output includes details such as file size, modification dates, and permissions.\n\n**Pop-Up Dialog Box:**\n\n* A white dialog box with a red border is displayed over the command-line interface.\n* It appears to be a prompt from a zip archive utility (possibly 7-Zip).\n* The message within the box asks if the user wants to list files and attributes (0.75 mb/sec).\n* The prompt indicates that the total size of the files within the archive is about 1.225 bytes and the archive was modified on or after Wed, 6 Nov, 2019, 10:48 AM (IST).\n* A warning message is also present, cautioning against directly copying from the ZIP file using Windows Explorer, as it might destroy the timestamps. Extracting using a dedicated archiver (like 7-Zip) is recommended.\n\n**Overall:**\n\nThe image depicts a user interacting with files within a zipped archive using a combination of a command line interface and a graphical pop-up dialog. It suggests a technical context, possibly involving file management, data extraction, or software development.", thinking=None, images=None, tool_calls=None)Untitled design1414×2000 349 KB
+In GA1, Question no: 9.
+when i sort the json it says incorrect. but i validated that json using validator and also manually
+admin : could you pls validate my answer pls
+You need to submit whole json becausae In this image headers is part of response, not request headers.
+Hi Arnav,
+I tried your script on your dataset.
+Problem might be you are not executing grep . * | LC_ALL=C sort | sha256sum in correct directory, you would need to execute it from all_files directory also there should not be any extra file other than that gets generated.
+
+
+
+ 22f2001175:
+
+model='gemma3:27b' created_at='2025-06-13T06:48:27.439030905Z' done=True done_reason='stop' total_duration=57311829617 load_duration=18657587 prompt_eval_count=323 prompt_eval_duration=18554637810 eval_count=384 eval_duration=38737719049 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:**\n\nThe image showcases a computer screen displaying a command-line interface (likely a terminal or console window) alongside a pop-up dialog box. The dominant color is black, with white and red text providing contrast.\n\n**Command-Line Interface:**\n\n* The command line is filled with numerous lines of text, typical of directory listings or file information output.\n* The text appears to be output from a Linux or Unix-like operating system, based on the commands and file paths visible.\n* There are directory names and file names with various extensions, showing a hierarchical file structure.\n* The output includes details such as file size, modification dates, and permissions.\n\n**Pop-Up Dialog Box:**\n\n* A white dialog box with a red border is displayed over the command-line interface.\n* It appears to be a prompt from a zip archive utility (possibly 7-Zip).\n* The message within the box asks if the user wants to list files and attributes (0.75 mb/sec).\n* The prompt indicates that the total size of the files within the archive is about 1.225 bytes and the archive was modified on or after Wed, 6 Nov, 2019, 10:48 AM (IST).\n* A warning message is also present, cautioning against directly copying from the ZIP file using Windows Explorer, as it might destroy the timestamps. Extracting using a dedicated archiver (like 7-Zip) is recommended.\n\n**Overall:**\n\nThe image depicts a user interacting with files within a zipped archive using a combination of a command line interface and a graphical pop-up dialog. It suggests a technical context, possibly involving file management, data extraction, or software development.", thinking=None, images=None, tool_calls=None)Untitled design1414×2000 349 KB
+Untitled design1414×2000 349 KB
+
+
+Time of modification of each of these files is 14 Jan 2025 which might be the day you unzipped them. Depending upon what software you use it might change modification date while unzipping. use unzip command line tool or winrar extractor, these are 2 tools we have tested.
+kind regards
+Hi Saravanan,
+I noticed an issue with your submission. In the question, there is a name Bob, but it doesn’t appear in your answer after applying the required sorting. Since the data for each student is dynamically generated and unique, the answer you submitted seems inconsistent with your dataset.
+We encourage collaboration among students, but copying answers is not acceptable. Instead, I suggest reaching out to your friend to understand the script they used, run it on your dataset, and ensure you fully grasp the solution.
+kind regards
+Thanks lot jivraj. i updated my script and answers too
+Thanks
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image displays a screenshot of what appears to be a JSON hash or data string with an error message. The error indicates a problem with the JSON format.\n\n**Key Elements:**\n\n1. **Title:** At the top, the text "JSON-Hash" is prominently displayed, indicating the subject of the screenshot.\n2. **Data String:** A very long string of alphanumeric characters and symbols is shown. It\'s likely a hash value or a complex data string representing a piece of information.\n3. **Error Message:** A red box at the bottom of the image contains an error message: "Error: Expected property name or \'}\' in JSON at position 1 (line 1 column 2)". This suggests that the provided data isn\'t in valid JSON format, as it\'s expecting a property name or closing curly brace.\n4. **Visual Style:** The background is a muted green-gray color. The text is mostly white, making it readable. The error message is highlighted in red to draw attention.\n5. **Icons:** Two small icons are shown in the upper right and left corners.\n\n**In summary:** This image illustrates a potentially corrupted or invalid JSON data string alongside an error message indicating a formatting issue. It likely represents a scenario where a data analyst or programmer is debugging a problem with data in JSON format.Screenshot 2025-01-24 1842222677×1066 294 KB
+In the question 10 what should be the correct format for jason data as I edited the data according to given conditions but in Hash I am facing problem again and again
+Also, in Q11 What is meaning of element below given in the question " Let’s make sure you know how to select elements using CSS selectors. Find all &lt;div&gt; s having a foo class in the hidden element below. What’s the sum of their data-value attributes?"
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image depicts a dark-themed screen, likely a user interface for an AI-assisted coding tool. It appears to be a prompt or exercise within an application like Visual Studio Code, requesting a user to provide the output of a command.\n\n**Key Elements & Details:**\n\n* **Title:** The top of the screen features the text "AI Editors: Copilot, Cursor," indicating the context is related to AI-powered coding assistants.\n* **Text Explanation:** Under the title, there is a descriptive paragraph mentioning the use of LLMs (Large Language Models) by tools like Cursor, Cody, and GitHub Copilot. It states these tools are built on VS Code and are standard for developers.\n* **Instruction:** A clear instruction is given: "Install and run Visual Studio Code. In your Terminal (or Command Prompt), type code -s and press Enter. Copy and paste the entire output below."\n* **Input Field:** A large, rectangular input field is visible with a red border, suggesting it\'s where the user is expected to paste the output from the command.\n* **Error Message:** Below the input field, there\'s a message "Incorrect. Try again." which indicates the user has likely submitted an incorrect response.\n* **Color Scheme:** The entire screen has a dark background, with white and red text. This is typical for coding environments to reduce eye strain.\n\n**In Summary:** The image captures a moment within an AI-assisted coding exercise, where a user is prompted to execute a command and provide the output, with a feedback mechanism indicating whether the response is correct.image1590×466 29.3 KB
+what sort of response am i supposed to put ?? the response i am getting ,it says incorrect, basically  after doing code -s ,i get like info about the version of vs code and info about cpu gpu etc…
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays a dark-themed interface, likely a terminal or command-line environment.\n* **Text Instructions:** There are instructions at the top:\n * "Download q-replace-across-files.zip and unzip it into a new folder, then replace all \'IITM\' (in upper, lower, or mixed case) with \'IIT Madras\' in all files. Leave everything as is - don\'t change the line endings."\n * "What does running `cat * | sha256sum` in that folder show in bash?"\n* **Output:** Below the instruction is a long alphanumeric string, likely the SHA256 hash of the combined contents of the files in the specified folder. The hash is: "63144b2bad1d2b5b9b40855cab6a44fd857ed26b6fd36d12ae97347"\n* **Status Icon:** A red stop/error icon appears on the far right side of the output line.\n* **Footer:** A brief line of text at the bottom reads "Internet On-Ramp". \n\nIn essence, the image presents a task with instructions regarding file manipulation and checksum generation, with a potential error indicated by the red icon.Screenshot 2025-01-25 1710141631×309 22.2 KB
+The answer is wrong but I have done every step correctly. Help
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image appears to be a screenshot of a webpage or an interactive interface related to package management in Python, specifically using the `uv` package. It includes visual elements and text output from a command execution.\n\n**Visual Elements:**\n\n1. **Header Section:** A purple header reads "package/project manager" with the letters "uv" displayed prominently in white. To the right, there’s a cartoon-style illustration of a person pointing toward a yellow circular graphic representing a package or project.\n2. **Command Execution Area:** Below the header is a text area showing the command being executed: "Running uv --with httpie -- https [url] installs the Python package httpie and sends a HTTPS request to the URL."\n3. **Instructions:** Beneath the command is a line of text that gives a command to send a HTTPS request to a URL with the URL encoded parameter email.\n4. **JSON Output:** Below the command and instruction section, there is a code block containing a JSON string. The JSON data includes:\n * `"args": ["email:23f2000098@ds.study.iitm.ac.in"]`\n * `"origin": "106.197.103.245"`\n * `"url": "https://httpbin.org/get?email=23f2000098%40ds.study.iitm.ac.in"`\n\n5. **Error message:** Below the JSON output, there is a red error message: “SyntaxError: Expected property name or ‘}’ in JSON at position 1 (line 1 column 2)”\n\n**Overall, the image demonstrates a process of using the `uv` package manager to install a Python package (`httpie`) and then send an HTTPS request with URL encoded email parameter, followed by the resulting JSON output and a syntax error message.**image1613×702 193 KB
+Not sure how to resolve this error… any sugessions ?
+first convert in into jason using bash or other terminal then paste the converted json content to this page and generate the json hash
+I am getting errors for the host part please guide me
+But I have converted the file as it says in the question still i am getting error that I am unable to understand. Can you just tell me please what formatted answer should be that is just the type of answer it’s asking?
+I tried this. For me still the answer is incorrect.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a command-line interface (likely PowerShell) output, displaying a series of commands executed related to file hashing and formatting. The background is black with white text.\n\n**Detailed Breakdown:**\n\n1. **Command Sequence:** Several commands were executed:\n * `cd downloads`: Changes the directory to "downloads".\n * `certutil -hashfile C:\\Users\\sarva\\downloads\\README.md SHA256`: Calculates the SHA256 hash of the file "README.md" located in the downloads directory. The resulting hash is `eef23369e30d7b099173ef4988c65a59b80b0f56f60a4c9ab95c1903be312317`. A success message follows.\n * `npx prettier@3.4.2 README.md > output.txt`: Formats the "README.md" file using the "prettier" package and redirects the output to a new file named "output.txt".\n * `Get-FileHash -Algorithm SHA256 output.txt`: Calculates the SHA256 hash of the "output.txt" file.\n\n2. **Hash Output:** The `Get-FileHash` command provides a table with the following columns:\n * **Algorithm:** "SHA256" (the hashing algorithm used).\n * **Hash:** `CECFD0A2CD971DE14A28CABB9F8ED854A9E6C7A94B9D788AB0D10F5D991A4F64` (the calculated SHA256 hash value).\n * **Path:** `C:\\Users\\sarva\\downloads\\output...` (the file path of the processed file)\n\n3. **Prompt:** The command prompt indicates the current directory is `C:\\Users\\sarva\\downloads`.\n\n**In essence, the image demonstrates the process of calculating and verifying file hashes using command-line tools.** This is commonly done to ensure the integrity and authenticity of files.image1677×358 22.2 KB
+Finally. Got the correct one in bit dash.
+Here\'s a detailed description of the image:\n\n1. **Screen Display:** The image shows a terminal or command-line interface.\n2. **Prompt:** The prompt displays user and host information: "sarva@SURTYA-MINGW64 ~". This indicates the user "sarva" is logged into a system named "SURTYA-MINGW64". The tilde (~) symbol denotes the user\'s home directory.\n3. **Current Directory:** The prompt also shows that the current directory is "/downloads".\n4. **Command:** The command being executed is `npx -y prettier@3.4.2 README.md | sha256sum`.\n - `npx`: A tool that executes npm package binaries.\n - `-y`: A flag used with npm/npx to answer yes to any prompts.\n - `prettier@3.4.2`: Refers to the prettier code formatter, version 3.4.2.\n - `README.md`: The file being formatted (likely a Markdown file).\n - `|`: A pipe, which redirects the output of the `prettier` command to the `sha256sum` command.\n - `sha256sum`: A command-line utility to generate a SHA256 hash (checksum) of the input.\n5. **Output:** The output of the command is a long hexadecimal string: "2ccdb77ded5f031c251d33319bc1b266018635156db88e63105943dbe7e106a1". This represents the SHA256 hash of the formatted `README.md` file.\n6. **Visual Style:** The text is rendered in a classic terminal style with different colors for commands, output, and the prompt to enhance readability.\n
+I ran this directly in the console and got the correct answer.
+// Select all  and  elements with the ‘foo’ class
+const fooElements = document.querySelectorAll(“div.foo, span.foo”);
+// Initialize a variable to store the sum
+let sum = 0;
+// Iterate through the selected elements
+fooElements.forEach(element =&gt; {
+// Get the ‘data-value’ attribute and convert it to a number
+const value = parseFloat(element.getAttribute(“data-value”));
+// Add the value to the sum
+if (!isNaN(value)) {
+sum += value;
+}
+});
+console.log(“Sum of data-value attributes:”, sum);
+@Jivraj Sir I have tried pasting the entire json but I am still getting incoorect answer
+6630ecbfc252fa2bd39d26737fc1d4e1d22574c8792112b28cdf4ff128d4c605
+Here\'s a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a challenge or task presented on a dark background, likely from a cybersecurity or data analysis training platform. It involves downloading, extracting, and analyzing files from a zip archive.\n\n**Text Content Breakdown:**\n\n* **Instruction 1:** "Download `q-list-files-attributes.zip` and extract it. Use `ls` with options to list all files in the folder along with their date and file size." - This sets the initial task: downloading and extracting a zip file and then using a command-line tool (`ls`) to list file details.\n* **Question:** "What\'s the total size of all files at least 2404 bytes large and modified on or after Mon, 18 Mar, 2002, 1:02 am IST?" - This is the core analytical question, requiring filtering files based on size and modification date.\n* **User Input Field:** A text box containing "485969" with a red exclamation mark indicating an incorrect answer.\n* **Feedback:** "Incorrect. Try again." - The system provides feedback on the user\'s attempt.\n* **Hint/Caution:** "Don\'t copy from inside the ZIP file or use Windows Explorer to unzip. That destroys the timestamps. Extract using unzip, 7-Zip or similar utilities and check the timestamps." - This provides critical guidance on how to extract the archive without losing essential timestamp information, which is likely crucial for solving the challenge.\n\n**Visual Elements:**\n\n* **Dark Background:** Predominantly black, creating a high-contrast environment.\n* **Text Color:** White/light gray text for readability against the dark background.\n* **Input Field:** A light-colored input field for user input.\n* **Error Indicator:** A red exclamation mark visually highlights the incorrect answer.\n\n**Context/Purpose:** This image likely represents a step in a Capture the Flag (CTF) challenge or a similar cybersecurity training exercise where participants must download, extract, and analyze files to find a specific answer. The emphasis on file timestamps suggests that this information is relevant to the challenge.image846×347 28.4 KB
+help me with this
+Q18 GA1
+I don’t get what’s wrong with this:
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a SQL database table and a prompt related to calculating the total sales of "Gold" tickets. The interface is a dark-themed console or code editor.\n\n**Detailed Breakdown:**\n\n1. **Database Table:**\n * A table titled "tickets" is displayed, with columns: "type", "units", and "price".\n * The table contains several rows of data:\n * "Silver" with 589 units and a price of 1.\n * "gold" with 74 units and a price of 1.03.\n * "gold" with 361 units and a price of 1.76.\n * "BRONZE" with 673 units and a price of 1.94.\n * The table appears to represent customer bids for concert tickets, with each row indicating the type of ticket, number of units bid, and the price per unit.\n\n2. **SQL Prompt/Query:**\n * A prompt asks: "What is the total sales of all the items in the ‘Gold’ ticket type? Write SQL to calculate it."\n * Below the prompt is a SQL query attempting to solve the problem: `select sum(units*price) from tickets where type=\'gold\' collate nocase;`\n\n3. **Error Message:**\n * An error message is displayed: `Error: Got [124944.59]...` \n\n4. **Instruction:**\n * A statement reads: "Get all rows where the Type is \'Gold\'. Ignore spaces and treat mis-spellings like GOLD, gold, etc. as \'Gold\'. Calculate the sales as Units * Price, and sum them up."\n\n**Overall Context:**\n\nThe image is part of a programming or data analysis exercise where the task is to write a SQL query to calculate the total sales for “Gold” tickets from the "tickets" table. It shows the initial query attempt, an error, and instructions on how to refine the query for accuracy (handling case-insensitivity and variations in the "type" column).image1269×561 42 KB
+Can anyone help me understand? Thanks
+model='gemma3:27b' created_at='2025-06-13T07:12:32.199630004Z' done=True done_reason='stop' total_duration=55866500734 load_duration=18316979 prompt_eval_count=323 prompt_eval_duration=18538860596 eval_count=376 eval_duration=37308600192 message=Message(role='assistant', content="Here's a detailed description of the image:\n\n**Overall Impression:** The image is a screenshot of a text-based interface, likely a command-line window or a web page displaying code/instructions. It details steps on how to use `npx` and `prettier`. \n\n**Key elements and their descriptions:**\n\n1. **Instructional Text:**\n * The image begins with a statement indicating the user will learn how to use `npx` and `prettier`.\n * It presents instructions to download a file called `README.md`, and rename it if necessary. \n * It further instructs the user to run a command using `npx` with `prettier@3.4.2 README.md` and then `sha256sum`.\n\n2. **Highlighted File Name:** The filename `README.md` is highlighted in blue.\n\n3. **Highlighted Command:** The command `sha256sum` is highlighted in red. \n\n4. **Output:** The output of the command appears as a single line.\n * The label “SHA256” is placed at the beginning of the line.\n * The SHA256 hash value is: `AC06784D6825497650083DDFD6746A2CDD561B6A1FF45241C6A354035244A75C`\n\n5. **Question**: “What is the output of the command?” is written before the SHA256 hash.\n\n**Overall, the image illustrates a set of instructions and the resulting SHA256 hash value after executing the specified commands.**", thinking=None, images=None, tool_calls=None)image1199×236 8.5 KB
+i dont know what is the error is plss guide me
+I have attempted the quiz, but missed marking this question - I have seen the Graded Assignment 1 available at this link and have attempted it. Hope the scores saved would be considered
+Here\'s a detailed description of the image:\n\n**Overall:** The image is a screenshot of a webpage displaying instructions and a resulting hash value.\n\n**Key Elements & Details:**\n\n* **Title:** The top line reads "Multi-cursor edits to convert to JSON (0.5 marks)." This suggests the image is related to a task or assignment involving JSON conversion.\n* **Instructions:** Below the title, there are instructions for downloading a file ("q-multi-cursor-json.txt") and using "multi-cursors". This is followed by a description of the expected JSON format with examples like `key: value`.\n* **Link:** A link to "tools-in-data-science.pages.dev/jsonhash" is provided, suggesting a tool for generating a hash from JSON data.\n* **Hash Value:** A long hexadecimal string ("c0b9426a7f358720f193c33806497ec0d81d1d104835085d028480a03a6a1536") is prominently displayed in a red border, likely the result of the instructed process.\n* **Red Stop Symbol:** A red circle with a line through it is located next to the hash, indicating a potential error.\n* **Text:** The bottom of the screen has text that reads “Increment”.\n\n**In essence, the image shows a step-by-step process for converting data to JSON, generating a hash, and possibly encountering an error.**image1635×317 28 KB
+i am not getting why my answer is showing incorrect.
+can you help me in this ? @Saransh_Saini @Jivraj
+Check the structure of your json object. It should be {key1: value1, key2: value2}. Also make sure you enclose the keys and values in double-quotes, and after every key-value pair put a comma.
+i am doing so only … i can send u the example -
+{   “0”: “wEfsmtde”,
+“83”: “NghqzO3DL”,
+“NqN7EcM”: “I”,
+“vFD2C”: “KAB”}
+i am not able to find what’s the mistake
+Your format seems to be correct, but cause you are still facing that problem then these are the few reasons I can think of
+
+Check the entire JSON object and make sure that each and every element follows this format.
+Use Chrome for getting that hash code, it could be the case that some other browser may not be pasting the object as intended.
+
+Okay, i will go through my json object once.
+And for hash code i am using chrome only
+It worked.
+Thank you
+After passing the deadline , my scores aren’t there …Is it same for all?
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image is a screenshot of a webpage with instructions for an assignment or quiz called "TDS 2025 Jan GA1 - Development To." The page appears to be from an online learning platform.\n\n**Key Elements & Details:**\n\n* **Heading:** The prominent heading reads "TDS 2025 Jan GA1 - Development To" in a large, bold font.\n* **Instructions Section:** Below the heading is a section titled "Instructions," which lists guidelines for completing the assignment.\n* **Numbered List of Instructions:** The instructions are presented as a numbered list, detailing various aspects of the assignment, including:\n * Encouragement to skip reading if already familiar with the content.\n * Instructions to use the "Check" button for immediate feedback.\n * Instructions to use the "Save" button to preserve progress.\n * Information that reloading the page is permissible.\n * Guidance about potential browser issues.\n * Permission to use any resources, including the internet and tools like ChatGPT.\n * Acknowledgement that the assignment may be "hackable."\n* **"Should you take TDS this term?" Section:** Below the instructions is a section asking about taking the TDS term.\n* **Bullet Points:** This section contains two bullet points, providing estimated performance based on time spent and score:\n * Completing the assignment in under 2 hours indicates a likely "OK" in TDS.\n * A score of 8/10 or higher suggests the possibility of an "A" grade.\n* **Timestamp:** In the top left corner, a timestamp reads "Ended at Sun, 26 Jan, 2025, 11:59 pm IST."\n\n**Overall Tone:**\n\nThe tone is informal and encouraging, even explicitly acknowledging the possibility of finding answers through unconventional means (hacking). It\'s designed to be a relatively lenient and accessible learning experience.\n\n\n\nimage1359×878 78.5 KB
+wow, thats so true… 
+3 posts were merged into an existing topic: Graded assignment 1 - Submission not shown
+Here\'s a detailed description of the image:\n\n* **Overall Layout:** The image captures a section of a user interface, likely from a web application. The background is a light green color.\n* **User Information:** At the top, it displays a logged-in user with the email address "22f3001740@ds.iitm.ac.in." A "Logout" button is present next to it.\n* **Recent Saves Section:** Below the user information is a section labeled "Recent saves." This section lists the following for each save:\n * A "Reload" button.\n * A timestamp (e.g., "from 1/23/2025, 9:33:02 PM").\n * A "Score" of 8.\n* **List of Saves:** The image shows three recent saves, each with the same score of 8 and timestamps within a few minutes of each other on January 23, 2025.\n\nIn essence, the image depicts a user\'s account status and a list of their recently saved data, along with associated scores and timestamps.image552×414 18 KB
+Hi Sir,
+I completed the GA 1 before the time and saved it as mentioned above, but forgot to give “submit”  button on iit bs week 1 graded assignment portal.
+Will it might be a problem ?
+I
+I have seen the Graded Assignment 1 available at this link and have attempted it.
+Yes
+No
+i have forgot the submit  here on the portal but i have got 9 marks on the test will it be a problem  in my marks?
+Hi @Jivraj  sir,
+For me, in dashboard , it is showing the assignment was not submitted.
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a learning management system (LMS) interface, likely from a course or assessment platform. It displays assignment details, user login information, and recent saves.\n\n**Key Elements & Details:**\n\n1. **Module Header:** The top section is labeled "Module 1: Development Tools."\n\n2. **Assignment Table:** A table lists an assignment called "Assessment" with a due date of January 26, 2025. Columns show "Your Score," "Peer Average," and "Median Score." The "Your Score" is empty (represented by "-"), the "Peer Average" is 99%, and the "Median Score" is 100%. The assignment is marked as "Not Submitted."\n\n3. **User Login:** Below the assignment table, text displays the user is logged in as "22f3001740@ds.study.iitm.ac.in." A "Logout" button is provided.\n\n4. **Recent Saves:** A section labeled "Recent saves" shows a list of autosaves or submissions. It displays "Reload" buttons next to timestamps and scores:\n * 1/23/2025, 9:33:02 PM. Score: 8\n * 1/23/2025, 9:32:59 PM. Score: 8\n * 1/23/2025, 9:32:55 PM. Score: 8\n\n5. **Color Scheme:** The interface has a light green and white color scheme.\n\n**In essence, the image depicts a student\'s progress on an assignment, their login status, and recent saved work within a learning platform.**image809×560 51.9 KB
+But I have completed it and got saved before the deadline
+I havent answered the (yes / No ) in seek portal. If that might be a reason ?
+Can you please help me resolve this issue
+Dear Sai,
+This is NOT the picture of your dashboard.
+
+
+
+ 22f3001740:
+
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a learning management system (LMS) interface, likely from a course or assessment platform. It displays assignment details, user login information, and recent saves.\n\n**Key Elements & Details:**\n\n1. **Module Header:** The top section is labeled "Module 1: Development Tools."\n\n2. **Assignment Table:** A table lists an assignment called "Assessment" with a due date of January 26, 2025. Columns show "Your Score," "Peer Average," and "Median Score." The "Your Score" is empty (represented by "-"), the "Peer Average" is 99%, and the "Median Score" is 100%. The assignment is marked as "Not Submitted."\n\n3. **User Login:** Below the assignment table, text displays the user is logged in as "22f3001740@ds.study.iitm.ac.in." A "Logout" button is provided.\n\n4. **Recent Saves:** A section labeled "Recent saves" shows a list of autosaves or submissions. It displays "Reload" buttons next to timestamps and scores:\n * 1/23/2025, 9:33:02 PM. Score: 8\n * 1/23/2025, 9:32:59 PM. Score: 8\n * 1/23/2025, 9:32:55 PM. Score: 8\n\n5. **Color Scheme:** The interface has a light green and white color scheme.\n\n**In essence, the image depicts a student\'s progress on an assignment, their login status, and recent saved work within a learning platform.**image809×560 51.9 KB
+
+
+This picture is the score in your seek portal.
+The dashboard has the final correct score. Please check your dashboard.
+The dashboard has all your courses on it, when you log in.
+Kind regards
+Got it , Thank you sir
+Hello Sir,
+I am writing to bring to your attention a discrepancy I’ve noticed regarding my Week 1 graded assignment for the Tools in Data Science course.
+I successfully completed the assignment and received a score of 80 out of 100. However, when I checked the course portal, it is showing my status as “absent” for this particular assignment.
+I wanted to ensure that this information is corrected in the system to accurately reflect my participation and performance. Could you please look into this matter and update my grade accordingly?
+Here is a detailed description of the image:\n\n**Overall Impression:** The image displays a webpage interface, likely from an online assessment or data science platform. The design is minimalistic with a dark green background and white/red text.\n\n**Key Elements & Details:**\n\n1. **Header:** The top section indicates the assessment "Ended" on January 26, 2025, at 11:59 PM IST. It displays a "Score: 0" along with buttons for "Check all" and "Save".\n2. **User Information:** Below the header, there\'s an indication that the user is logged in as "23f3001601@ds.study.iitm.ac.in" with a "Logout" button.\n3. **Recent Saves:** A section titled "Recent saves (most recent is your official score)" shows a list of saved scores with timestamps and scores:\n * 1/27/2025, 12:00:05 AM. Score: 8\n * 1/26/2025, 11:59:55 PM. Score: 8\n * 1/26/2025, 11:59:55 PM. Score: 8\n4. **"Reload" Buttons:** Each entry in the "Recent saves" list has a "Reload" button next to it.\n5. **Link to Discussion:** A highlighted text says "Have questions? Join the discussion on Discourse".\n6. **URL:** The URL in the address bar reads "exam.sanand.dev/tds-2025-01-ga1".\n\n\n\nIn summary, the image is a screenshot of a webpage showing the end of an online test/assessment, user login details, and a history of saved scores.Screenshot 2025-02-18 191335881×835 44.5 KB
+Here\'s a detailed description of the image:\n\n* **Content:** The image displays a slide or a title card related to a course.\n* **Text:** \n * The main title reads "Tools in Data Science".\n * Below that, it says "NEW COURSE".\n * At the very bottom, it states "Week 1 Assignment - Absent".\n* **Background:** The background is a dark maroon or reddish-brown color, covered with a repeating pattern of small, light-colored dots. \n* **Layout:** The text is centered on the slide, with a clear hierarchy of information. The "Week 1 Assignment" appears to be a separate line, possibly indicating a status or notification.\n* **Overall Impression:** The image appears to be a course announcement or status update, indicating that the Week 1 assignment is marked as absent or incomplete.Screenshot 2025-02-19 145423961×615 73.7 KB
+@s.anand Linking this tutorial for markdown. Maybe you can consider including it in the next iteration of the course?
+I’ve created a PR for the same on GitHub! Please have a look and let me know what you think Prof!
+I also came here for the same issue…
+Sir i have scored 9.25 in the week 1 assingment but now it is showing absent…
+@23f3001601 Dont worry, it is 8 on our backend server. The dashboard will have the result soon.
+Kind regards.
+@232001286
+Yes our backend server shows that it is 9.25 dont worry. It will be fixed in the dashboard soon.
+Kind regards

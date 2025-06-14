@@ -1,0 +1,20 @@
+@Jivraj @carlton sir please help
+When I am downloading the data folder after processing datagen.py , it is trying to download in root folder and it is facing permission error . how can we overcome this ?
+needs sudo permission all the time…
+Here\'s a detailed description of the image:\n\n**Overall Impression:**\n\nThe image shows a screenshot of a Linux terminal window. The background is black, and text is displayed in various colors, typical of a command-line interface.\n\n**Specific Elements:**\n\n* **Prompt:** The top line displays the user’s username (“vkramgncas”) and the current directory ("/mtc/CIT Madras/TDS Project"). It also indicates that the user is at the command prompt ($).\n* **Directory Listing:** The main part of the screen displays a listing of directories and files. These include:\n * `bin`, `boot`, `dev`, `etc`, `home`, `lib`, `lib64`, `media`, `mnt`, `opt`, `proc`, `root`, `run`, `sbin`, `srv`, `tmp`, `usr`, `var`, `lost+found`\n * Each directory name is displayed in a different color, likely used to indicate its type or permissions.\n* **Command History:** At the bottom, the prompt is repeated, indicating the user is ready to enter another command.\n\n**Overall, the image represents a basic view of the file system directory structure in a Linux/Unix environment.**image2100×216 100 KB
+Hi Vikram,
+This is because (if you watched the session, or examined the code, you would have realised that) datagen.py was designed to run inside your docker container. And datagen.py (or a similar named file which we will not tell you ahead of time and will be provided as the query parameter in task A1) will normally be called by evaluate.py
+Inside the docker container, permission for the data folder is set by the Dockerfile
+which then allows your application to access the root folder inside your docker image and create the /data folder.
+So the workflow is like this (for your internal testing only… please follow the Project page for deliverables and evaluation to submit project successfully):
+
+You create your application server that serves 2 endpoints on localhost:8000
+You create a docker image that runs this application server.
+You run the docker image using podman as described in the project page.
+For mimicking the testing conditions. You need two files:
+evaluate.py and datagen.py to be in the same folder where you are running these two scripts.
+Run evalute.py using uv.
+
+If your docker image is correctly configured and your application is correctly configured, then all the tasks run by evaluate.py will correctly tell you if the application is producing the right result for each task.
+Hope that gives clarity.
+Kind regards

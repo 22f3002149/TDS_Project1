@@ -1,0 +1,23 @@
+@carlton I was trying to view a session, but since youtube is very distracting I tried to embed it on a site, but it throws this error
+Here is a detailed description of the image:\n\n* **Overall View:** The image displays a black screen with a white notification.\n* **Notification Icon:** A white circle with an exclamation mark inside is prominently displayed in the center-left portion of the screen.\n* **Text:** Below the icon, white text reads: "Video unavailable. Playback on other websites has been disabled by the video owner. Watch on YouTube."\n* **YouTube Icon:** In the bottom-right corner, there\'s a small, white YouTube play button icon.\n* **Background:** The entire background is completely black, highlighting the notification.\n\n\n\nIn essence, the image shows a message indicating that the video cannot be played on the current website and directs the user to watch it on YouTube.image2852×1564 131 KB
+Website Where I am embedding
+Video I am trying to watch
+If possible, please fix this since the youtube as a platform is distracting and has many ads, even though the channel is not monitized.
+@23f2003845
+I will have to get authorisation from the operations to allow embedding you tube videos. This was a deliberate choice as the content is strictly speaking owned by IITM. Embeddings may allow others to monetise content without the appropriate permissions.
+I will enquire on your behalf. I accept that not every channel follows the directives properly, so you might find it possible to embed other channel videos from IITM, but I can only go by the agreed upon protocols.
+I know that’s not much comfort, but if its possible, I will amend the permissions.
+Kind regards
+I purely understand that the content solely belongs to IITM and I truly adhere to it.
+
+
+
+ carlton:
+
+Embeddings may allow others to monetise content without the appropriate permissions.
+
+
+I can’t personally think of any way one can do this, but it’s completely upto to the operations team.
+I ask for this permission as youtube can be quite distracting and getting rid of advertisements either require an adblocker that cause some trouble once in 2 weeks, even though they don’t turn of recommendations and hence the procrastination. Embedding is another way which can stop the recommendations and the advertisements.
+Hope to hear soon,
+Regards
