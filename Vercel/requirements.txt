@@ -1,0 +1,13 @@
+fastapi
+httpx
+markdownify
+numpy
+semantic_text_splitter
+argparse
+tqdm
+uvicorn
+google-genai
+google.generativeai 
+openai
+pydantic
+pillow
